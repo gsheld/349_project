@@ -1,13 +1,62 @@
 <!-- HTML written by Grant Sheldon, Arundhati Jaswal and Arindam Paul for the EECS 349 final project. -->
 <html>
 	<head>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="../SlickGrid/slick.grid.css" type="text/css"/>
+		<link rel="stylesheet" href="../SlickGrid/css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css"/>
+		<link rel="stylesheet" href="page.css" type="text/css">
 	</head>
 	<body>
+
+		<p id='queryStatement'></p>
+
+		<table width="100%">
+			<tr>
+				<td valign="top" width="50%">
+						<div id="myGrid" style="width:800px;"></div>
+				</td>
+			</tr>
+		</table>
+
+		<br><br>
+
+		<table width="100%">
+			<tr>
+				<td valign="top" width="50%">
+					<div id="myGrid2" style="width:800px;"></div>
+				</td>
+			</tr>
+			</table>
+
 		<script src="../SlickGrid/lib/jquery-1.7.min.js"></script>
 		<script src="../SlickGrid/lib/jquery.event.drag-2.2.js"></script>
+		<script src="../SlickGrid/lib/jquery-ui-1.8.16.custom.min.js"></script>
 		<script src="../SlickGrid/slick.core.js"></script>
 		<script src="../SlickGrid/slick.grid.js"></script>
-		<script src="page.js"></script>
+		<script src='page.js'></script>
+
+		<br><br>
+
+	<div class="topcoat-button-bar">
+		 <label class="topcoat-button-bar__item">
+			 <input type="checkbox">
+			 <button class="topcoat-button-bar__button">1</button>
+		 </label>
+		 <label class="topcoat-button-bar__item">
+			 <input type="checkbox">
+			 <button class="topcoat-button-bar__button">2</button>
+		 </label>
+		 <label class="topcoat-button-bar__item">
+			 <input type="checkbox">
+			 <button class="topcoat-button-bar__button">3</button>
+		 </label>
+		 <label class="topcoat-button-bar__item">
+			 <input type="checkbox">
+			 <button class="topcoat-button-bar__button">4</button>
+		 </label>
+		 <label class="topcoat-button-bar__item">
+			 <input type="checkbox">
+			 <button class="topcoat-button-bar__button">5</button>
+		 </label>
+	</div>
 	</body>
 </html>

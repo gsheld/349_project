@@ -1,39 +1,59 @@
-  var grid;
-  var columns = [
-    {id: "title", name: "Name", field: "name"},
-    {id: "field1", name: "Field1", field: "values", fieldIdx: 0},
-    {id: "field2", name: "Field2", field: "values", fieldIdx: 1},
-    {id: "field3", name: "Field3", field: "values", fieldIdx: 2}
-  ];
+var jsonObject =   {
+	'columnNumber': 4,
+	'columnData': {
+			'Title1': ['datapoint1', 'datapoint2'],
+			'Title2': ['datapoint1', 'datapoint2'],
+			'Title3': ['datapoint1', 'datapoint2'],
+			'Title4': ['datapoint1', 'datapoint2']
+	},
+	'query': 'some random query',
+	'tableTitle': 'Table Title'
+};
 
-  var options = {
-    enableCellNavigation: true,
-    enableColumnReorder: false,
-    dataItemColumnValueExtractor: getItemColumnValue
-  };
+var objectKeyList = [];
+for (property in jsonObject.columnData) {
+	objectKeyList.push(property);
+}
 
-  // Get the item column value using a custom 'fieldIdx' column param
-  function getItemColumnValue(item, column) {
-    var values = item[column.field];
-    if (column.fieldIdx !== undefined) {
-      return values && values[column.fieldIdx];
-    } else {
-      return values;
-    }
-  }
+var grid;
+var columns = [];
 
-  $(function () {
-    var data = [];
-    for (var i = 0; i < 500; i++) {
-      data[i] = {
-        name: "Item " + i,
-        values: [
-          Math.round(Math.random() * 100),
-          Math.round(Math.random() * 100),
-          Math.round(Math.random() * 100)
-        ]
-      };
-    }
+for (var col = 0; col < jsonObject.columnNumber; col++) {
+	columns.push({id: objectKeyList[col], name: objectKeyList[col], field: 'values', fieldIdx: col});
+}
 
-    grid = new Slick.Grid("#myGrid", data, columns, options);
-  })
+var options = {
+	enableCellNavigation: true,
+	enableColumnReorder: true,
+	dataItemColumnValueExtractor: getItemColumnValue,
+	autoHeight: true,
+	forceFitColumns: true
+};
+
+// Get the item column value using a custom 'fieldIdx' column param
+function getItemColumnValue(item, column) {
+	var values = item[column.field];
+	if (column.fieldIdx !== undefined) {
+		return values && values[column.fieldIdx];
+	} else {
+		return values;
+	}
+}
+
+$(function () {
+	var data = [];
+	for (var row = 0; row < 2; row++) {
+		var values = []
+		for (var col = 0; col < jsonObject.columnNumber; col++) {
+			values.push(jsonObject.columnData[objectKeyList[col]][row]);
+		}
+		data[row] = {
+			name: 'Item ' + row,
+			values: values
+		};
+	}
+
+	document.getElementById('queryStatement').innerHTML += ['<p>', jsonObject.query, '</p>'].join('')
+	grid = new Slick.Grid('#myGrid', data, columns, options);
+	grid = new Slick.Grid('#myGrid2', data, columns, options);
+});
