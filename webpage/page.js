@@ -1,15 +1,16 @@
 var jsonObject =   {
 	'columnNumber': 4,
 	'columnData': {
-			'Title1': ['datapoint1', 'datapoint2'],
-			'Title2': ['datapoint1', 'datapoint2'],
-			'Title3': ['datapoint1', 'datapoint2'],
-			'Title4': ['datapoint1', 'datapoint2']
+			'Title1': ['datapoint1', 'datapoint2', 'datapoint3', 'datapoint4', 'datapoint5', 'datapoint6', 'datapoint7', 'datapoint8', 'datapoint9'],
+			'Title2': ['datapoint1', 'datapoint2', 'datapoint3', 'datapoint4', 'datapoint5', 'datapoint6', 'datapoint7', 'datapoint8', 'datapoint9'],
+			'Title3': ['datapoint1', 'datapoint2', 'datapoint3', 'datapoint4', 'datapoint5', 'datapoint6', 'datapoint7', 'datapoint8', 'datapoint9'],
+			'Title4': ['datapoint1', 'datapoint2', 'datapoint3', 'datapoint4', 'datapoint5', 'datapoint6', 'datapoint7', 'datapoint8', 'datapoint9']
 	},
 	'query': 'some random query',
 	'tableTitle': 'Table Title'
 };
 
+/* Gets column titles. */
 var objectKeyList = [];
 for (property in jsonObject.columnData) {
 	objectKeyList.push(property);
@@ -18,10 +19,12 @@ for (property in jsonObject.columnData) {
 var grid;
 var columns = [];
 
+/* Setup columns. */
 for (var col = 0; col < jsonObject.columnNumber; col++) {
 	columns.push({id: objectKeyList[col], name: objectKeyList[col], field: 'values', fieldIdx: col});
 }
 
+/* Table options. */
 var options = {
 	enableCellNavigation: true,
 	enableColumnReorder: true,
@@ -42,7 +45,7 @@ function getItemColumnValue(item, column) {
 
 $(function () {
 	var data = [];
-	for (var row = 0; row < 2; row++) {
+	for (var row = 0; row < jsonObject.columnData[objectKeyList[0]].length; row++) {
 		var values = []
 		for (var col = 0; col < jsonObject.columnNumber; col++) {
 			values.push(jsonObject.columnData[objectKeyList[col]][row]);
@@ -53,7 +56,6 @@ $(function () {
 		};
 	}
 
-	document.getElementById('queryStatement').innerHTML += ['<p>', jsonObject.query, '</p>'].join('')
+	document.getElementById('queryStatement').innerHTML += ['"', jsonObject.query, '"'].join('')
 	grid = new Slick.Grid('#myGrid', data, columns, options);
-	grid = new Slick.Grid('#myGrid2', data, columns, options);
 });
