@@ -22,7 +22,7 @@ public class TfIdfMain {
     public static void main(String args[]) throws FileNotFoundException, IOException
     {
         DocumentParser dp = new DocumentParser();
-        dp.parseFiles("/Users/arundhatijaswal/Documents/Q2/ML/Group Project/code/349_project/chsi_dataset/data");
+        dp.parseFiles("/Users/Grant/349_project/chsi_dataset/data");
         dp.tfIdfCalculator(); //calculates tfidf
         //dp.getCosineSimilarity(); //calculated cosine similarity   
     }
