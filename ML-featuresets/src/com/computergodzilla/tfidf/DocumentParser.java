@@ -24,6 +24,7 @@ public class DocumentParser {
     private List<String[]> termsDocsArray = new ArrayList<String[]>();
     private List<String> allTerms = new ArrayList<String>(); //to hold all terms
     private List<double[]> tfidfDocsVector = new ArrayList<double[]>();
+    private List<double[]> totalTermDocFreq = new ArrayList<double[]>();
 
     /**
      * Method to read files and store in array.
@@ -61,7 +62,9 @@ public class DocumentParser {
     public void tfIdfCalculator() {
         double tf; //term frequency
         double idf; //inverse document frequency
-        double tfidf; //term requency inverse document frequency        
+        double tfidf; //term requency inverse document frequency     
+        double localTotalFreq = 0.0;
+        double[] localTotalTermDocFreq = new double[1];
         for (String[] docTermsArray : termsDocsArray) {
             double[] tfidfvectors = new double[allTerms.size()];
             int count = 0;
@@ -69,15 +72,21 @@ public class DocumentParser {
                 tf = new TfIdf().tfCalculator(docTermsArray, terms);
                 idf = new TfIdf().idfCalculator(termsDocsArray, terms);
                 tfidf = tf * idf;
+                localTotalFreq += tf;
                 //System.out.println(terms+" tf = "+tf+" idf = "+idf);
                 tfidfvectors[count] = tfidf;
                 count++;
             }
+            localTotalTermDocFreq[0] = localTotalFreq;
+            System.out.println(Arrays.toString(localTotalTermDocFreq));
+            totalTermDocFreq.add(localTotalTermDocFreq);
+            localTotalFreq = 0.0;
             tfidfDocsVector.add(tfidfvectors);  //storing document vectors;            
         }
         //System.out.println("here...\n");
         for (int j = 0; j < tfidfDocsVector.size(); j++) {
-                System.out.println("Document " + j + "  =  " + Arrays.toString(tfidfDocsVector.get(j)));
+                System.out.println("Document " + j + "  =  " + Arrays.toString(tfidfDocsVector.get(j)) + 
+                        " " + Arrays.toString(totalTermDocFreq.get(j)));
             }
     }
 
