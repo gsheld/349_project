@@ -24,10 +24,11 @@ public class DocumentParser {
 
     //This variable will hold all terms of each document in an array.
     private List<String[]> termsDocsArray = new ArrayList<String[]>();
-    private List<String> allTerms = new ArrayList<String>(); //to hold all terms
+    //private List<String> allTerms = new ArrayList<String>(); //to hold all terms
     private List<double[]> tfidfDocsVector = new ArrayList<double[]>();
     private List<Double> totalTermDocFreq = new ArrayList<Double>();
-    private HashMap<String, Integer> wordMap = new HashMap<String, Integer>();
+    private HashMap<String, HashMap<String, Integer>> wordMap = new HashMap<>();
+    private String[] queryTerms;
 
     /**
      * Method to read files and store in array.
@@ -40,7 +41,7 @@ public class DocumentParser {
         BufferedReader in = null;
         for (File f : allfiles) {
             if (f.getName().endsWith(".csv") && f.length() < 52428800) {
-                System.out.println(f.getName());
+                //System.out.println(f.getName());
                 in = new BufferedReader(new FileReader(f));
                 StringBuilder sb = new StringBuilder();
                 String s = null;
@@ -48,30 +49,34 @@ public class DocumentParser {
                     sb.append(s);
                 }
                 String[] tokenizedTerms = sb.toString().replaceAll("[^a-zA-Z\\\\d]+", " ").split("\\W+");   //to get individual terms
-                String[] queryTerms = "cancer cases america".split(" ");
+                queryTerms = "cancer cases america".split(" ");
+                /*for (String queryWord : queryTerms) {
+                        if (!allTerms.contains(term)) {  //avoid duplicate entry
+                            allTerms.add(term);
+                        }
+                    }*/
+                HashMap<String, Integer> localMap = new HashMap<>();
                 for (String term : tokenizedTerms) {
-                    for (String queryWord : queryTerms) {
-//                        if (!allTerms.contains(term)) {  //avoid duplicate entry
-//                            allTerms.add(term);
-//                        }
-                        if (queryWord.equals(term.toLowerCase())) {
-                            if (!wordMap.containsKey(term.toLowerCase())) {
-                                wordMap.put(term.toLowerCase(), 1);
+                    
+                        //if (queryWord.equals(term.toLowerCase())) {
+                            if (!localMap.containsKey(term.toLowerCase())) {
+                                localMap.put(term.toLowerCase(), 1);
                             }
                             else {
-                                Integer currentCount = wordMap.get(term.toLowerCase());
-                                wordMap.put(term.toLowerCase(), ++currentCount);
+                                Integer currentCount = localMap.get(term.toLowerCase());
+                                localMap.put(term.toLowerCase(), ++currentCount);
                             }
-                        }
-                    }
+                        
+                    
                 }
+                wordMap.put(f.getName(), localMap);
 //                termsDocsArray.add(tokenizedTerms);                
             }
         }
 
-        for (Entry entry : wordMap.entrySet()) {
+        /*for (Entry entry : wordMap.entrySet()) {
             System.out.println(entry);
-        }
+        }*/
     }
 
     /**
@@ -83,9 +88,10 @@ public class DocumentParser {
         double tfidf; //term requency inverse document frequency     
         double localTotalFreq = 0.0;
         for (String[] docTermsArray : termsDocsArray) {
-            double[] tfidfvectors = new double[allTerms.size()];
+            double[] tfidfvectors = new double[queryTerms.length];
             int count = 0;
-            for (String terms : allTerms) {
+            for (String terms : queryTerms) {
+                System.out.println("ready to calc tfidf...");
                 tf = new TfIdf().tfCalculator(docTermsArray, terms);
                 idf = new TfIdf().idfCalculator(termsDocsArray, terms);
                 tfidf = tf * idf;
@@ -99,7 +105,7 @@ public class DocumentParser {
             localTotalFreq = 0.0;
             tfidfDocsVector.add(tfidfvectors);  //storing document vectors;            
         }
-        //System.out.println("here...\n");
+        System.out.println("here...\n");
         for (int j = 0; j < tfidfDocsVector.size(); j++) {
                 System.out.println("Document " + j + "  =  " + Arrays.toString(tfidfDocsVector.get(j)) + 
                         " " + Double.toString(totalTermDocFreq.get(j)));
