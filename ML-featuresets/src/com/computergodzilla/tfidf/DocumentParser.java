@@ -11,7 +11,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map.Entry;
 
 /**
  * Class to read documents
@@ -25,6 +27,7 @@ public class DocumentParser {
     private List<String> allTerms = new ArrayList<String>(); //to hold all terms
     private List<double[]> tfidfDocsVector = new ArrayList<double[]>();
     private List<Double> totalTermDocFreq = new ArrayList<Double>();
+    private HashMap<String, Integer> wordMap = new HashMap<String, Integer>();
 
     /**
      * Method to read files and store in array.
@@ -36,24 +39,39 @@ public class DocumentParser {
         File[] allfiles = new File(filePath).listFiles();
         BufferedReader in = null;
         for (File f : allfiles) {
-            if (f.getName().endsWith(".csv")) {
+            if (f.getName().endsWith(".csv") && f.length() < 52428800) {
+                System.out.println(f.getName());
                 in = new BufferedReader(new FileReader(f));
                 StringBuilder sb = new StringBuilder();
                 String s = null;
                 while ((s = in.readLine()) != null) {
                     sb.append(s);
                 }
-                String[] tokenizedTerms = sb.toString().replaceAll("[\\W&&[^\\s]]", " ").split("\\W+");   //to get individual terms
+                String[] tokenizedTerms = sb.toString().replaceAll("[^a-zA-Z\\\\d]+", " ").split("\\W+");   //to get individual terms
                 String[] queryTerms = "cancer cases america".split(" ");
-                for (String term : queryTerms) {
-                    if (!allTerms.contains(term)) {  //avoid duplicate entry
-                        allTerms.add(term);
+                for (String term : tokenizedTerms) {
+                    for (String queryWord : queryTerms) {
+//                        if (!allTerms.contains(term)) {  //avoid duplicate entry
+//                            allTerms.add(term);
+//                        }
+                        if (queryWord.equals(term.toLowerCase())) {
+                            if (!wordMap.containsKey(term.toLowerCase())) {
+                                wordMap.put(term.toLowerCase(), 1);
+                            }
+                            else {
+                                Integer currentCount = wordMap.get(term.toLowerCase());
+                                wordMap.put(term.toLowerCase(), ++currentCount);
+                            }
+                        }
                     }
                 }
-                termsDocsArray.add(tokenizedTerms);
+//                termsDocsArray.add(tokenizedTerms);                
             }
         }
 
+        for (Entry entry : wordMap.entrySet()) {
+            System.out.println(entry);
+        }
     }
 
     /**
