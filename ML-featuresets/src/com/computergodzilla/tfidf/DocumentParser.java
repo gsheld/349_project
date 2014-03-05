@@ -23,10 +23,10 @@ import java.util.Map.Entry;
 public class DocumentParser {
 
     //This variable will hold all terms of each document in an array.
-    private List<String[]> termsDocsArray = new ArrayList<String[]>();
+    //private List<String[]> termsDocsArray = new ArrayList<String[]>();
     //private List<String> allTerms = new ArrayList<String>(); //to hold all terms
-    private List<double[]> tfidfDocsVector = new ArrayList<double[]>();
-    private List<Double> totalTermDocFreq = new ArrayList<Double>();
+    private HashMap<String, double[]> tfidfDocsMap = new HashMap<>();
+    private HashMap<String, Double> totalTermDocFreq = new HashMap<>();
     private HashMap<String, HashMap<String, Integer>> wordMap = new HashMap<>();
     private String[] queryTerms;
 
@@ -40,7 +40,7 @@ public class DocumentParser {
         File[] allfiles = new File(filePath).listFiles();
         BufferedReader in = null;
         for (File f : allfiles) {
-            if (f.getName().endsWith(".csv") && f.length() < 52428800) {
+            if (f.getName().endsWith(".csv") && f.length() < (52428800*6.5) ) {
                 //System.out.println(f.getName());
                 in = new BufferedReader(new FileReader(f));
                 StringBuilder sb = new StringBuilder();
@@ -87,28 +87,30 @@ public class DocumentParser {
         double idf; //inverse document frequency
         double tfidf; //term requency inverse document frequency     
         double localTotalFreq = 0.0;
-        for (String[] docTermsArray : termsDocsArray) {
+        for (String localKey : wordMap.keySet()) {
             double[] tfidfvectors = new double[queryTerms.length];
             int count = 0;
             for (String terms : queryTerms) {
-                System.out.println("ready to calc tfidf...");
-                tf = new TfIdf().tfCalculator(docTermsArray, terms);
-                idf = new TfIdf().idfCalculator(termsDocsArray, terms);
+                //System.out.println("ready to calc tfidf...");
+                tf = new TfIdf().tfCalculator(wordMap.get(localKey), terms);
+                idf = new TfIdf().idfCalculator(wordMap.get(localKey), terms);
                 tfidf = tf * idf;
                 localTotalFreq += tf;
                 //System.out.println(terms+" tf = "+tf+" idf = "+idf);
                 tfidfvectors[count] = tfidf;
                 count++;
             }
-            System.out.println(Double.toString(localTotalFreq));
-            totalTermDocFreq.add(localTotalFreq);
+            //System.out.println(Double.toString(localTotalFreq));
+            //totalTermDocFreq.add(localTotalFreq);
+            totalTermDocFreq.put(localKey, localTotalFreq);
             localTotalFreq = 0.0;
-            tfidfDocsVector.add(tfidfvectors);  //storing document vectors;            
+            //tfidfDocsMap.add(tfidfvectors);  //storing document vectors;            
+            tfidfDocsMap.put(localKey, tfidfvectors);
         }
         System.out.println("here...\n");
-        for (int j = 0; j < tfidfDocsVector.size(); j++) {
-                System.out.println("Document " + j + "  =  " + Arrays.toString(tfidfDocsVector.get(j)) + 
-                        " " + Double.toString(totalTermDocFreq.get(j)));
+        for (String j: tfidfDocsMap.keySet()) {
+                System.out.println("Document " + j + "  =  " + tfidfDocsMap.get(j) + 
+                        " " + totalTermDocFreq.get(j));
             }
     }
 

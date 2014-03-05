@@ -4,6 +4,7 @@
  */
 package com.computergodzilla.tfidf;
 
+import java.util.HashMap;
 import java.util.List;
 
 //<editor-fold defaultstate="collapsed" desc="TFIDF calculator">
@@ -20,15 +21,22 @@ public class TfIdf {
      * @param termToCheck : term of which tf is to be calculated.
      * @return tf(term frequency) of term termToCheck
      */
-    public double tfCalculator(String[] totalterms, String termToCheck) {
+    public double tfCalculator(HashMap<String, Integer> totalTerms, String termToCheck) {
         double count = 0;  //to count the overall occurrence of the term termToCheck
-        for (String s : totalterms) {
+        for (String s : totalTerms.keySet()) {
             if (s.equalsIgnoreCase(termToCheck)) {
                 count++;
             }
         }
+        double totalLength = 0.0;
+        for (String s : totalTerms.keySet()) {
+            if (s.equalsIgnoreCase(termToCheck)) {
+                count++;
+            }
+            totalLength += totalTerms.get(s);
+        }
         //System.out.println("count = "+count+"total terms = "+totalterms.length);
-        return count / totalterms.length;
+        return count / totalLength;
     }
     //</editor-fold>
     
@@ -39,20 +47,20 @@ public class TfIdf {
      * @param termToCheck
      * @return idf(inverse document frequency) score
      */
-    public double idfCalculator(List<String[]> allTerms, String termToCheck) {
+    public double idfCalculator(HashMap<String, Integer> allTerms, String termToCheck) {
         double count = 0;
         int flag = 1;
-        for (String[] ss : allTerms) {
-            for (String s : ss) {
-                if (s.toLowerCase().contains(termToCheck.toLowerCase())) {
+        for (String ss : allTerms.keySet()) {
+            //for (String s : ss) {
+                if (ss.toLowerCase().contains(termToCheck.toLowerCase())) {
                     count++;
-                    if (flag == 1) {
+                    /*if (flag == 1) {
                         //System.out.println(s);
                         flag = 0;
-                    }
+                    }*/
                     break;
                 }
-            }
+            //}
         }
         //System.out.println("no of docs = "+allTerms.size());
         return Math.log(allTerms.size() / count);
