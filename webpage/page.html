@@ -8,54 +8,57 @@
 	</head>
 	<body>
 		<div class='titleBarContainer'>
-			<p class='title'>EECS 349: Data Labeler</p>
+			<p class='pageTitle'>EECS 349: Data Labeler</p>
 			<img src='NU-logo.png' class='logo'>
 		</div>
 
 		<div class='contentContainer'>
 
 			<h1 class='queryStatement' id='queryStatement'>
-				<p> Please rank the following on a scale of 1 to 5: </p>
+				<p class='prompt'> Please rank the following on a scale of 1 to 5: </p>
 			</h1>
 
-			<table class = 'table'>
-				<tr>
-					<td valign="top" width="50%">
-							<div id="myGrid" style="width:800px;"></div>
-					</td>
-				</tr>
-			</table>
+			<div class='relevantContainer'>
 
-			<script src="../SlickGrid/lib/jquery-1.7.min.js"></script>
-			<script src="../SlickGrid/lib/jquery.event.drag-2.2.js"></script>
-			<script src="../SlickGrid/lib/jquery-ui-1.8.16.custom.min.js"></script>
-			<script src="../SlickGrid/slick.core.js"></script>
-			<script src="../SlickGrid/slick.grid.js"></script>
-			<script src='page.js'></script>
+				<table class = 'table'>
+					<tr>
+						<td valign="top" width="50%">
+								<div id="myGrid" style="width:800px;"></div>
+						</td>
+					</tr>
+				</table>
 
-			<br><br>
+				<script src="../SlickGrid/lib/jquery-1.7.min.js"></script>
+				<script src="../SlickGrid/lib/jquery.event.drag-2.2.js"></script>
+				<script src="../SlickGrid/lib/jquery-ui-1.8.16.custom.min.js"></script>
+				<script src="../SlickGrid/slick.core.js"></script>
+				<script src="../SlickGrid/slick.grid.js"></script>
+				<script src='page.js'></script>
 
-			<div class="topcoat-button-bar">
-				 <label class="topcoat-button-bar__item">
-					 <input type="checkbox">
-					 <button class="topcoat-button-bar__button" tabindex="1">1</button>
-				 </label>
-				 <label class="topcoat-button-bar__item">
-					 <input type="checkbox">
-					 <button class="topcoat-button-bar__button">2</button>
-				 </label>
-				 <label class="topcoat-button-bar__item">
-					 <input type="checkbox">
-					 <button class="topcoat-button-bar__button">3</button>
-				 </label>
-				 <label class="topcoat-button-bar__item">
-					 <input type="checkbox">
-					 <button class="topcoat-button-bar__button">4</button>
-				 </label>
-				 <label class="topcoat-button-bar__item">
-					 <input type="checkbox">
-					 <button class="topcoat-button-bar__button">5</button>
-				 </label>
+				<br><br>
+
+				<div class="topcoat-button-bar">
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button" tabindex="1">1</button>
+					 </label>
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button">2</button>
+					 </label>
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button">3</button>
+					 </label>
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button">4</button>
+					 </label>
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button">5</button>
+					 </label>
+				</div>
 			</div>
 		</div>
 	</body>

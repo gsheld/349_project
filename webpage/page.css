@@ -8,13 +8,31 @@ p {
 	margin: 0;
 }
 
-p.title {
+table {
+	width: 50%;
+    margin: 0 auto;
+}
+
+p.prompt {
+	margin-bottom: 20px;
+	color: #1000BB;
+	font-size: 30;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+p.pageTitle {
 	position: absolute;
 	left: 200px;
-	top: 54px;
+	top: 56px;
 	font-size: 65;
 	font-weight: bold;
 	color: white;
+}
+
+h1.queryStatement {
+	font-size: 40;
+	text-align: center;
 }
 
 .titleBarContainer {
@@ -33,17 +51,7 @@ p.title {
 .logo {
 	position: relative;
 	height: 90%;
-	top: 5%;
-}
-
-.contentContainer {
-	margin-left: 15%;
-}
-
-.queryStatement {
-	color: #1000BB;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
+	top: 5.5%;
 }
 
 :focus {
@@ -53,6 +61,11 @@ p.title {
 
 .title {
 	letter-spacing: -.065em;
+}
+
+.topcoat-button-bar {
+	width: 50%;
+    margin: 0 auto;
 }
 
 .topcoat-button-bar__item > input {
@@ -69,7 +82,6 @@ p.title {
 
 .topcoat-button-bar__item {
 	display: table-cell;
-	width: auto;
 	border-radius: 0;
 }
 
@@ -98,8 +110,8 @@ p.title {
 	font: inherit;
 	cursor: default;
 	user-select: none;
-	width: 150px;
-	height: 75px;
+	width: 126px;
+	height: 60px;
 }
 
 .topcoat-button-bar__button {
