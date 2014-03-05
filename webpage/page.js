@@ -26,8 +26,8 @@ for (var col = 0; col < jsonObject.columnNumber; col++) {
 
 /* Table options. */
 var options = {
-	enableCellNavigation: true,
-	enableColumnReorder: true,
+	enableCellNavigation: false,
+	enableColumnReorder: false,
 	dataItemColumnValueExtractor: getItemColumnValue,
 	autoHeight: true,
 	forceFitColumns: true
@@ -56,6 +56,6 @@ $(function () {
 		};
 	}
 
-	document.getElementById('queryStatement').innerHTML += ['"', jsonObject.query, '"'].join('')
+	document.getElementById('queryStatement').innerHTML += ['\n"', jsonObject.query, '"'].join('')
 	grid = new Slick.Grid('#myGrid', data, columns, options);
 });

@@ -1,5 +1,5 @@
 body {
-	background-color: #f4f4f4;
+	background-color: #B88AE6;
 	font-family: source-sans-pro, sans-serif;
 }
 
@@ -8,7 +8,9 @@ body {
 	height: 10%;
 	font-size: 40;
 	font-weight: bold;
-	color: purple;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+   	-webkit-text-stroke-color: #6E538A;
 }
 
 .contentContainer {
@@ -16,7 +18,9 @@ body {
 }
 
 .queryStatement {
-	color: #1000BB;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+   	-webkit-text-stroke-color: #6E538A;
 }
 
 :focus {
