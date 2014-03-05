@@ -109,8 +109,8 @@ public class DocumentParser {
         }
         System.out.println("here...\n");
         for (String j: tfidfDocsMap.keySet()) {
-                System.out.println("Document " + j + "  =  " + tfidfDocsMap.get(j) + 
-                        " " + totalTermDocFreq.get(j));
+                System.out.println(j + "  =  " + Arrays.toString(tfidfDocsMap.get(j)) + 
+                        " " + Double.toString(totalTermDocFreq.get(j)));
             }
     }
 
