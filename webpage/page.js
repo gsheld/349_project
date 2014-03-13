@@ -23,7 +23,7 @@
 // })//ajax closed
 
 $.getJSON("http://murphy.wot.eecs.northwestern.edu/~gms130/349_project/webpage/returnTable.py", function(data){
-alert(data);
+console.log(data)
 });
 
 var jsonObject =   {
