@@ -1,6 +1,6 @@
 $.ajax({
 	type: 'GET',
-	url: 'http://yownut.cs.northwestern.edu:8000/returnTable.py',
+	url: 'http://murphy.wot.eecs.northwestern.edu/~gms130/349_project/webpage/returnTable.py',
 	data: {},
 	datatype:'script',
 	async: false,
