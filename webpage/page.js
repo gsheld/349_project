@@ -1,26 +1,30 @@
-$.ajax({
-	type: 'GET',
-	url: 'http://murphy.wot.eecs.northwestern.edu/~gms130/349_project/webpage/returnTable.py',
-	data: {},
-	datatype:'script',
-	async: false,
+// $.ajax({
+// 	type: 'GET',
+// 	url: 'http://murphy.wot.eecs.northwestern.edu/~gms130/349_project/webpage/returnTable.py',
+// 	data: {},
+// 	datatype:'script',
+// 	async: false,
 
-	success: function(response) {
-		// response is string, convert it to json and apply conditions.
-		var json_obj= eval('(' + response + ')');//$.parseJSON('''+response+''');
-		if (json_obj.type == 'Error'){
-  			alert(json_obj.msg);
-		}
-		else {
-  			alert(json_obj.msg);
-		}// else closed
-	}, // success closed
+// 	success: function(response) {
+// 		// response is string, convert it to json and apply conditions.
+// 		var json_obj= eval('(' + response + ')');//$.parseJSON('''+response+''');
+// 		if (json_obj.type == 'Error'){
+//   			alert(json_obj.msg);
+// 		}
+// 		else {
+//   			alert(json_obj.msg);
+// 		}// else closed
+// 	}, // success closed
 
-	error:function(xhr,err)
-	{
-    	alert('Error connecting to server, please contact system administator.');
-	}
-})//ajax closed
+// 	error:function(xhr,err)
+// 	{
+//     	alert('Error connecting to server, please contact system administator.');
+// 	}
+// })//ajax closed
+
+$.getJSON("http://murphy.wot.eecs.northwestern.edu/~gms130/349_project/webpage/returnTable.py", function(data){
+alert(data);
+});
 
 var jsonObject =   {
 	'columnNumber': 4,
