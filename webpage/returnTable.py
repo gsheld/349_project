@@ -5,15 +5,8 @@ import csv
 import json
 import cgi
 import cgitb; cgitb.enable()
-#from flask import Flask
-
-#app = Flask("__main__")
-#@app.route('/returnjson', methods=['GET', 'OPTIONS'])
-#@crossdomain(origin='*')
 
 def returnjson():
-	#if request!= None:
-	#	callback = request.GET.get( 'callback', None )
 	print "Content-type:text/html\r\n\r\n"
 	print '<html>'
 	print '<head>'
@@ -21,26 +14,28 @@ def returnjson():
 	print '</head>'
 	print '<body>'
 
-	for i in range(1):
-        	fileName = random.choice(os.listdir("/home/apx748/DataFiles"))
-		path = "/home/apx748/DataFiles/"+str(fileName)
-		f = open(path, 'r' )
-		lines = f.readlines()
-		keys = lines[0]
-		del lines[0]
-		reader = csv.reader(lines )
-		dic = {}
-		fileName = str(fileName)
-		title = " ".join(fileName.replace(".csv","").split("-"))
-		dic['columnNumber'] = len(keys)
-		dic['query'] = "a random query"
-		dic['tableTitle'] = title
-		#dic['columnData'] = {dict(zip(keys, property)) for property in reader}
-		out = [dic]
-		#out = [dict(zip(keys, property)) for property in reader]
-		#print json.dumps(out)
-		#print out
-		for j in out:
+	#g = open("queries","r")
+	#lines2 = g.readlines()
+
+	fileName = random.choice(os.listdir("/home/arindam/ML/ML-Project/DataFiles"))
+	path = "/home/arindam/ML/ML-Project/DataFiles/"+str(fileName)
+	f = open(path, 'r' )
+	lines = f.readlines()
+	keys = lines[0]
+	del lines[0]
+	reader = csv.reader(lines )
+	dic = {}
+	fileName = str(fileName)
+	title = " ".join(fileName.replace(".csv","").split("-"))
+	dic['columnNumber'] = len(keys)
+	dic['query'] = "a random query"
+	dic['tableTitle'] = title
+	#dic['columnData'] = {dict(zip(keys, property)) for property in reader}
+	out1 = [dic]
+	out2 = [dict(zip(keys, property)) for property in reader]
+	print json.dumps(out2)
+	#print out
+	for j in out1:
 			print j
 			break
 
