@@ -1,6 +1,6 @@
 import sys, os, random, csv, subprocess
 
-labelDatabase = open('label_database.txt', 'w')
+labelDatabase = open('label_database.txt', 'a')
 
 def runProgram():
 	subprocess.call(['clear'])
@@ -22,6 +22,7 @@ def runProgram():
 	# Print table #
 	count = 0
 	print '\n***************************************\n' + 'QUERY:\t' + query + '\n***************************************\n'
+	print 'Table Title: ' + tableFileName.replace('.csv', '')
 	for row in csvReader:
 		if count == 0:
 			print '--Columns--\n' + ', '.join(row) + '\n'
