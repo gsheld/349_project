@@ -166,3 +166,35 @@ nutrition, samhsa-state-activities.csv, 1
 als cases, medicare-spending-per-patient-state.csv, 1
 birth weight, dialysis-adequacy.csv, 1
 cancer cases america, dialysis-facility-compare-listing-by-facility.csv, 1
+hospitals by state, home-health-care-hhcahps-state-data.csv, 2
+family healthcare cost, hospital-medicare-volume-measures-national-average.csv, 1
+nutrition, home-health-care-hhcahps-state-data.csv, 1
+life expectancy race, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+dialysis cost, dialysis-adequacy.csv, 3
+drug license, samhsa-card-sort-results-general-public.csv, 3
+health professional shortage, health-coalitions-a-resource-for-community-collaboration.csv, 1
+als cases, home-health-care-hhcahps-state-data.csv, 1
+births in illinois, measure-dates.csv, 1
+obesity, survey-of-patients-hospital-experiences-hcahps-national-average.csv, 1
+hospital deficiencies, radon-test-results-by-county-beginning-1987.csv, 1
+pneumonia, hospital-process-of-care-measures-pneumonia.csv, 5
+drug license, hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv, 1
+child care, deficiencies.csv, 1
+hospitals by state, use-of-medical-imaging-measures-state.csv, 3
+family healthcare cost, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+obesity, emergency-department-care-measures-state.csv, 1
+gender, preventive-care-measures-national.csv, 1
+pneumonia, samhsa-card-sort-participants-general-public.csv, 1
+nutrition, casper-aspen-contacts.csv, 1
+birth weight, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+common stds america, nursing-home-weekly-bed-census-last-submission.csv, 1
+immunizations, hospital-process-of-care-measures-childrens-asthma.csv, 1
+obesity, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+nursing home costs, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+smoking, ownership.csv, 1
+hypertension, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+health insurance, emergency-department-care-measures-state.csv, 1
+disability, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 2
+birth weight, hospital-medicare-volume-measures-national-average.csv, 1
+family healthcare cost, home-health-care-hhcahps.csv, 2
+family healthcare cost, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a.csv, 1
