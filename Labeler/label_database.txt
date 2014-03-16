@@ -57,3 +57,25 @@ prescription drugs, prevention-and-public-health-fund-grants.csv, 1
 gender, medicare-spending-per-patient-national.csv, 1
 cancer cases america, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 1
 smoking, hospital-process-of-care-measures-pneumonia.csv, 1
+als cases, agency-for-healthcare-research-and-quality-national-measures.csv, 1
+vaccination, samhsa-card-sort-results-samhsa-staff.csv, 1
+nutrition, home-health-care-hhcahps.csv, 1
+family healthcare cost, agency-for-healthcare-research-and-quality-state-measures.csv, 2
+smoking, survey-of-patients-hospital-experiences-hcahps-state-average.csv, 1
+hiv cases, penalties.csv, 1
+hospital cost, preventive-care-measures-state.csv, 1
+drug license, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 1
+life expectancy race, samhsa-card-sort-participants-behavioral-health-workforce.csv, 1
+child care, samhsa-publications.csv, 1
+diet, dialysis-adequacy.csv, 1
+drug license, hospital-medicare-volume-measures-national-average.csv, 1
+child care, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv, 1
+als cases, home-health-care-measure-date-range.csv, 1
+healthcare by state, quality-measures.csv, 1
+hypertension, anemia.csv, 1
+life expectancy race, hospital-outcome-of-care-measures-state.csv, 1
+disability, hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv, 1
+state healthcare cost, healthcare-associated-infections-national.csv, 1
+health insurance, supplier-directory-data.csv, 1
+heart attack, percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv, 3
+hospital cost, environmental-radiation-surveillance-gamma-radiation-readings-beginning-1995.csv, 1
