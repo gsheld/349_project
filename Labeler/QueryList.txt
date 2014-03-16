@@ -28,3 +28,7 @@ prescription drugs
 disability
 medical equipment
 nutrition
+hospital deficiencies
+hospitals by state
+immunizations
+patient happiness
