@@ -21,7 +21,7 @@ def runProgram():
 
 	# Print table #
 	count = 0
-	print '\n***************************************\n' + 'QUERY:\t' + query + '\n***************************************\n'
+	print '\n***************************************\n' + 'QUERY:\t' + query.strip() + '\n***************************************\n'
 	print 'Table Title: ' + tableFileName.replace('.csv', '').replace('-', ' ') + '\n'
 	for row in csvReader:
 		if count == 0:
