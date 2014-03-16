@@ -6,7 +6,7 @@ def runProgram():
 	subprocess.call(['clear'])
 
 	# This is subject to change #
-	dataSetDirectory = '/Users/Grant/Desktop/DataSets/'
+	dataSetDirectory = '/home/arindam/ML/ML-Project/DataFiles'
 
 	# Randomly open a table csv file #
 	tableFileName = random.choice(os.listdir(dataSetDirectory))
