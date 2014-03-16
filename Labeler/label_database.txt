@@ -125,3 +125,44 @@ health professional shortage, hospital-general-information.csv, 1
 physician bonuses, home-health-care-hhcahps.csv, 1
 family healthcare cost, hospital-acs-measures.csv, 1
 smoking, deficiencies.csv, 1
+gender, hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv, 1
+births in illinois, home-health-care-hhcahps.csv, 1
+disability, hospital-outcome-of-care-measures-national-average.csv, 1
+hospitals by state, spending-breakdown-by-claim.csv, 4
+health professional shortage, templates.csv, 1
+health insurance, total-performance-scores.csv, 1
+health insurance, deficiencies.csv, 2
+infant death causes, penalties.csv, 1
+vaccination, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv, 1
+common stds america, hospital-outcome-of-care-measures-state.csv, 1
+hiv cases, use-of-medical-imaging-measures-state.csv, 1
+gender, preventive-care-measures-national.csv, 1
+obesity, radon-test-results-by-town-beginning-1987.csv, 1
+nutrition, complete-qip-data-payment-year-2013.csv, 1
+smoking, use-of-medical-imaging-measures.csv, 1
+health professional shortage, health-coalitions-a-resource-for-community-collaboration.csv, 2
+cancer cases america, organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv, 1
+physician bonuses, managed-care-plan-utilization-data-beginning-2009.csv, 1
+patient happiness, managed-care-plan-utilization-data-beginning-2009.csv, 1
+health professional shortage, radon-test-results-by-county-beginning-1987.csv, 1
+child care, agency-for-healthcare-research-and-quality-state-measures.csv, 1
+hospital cost, map-points-location-by-separate-latitutde-longitude-columns.csv, 1
+pneumonia, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 1
+healthcare by state, agency-for-healthcare-research-and-quality-national-measures.csv, 2
+vaccination, cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv, 1
+diet, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 1
+obesity, templates.csv, 1
+hospitals by state, complete-qip-data-payment-year-2013.csv, 1
+drug license, hospital-medicare-volume-measures-national-average.csv, 1
+disability, genealogical-research-death-index-beginning-1957.csv, 1
+medical equipment, samhsa-card-sort-participants-behavioral-health-workforce.csv, 1
+drug license, prevention-and-public-health-fund-grants.csv, 1
+hypertension, adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv, 1
+births in illinois, home-health-care-hhcahps-state-data.csv, 1
+vaccination, hospital-value-based-purchasing-hvbp-pneumonia-scores.csv, 1
+pneumonia, provider-info.csv, 1
+child care, penalties.csv, 1
+nutrition, samhsa-state-activities.csv, 1
+als cases, medicare-spending-per-patient-state.csv, 1
+birth weight, dialysis-adequacy.csv, 1
+cancer cases america, dialysis-facility-compare-listing-by-facility.csv, 1

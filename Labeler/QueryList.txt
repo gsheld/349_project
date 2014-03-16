@@ -32,3 +32,5 @@ hospital deficiencies
 hospitals by state
 immunizations
 patient happiness
+pneumonia
+dialysis cost
