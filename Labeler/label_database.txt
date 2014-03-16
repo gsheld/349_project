@@ -198,3 +198,51 @@ disability, prevalence-of-behavioral-health-conditions-in-past-year-among-adults
 birth weight, hospital-medicare-volume-measures-national-average.csv, 1
 family healthcare cost, home-health-care-hhcahps.csv, 2
 family healthcare cost, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a.csv, 1
+cancer cases america, samhsa-card-sort-participants-general-public.csv, 1
+pneumonia, helpful-contacts-agency-list-by-topic.csv, 1
+prescription drugs, agency-for-healthcare-research-and-quality-state-measures.csv, 1
+births in illinois, health-coalitions-a-resource-for-community-collaboration.csv, 1
+hospital cost, use-of-medical-imaging-measures-state.csv, 1
+underweight, radon-test-results-by-town-beginning-1987.csv, 1
+hospitals by state, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+immunizations, samhsa-master-inventory-report.csv, 1
+healthcare by state, food-service-establishment-inspections-beginning-2005-inactive.csv, 1
+pneumonia, dialysis-facility-compare-listing-by-facility.csv, 1
+hospital cost, preventive-care-measures-national.csv, 1
+nursing home costs, total-performance-scores.csv, 1
+vaccination, anemia.csv, 1
+drug license, helpful-contacts-agency-list-by-topic.csv, 2
+nursing home costs, hospital-process-of-care-measures-heart-failure.csv, 1
+physician bonuses, hospital-process-of-care-measures-childrens-asthma.csv, 1
+life expectancy race, templates.csv, 1
+common stds america, samhsa-state-activities.csv, 1
+hypertension, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+underweight, samhsa-master-inventory-report.csv, 1
+heart attack, american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv, 2
+diet, preventive-care-measures.csv, 1
+obesity, hospital-process-of-care-measures-state-average.csv, 1
+als cases, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+diet, spending-breakdown-by-claim.csv, 1
+state healthcare cost, primary-care-and-behavioral-health-care-integration-sites.csv, 2
+hospital deficiencies, hospital-process-of-care-measures-heart-failure.csv, 4
+underweight, hospital-general-information.csv, 1
+hospital cost, emergency-department-care-measures-national.csv, 1
+hypertension, food-service-establishment-inspections-beginning-2005-active.csv, 1
+hospital cost, home-health-care-facilities.csv, 1
+family healthcare cost, preventive-care-measures-national.csv, 1
+births in illinois, cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv, 1
+obesity, home-health-care-hhcahps-state-data.csv, 1
+child care, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+drug license, hospital-general-information.csv, 1
+health professional shortage, adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv, 2
+nutrition, hospital-process-of-care-measures-heart-failure.csv, 1
+infant death causes, survey-of-patients-hospital-experiences-hcahps-state-average.csv, 1
+life expectancy race, hospital-medicare-volume-measures-state-average.csv, 1
+hospital cost, hospital-outcome-of-care-measures-national-average.csv, 1
+cancer cases america, agency-for-healthcare-research-and-quality-state-measures.csv, 1
+vaccination, state-averages.csv, 4
+als cases, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+life expectancy race, hospital-process-of-care-measures-childrens-asthma.csv, 1
+underweight, samhsa-card-sort-participants-general-public.csv, 1
+hiv cases, samhsa-card-sort-participants-general-public.csv, 1
+disability, radon-test-results-by-town-beginning-1987.csv, 1
