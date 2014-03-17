@@ -35,3 +35,7 @@ patient happiness
 pneumonia
 dialysis cost
 hospital locations
+radiation
+substance abuse
+birth defects
+behavioral health
