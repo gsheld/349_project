@@ -27,8 +27,9 @@ public class DocumentParser {
     //private List<String> allTerms = new ArrayList<String>(); //to hold all terms
     private HashMap<String, double[]> tfidfDocsMap = new HashMap<>();
     private HashMap<String, Double> totalTermDocFreq = new HashMap<>();
-    private HashMap<String, HashMap<String, Integer>> wordMap = new HashMap<>();
     private HashMap<String, Double> semanticMatch = new HashMap<>();
+    private HashMap<String, Integer> numberOfColumns = new HashMap<>();
+    private HashMap<String, HashMap<String, Integer>> wordMap = new HashMap<>();
     private String[] queryTerms;
 
     /**
@@ -40,14 +41,21 @@ public class DocumentParser {
     public void parseFiles(String filePath) throws FileNotFoundException, IOException {
         File[] allfiles = new File(filePath).listFiles();
         BufferedReader in = null;
+        int flag;
         for (File f : allfiles) {
             if (f.getName().endsWith(".csv") && f.length() < (52428800*6.5) ) {
                 //System.out.println(f.getName());
                 in = new BufferedReader(new FileReader(f));
+                flag = 1;
                 StringBuilder sb = new StringBuilder();
                 String s = null;
                 while ((s = in.readLine()) != null) {
                     sb.append(s);
+                    if(flag == 1) {
+                        //System.out.println("file name = " + f.getName() + "row = " + s + "Row length = " + s.split(",").length);
+                        numberOfColumns.put(f.getName(), s.split(",").length);
+                        flag = 0;
+                    }
                 }
                 String[] tokenizedTerms = sb.toString().replaceAll("[^a-zA-Z\\\\d]+", " ").split("\\W+");   //to get individual terms
                 queryTerms = "hospital cost".split(" ");
@@ -114,7 +122,8 @@ public class DocumentParser {
         System.out.println("here...\n");
         for (String j: tfidfDocsMap.keySet()) {
                 System.out.println(j + "  =  " + Arrays.toString(tfidfDocsMap.get(j)) + 
-                        " " + Double.toString(totalTermDocFreq.get(j)) + " " + Double.toString(semanticMatch.get(j)));
+                        " " + Double.toString(totalTermDocFreq.get(j)) + " " + Double.toString(semanticMatch.get(j)) +
+                        " " + Integer.toString(numberOfColumns.get(j)));
             }
     }
 
@@ -143,7 +152,7 @@ public class DocumentParser {
             for(String queryWord : query) {
                 if(word.equalsIgnoreCase(queryWord)) {
                     count++;
-                    System.out.println(word);
+                    //System.out.println(word);
                 }
             }
         }
