@@ -28,6 +28,7 @@ public class DocumentParser {
     private HashMap<String, double[]> tfidfDocsMap = new HashMap<>();
     private HashMap<String, Double> totalTermDocFreq = new HashMap<>();
     private HashMap<String, HashMap<String, Integer>> wordMap = new HashMap<>();
+    private HashMap<String, Double> semanticMatch = new HashMap<>();
     private String[] queryTerms;
 
     /**
@@ -49,12 +50,15 @@ public class DocumentParser {
                     sb.append(s);
                 }
                 String[] tokenizedTerms = sb.toString().replaceAll("[^a-zA-Z\\\\d]+", " ").split("\\W+");   //to get individual terms
-                queryTerms = "cancer cases america".split(" ");
+                queryTerms = "hospital cost".split(" ");
                 /*for (String queryWord : queryTerms) {
                         if (!allTerms.contains(term)) {  //avoid duplicate entry
                             allTerms.add(term);
                         }
                     }*/
+                
+                semanticMatch.put(f.getName(), semanticQueryMatch(f.getName(), queryTerms));        //semantic tablename match
+                
                 HashMap<String, Integer> localMap = new HashMap<>();
                 for (String term : tokenizedTerms) {
                     
@@ -110,7 +114,7 @@ public class DocumentParser {
         System.out.println("here...\n");
         for (String j: tfidfDocsMap.keySet()) {
                 System.out.println(j + "  =  " + Arrays.toString(tfidfDocsMap.get(j)) + 
-                        " " + Double.toString(totalTermDocFreq.get(j)));
+                        " " + Double.toString(totalTermDocFreq.get(j)) + " " + Double.toString(semanticMatch.get(j)));
             }
     }
 
@@ -130,4 +134,20 @@ public class DocumentParser {
             }
         }
     }*/
+    
+    public double semanticQueryMatch(String tableName, String[] query) {
+        String[] tableWords = tableName.split("-|\\.");
+        double count = 0.0;
+        //System.out.println(tableWords);
+        for(String word : tableWords) {
+            for(String queryWord : query) {
+                if(word.equalsIgnoreCase(queryWord)) {
+                    count++;
+                    System.out.println(word);
+                }
+            }
+        }
+        //System.out.println(count);
+        return count/query.length;
+    }
 }
