@@ -246,3 +246,19 @@ life expectancy race, hospital-process-of-care-measures-childrens-asthma.csv, 1
 underweight, samhsa-card-sort-participants-general-public.csv, 1
 hiv cases, samhsa-card-sort-participants-general-public.csv, 1
 disability, radon-test-results-by-town-beginning-1987.csv, 1
+gender, home-health-care-hhcahps.csv, 1
+births in illinois, total-performance-scores.csv, 1
+nursing home costs, prevention-and-public-health-fund-grants.csv, 2
+underweight, samhsa-card-sort-results-samhsa-staff.csv, 1
+immunizations, helpful-contacts-agency-list-by-topic.csv, 2
+patient happiness, supplier-directory-data.csv, 1
+dialysis cost, preventive-care-measures-national.csv, 1
+healthcare by state, food-service-establishment-inspections-beginning-2005-active.csv, 1
+vaccination, emergency-department-care-measures-national.csv, 1
+physician bonuses, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+dialysis cost, percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv, 1
+life expectancy race, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+diet, dialysis-facility-compare-state-averages.csv, 1
+common stds america, home-health-care-state-by-state-data.csv, 1
+child care, emergency-department-care-measures-state.csv, 1
+dialysis cost, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 1
