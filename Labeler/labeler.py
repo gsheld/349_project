@@ -33,15 +33,13 @@ def runProgram():
 		count += 1
 
 	# Collect user input #
-	noExit = True
-	while noExit:
+	while True:
 		try:
 			userInput = raw_input('One a scale of 1-5 (5 being most relevant), how relevant is this table is to the query? Enter q to exit.\n >> ')
 			if userInput == 'q':
 				tableFile.close()
 				queryFile.close()
 				labelDatabase.close()
-				noExit = False
 			elif int(userInput) in range(1,6):
 				labelDatabase.write(query.strip() + ', ' + tableFileName + ', ' + userInput + '\n')
 				tableFile.close()

@@ -611,3 +611,5 @@ underweight, healthcare-associated-infections-national.csv, 1
 immunizations, samhsa-card-sort-results-general-public.csv, 1
 prescription drugs, food-service-establishment-inspections-beginning-2005-active.csv, 1
 hypertension, home-health-care-hhcahps-state-data.csv, 1
+hospital locations, managed-care-plan-utilization-data-beginning-2009.csv, 1
+birth defects, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
