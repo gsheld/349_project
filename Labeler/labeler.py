@@ -49,8 +49,10 @@ def runProgram():
 				runProgram()
 			else:
 				print 'Out of range. Try again.'
+				continue
 		except:
 			print 'Enter a valid rating.'
+			continue
 
 		os._exit(0)
 

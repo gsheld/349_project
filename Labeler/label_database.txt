@@ -602,3 +602,12 @@ births in illinois, anemia.csv, 1
 births in illinois, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 1
 prescription drugs, hospital-acs-measures.csv, 1
 state healthcare cost, dialysis-facility-compare-listing-by-facility.csv, 1
+hospitals by state, hospital-value-based-purchasing-hvbp-total-performance-scores.csv, 4
+family healthcare cost, genealogical-research-death-index-beginning-1957.csv, 1
+diet, anemia.csv, 1
+immunizations, cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv, 1
+hiv cases, prevention-agenda-partner-contact-information-2013.csv, 1
+underweight, healthcare-associated-infections-national.csv, 1
+immunizations, samhsa-card-sort-results-general-public.csv, 1
+prescription drugs, food-service-establishment-inspections-beginning-2005-active.csv, 1
+hypertension, home-health-care-hhcahps-state-data.csv, 1
