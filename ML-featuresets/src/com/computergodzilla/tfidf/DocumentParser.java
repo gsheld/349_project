@@ -14,6 +14,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map.Entry;
+import java.io.FileWriter;
+import java.io.BufferedWriter;
 
 /**
  * Class to read documents
@@ -58,7 +60,7 @@ public class DocumentParser {
                     }
                 }
                 String[] tokenizedTerms = sb.toString().replaceAll("[^a-zA-Z\\\\d]+", " ").split("\\W+");   //to get individual terms
-                queryTerms = "hospital cost".split(" ");
+                queryTerms = "vaccination".split(" ");
                 /*for (String queryWord : queryTerms) {
                         if (!allTerms.contains(term)) {  //avoid duplicate entry
                             allTerms.add(term);
@@ -94,7 +96,7 @@ public class DocumentParser {
     /**
      * Method to create termVector according to its tfidf score.
      */
-    public void tfIdfCalculator() {
+    public void tfIdfCalculator() throws IOException {
         double tf; //term frequency
         double idf; //inverse document frequency
         double tfidf; //term requency inverse document frequency     
@@ -119,12 +121,45 @@ public class DocumentParser {
             //tfidfDocsMap.add(tfidfvectors);  //storing document vectors;            
             tfidfDocsMap.put(localKey, tfidfvectors);
         }
-        System.out.println("here...\n");
+        File file = new File("vaccination.txt");
+        FileWriter fileWriter = new FileWriter(file);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        int localFeatureIndex;
+        //System.out.println("here...\n");
         for (String j: tfidfDocsMap.keySet()) {
                 System.out.println(j + "  =  " + Arrays.toString(tfidfDocsMap.get(j)) + 
                         " " + Double.toString(totalTermDocFreq.get(j)) + " " + Double.toString(semanticMatch.get(j)) +
                         " " + Integer.toString(numberOfColumns.get(j)));
+                StringBuilder mySB = new StringBuilder();
+                localFeatureIndex = 0;
+                mySB.append("0 ");
+                for (Double termTfIdf : tfidfDocsMap.get(j)) {
+                    mySB.append(Integer.toString(localFeatureIndex));
+                    localFeatureIndex++;
+                    mySB.append(":");
+                    mySB.append(Double.toString(termTfIdf));
+                    mySB.append(" ");
+                }
+                mySB.append(Integer.toString(localFeatureIndex));
+                localFeatureIndex++;
+                mySB.append(":");
+                mySB.append(Double.toString(totalTermDocFreq.get(j)));
+                mySB.append(" ");
+                mySB.append(Integer.toString(localFeatureIndex));
+                localFeatureIndex++;
+                mySB.append(":");
+                mySB.append(Double.toString(semanticMatch.get(j)));
+                mySB.append(" ");
+                mySB.append(Integer.toString(localFeatureIndex));
+                localFeatureIndex++;
+                mySB.append(":");
+                mySB.append(Integer.toString(numberOfColumns.get(j)));
+                mySB.append(" # ");
+                mySB.append(j);
+                mySB.append("\n");
+                bufferedWriter.write(mySB.toString());
             }
+        bufferedWriter.close();
     }
 
     /**
