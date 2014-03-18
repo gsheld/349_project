@@ -1,0 +1,11 @@
+{
+  "columnNumber": 6,
+  "columnData": {
+      "Title1": ["datapoint1", "datapoint2"],
+      "Title2": ["datapoint1", "datapoint2"],
+      "Title3": ["datapoint1", "datapoint2"],
+      "Title4": ["datapoint1", "datapoint2"]
+  },
+  "query": "some random query",
+  "tableTitle": "Table Title"
+}

@@ -1,0 +1,65 @@
+<!-- HTML written by Grant Sheldon, Arundhati Jaswal and Arindam Paul for the EECS 349 final project. -->
+<html>
+	<head>
+		<link rel="stylesheet" href="../SlickGrid/slick.grid.css" type="text/css"/>
+		<link rel="stylesheet" href="../SlickGrid/css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css"/>
+		<link rel="stylesheet" href="page.css" type="text/css">
+		<title>EECS 349: Term Project Data Collection</title>
+	</head>
+	<body>
+		<div class='titleBarContainer'>
+			<p class='pageTitle'>EECS 349: Data Labeler</p>
+			<img src='NU-logo.png' class='logo'>
+		</div>
+
+		<div class='contentContainer'>
+
+			<h1 class='queryStatement' id='queryStatement'>
+				<p class='prompt'> Please rank the following on a scale of 1 to 5: </p>
+			</h1>
+
+			<div class='relevantContainer'>
+
+				<table class = 'table'>
+					<tr>
+						<td valign="top" width="50%">
+								<div id="myGrid" style="width:800px;"></div>
+						</td>
+					</tr>
+				</table>
+
+				<script src="../SlickGrid/lib/jquery-1.7.min.js"></script>
+				<script src="../SlickGrid/lib/jquery.event.drag-2.2.js"></script>
+				<script src="../SlickGrid/lib/jquery-ui-1.8.16.custom.min.js"></script>
+				<script src="../SlickGrid/slick.core.js"></script>
+				<script src="../SlickGrid/slick.grid.js"></script>
+				<script src='page.js'></script>
+
+				<br><br>
+
+				<div class="topcoat-button-bar">
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button" tabindex="1">1</button>
+					 </label>
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button">2</button>
+					 </label>
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button">3</button>
+					 </label>
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button">4</button>
+					 </label>
+					 <label class="topcoat-button-bar__item">
+						 <input type="checkbox">
+						 <button class="topcoat-button-bar__button">5</button>
+					 </label>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
