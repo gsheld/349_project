@@ -60,7 +60,7 @@ public class DocumentParser {
                     }
                 }
                 String[] tokenizedTerms = sb.toString().replaceAll("[^a-zA-Z\\\\d]+", " ").split("\\W+");   //to get individual terms
-                queryTerms = "vaccination".split(" ");
+                queryTerms = "state healthcare cost".split(" ");
                 /*for (String queryWord : queryTerms) {
                         if (!allTerms.contains(term)) {  //avoid duplicate entry
                             allTerms.add(term);
@@ -121,7 +121,7 @@ public class DocumentParser {
             //tfidfDocsMap.add(tfidfvectors);  //storing document vectors;            
             tfidfDocsMap.put(localKey, tfidfvectors);
         }
-        File file = new File("vaccination.txt");
+        File file = new File("state healthcare cost.txt");
         FileWriter fileWriter = new FileWriter(file);
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         int localFeatureIndex;
