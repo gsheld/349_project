@@ -613,3 +613,24 @@ prescription drugs, food-service-establishment-inspections-beginning-2005-active
 hypertension, home-health-care-hhcahps-state-data.csv, 1
 hospital locations, managed-care-plan-utilization-data-beginning-2009.csv, 1
 birth defects, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+birth weight, dialysis-facility-compare-national-averages.csv, 1
+substance abuse, penalties.csv, 1
+child care, penalties.csv, 1
+birth weight, home-health-care-hhcahps.csv, 1
+infant death causes, health-reform-webinars.csv, 1
+hospital cost, helpful-contacts-question-list-by-organization.csv, 1
+hospitals by state, complete-qip-data-payment-year-2013.csv, 1
+hiv cases, organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv, 1
+diet, preventive-care-measures.csv, 1
+behavioral health, hospital-outcome-of-care-measures-national-average.csv, 1
+hiv cases, hospital-outcome-of-care-measures-national-average.csv, 1
+cancer cases america, prevention-and-public-health-fund-grants.csv, 2
+smoking, samhsa-card-sort-results-behavioral-health-workforce.csv, 2
+hospital deficiencies, samhsa-card-sort-participants-samhsa-staff.csv, 1
+healthcare by state, american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv, 1
+health professional shortage, measure-dates.csv, 1
+hiv cases, templates.csv, 1
+infant death causes, hospital-value-based-purchasing-hvbp-total-performance-scores.csv, 1
+hospital deficiencies, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+behavioral health, hospital-medicare-volume-measures-state-average.csv, 1
+family healthcare cost, helpful-contacts-agency-list-by-topic.csv, 2
