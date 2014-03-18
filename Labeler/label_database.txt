@@ -634,3 +634,30 @@ infant death causes, hospital-value-based-purchasing-hvbp-total-performance-scor
 hospital deficiencies, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
 behavioral health, hospital-medicare-volume-measures-state-average.csv, 1
 family healthcare cost, helpful-contacts-agency-list-by-topic.csv, 2
+substance abuse, agency-for-healthcare-research-and-quality-national-measures.csv, 1
+vaccination, samhsa-card-sort-results-general-public.csv, 1
+common stds america, food-service-establishment-inspections-beginning-2005-active.csv, 1
+smoking, samhsa-master-inventory-report.csv, 1
+nursing home costs, medicare-spending-per-patient-national.csv, 1
+cancer cases america, dialysis-facility-compare-national-averages.csv, 1
+vaccination, prevention-and-public-health-fund-grants.csv, 1
+gender, medicare-spending-per-patient-national.csv, 1
+nutrition, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+heart attack, samhsa-master-inventory-report.csv, 1
+hospital cost, home-health-care-national-data.csv, 1
+physician bonuses, hospital-footnote-crosswalk.csv, 1
+nursing home costs, primary-care-and-behavioral-health-care-integration-sites.csv, 1
+heart attack, american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv, 1
+healthcare by state, helpful-contacts-agency-list-by-organization.csv, 1
+infant death causes, quality-measures.csv, 1
+heart attack, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+birth defects, hospital-medicare-volume-measures-national-average.csv, 1
+radiation, prevention-and-public-health-fund-grants.csv, 1
+substance abuse, samhsa-card-sort-participants-samhsa-staff.csv, 1
+hospital deficiencies, medicare-spending-per-patient-national.csv, 1
+hiv cases, managed-care-plan-utilization-data-beginning-2009.csv, 1
+hiv cases, home-health-care-state-by-state-data.csv, 3
+obesity, anemia.csv, 1
+dialysis cost, total-performance-scores.csv, 1
+cancer cases america, hospital-medicare-volume-measures-national-average.csv, 4
+radiation, survey-of-patients-hospital-experiences-hcahps-national-average.csv, 1
