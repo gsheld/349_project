@@ -40,12 +40,12 @@ public class DocumentParser {
      * @throws FileNotFoundException
      * @throws IOException
      */
-    public void parseFiles(String filePath) throws FileNotFoundException, IOException {
-        File[] allfiles = new File(filePath).listFiles();
+    public void parseFiles(File f) throws FileNotFoundException, IOException {
+        //File[] allfiles = new File(filePath).listFiles();
         BufferedReader in = null;
         int flag;
-        for (File f : allfiles) {
-            if (f.getName().endsWith(".csv") && f.length() < (52428800*6.5) ) {
+        //for (File f : allfiles) {
+            if (f.getName().endsWith(".csv") && f.length() < (52428800*6.5)) {
                 //System.out.println(f.getName());
                 in = new BufferedReader(new FileReader(f));
                 flag = 1;
@@ -60,14 +60,12 @@ public class DocumentParser {
                     }
                 }
                 String[] tokenizedTerms = sb.toString().replaceAll("[^a-zA-Z\\\\d]+", " ").split("\\W+");   //to get individual terms
-                queryTerms = "state healthcare cost".split(" ");
+                //queryTerms = "state healthcare cost".split(" ");
                 /*for (String queryWord : queryTerms) {
                         if (!allTerms.contains(term)) {  //avoid duplicate entry
                             allTerms.add(term);
                         }
                     }*/
-                
-                semanticMatch.put(f.getName(), semanticQueryMatch(f.getName(), queryTerms));        //semantic tablename match
                 
                 HashMap<String, Integer> localMap = new HashMap<>();
                 for (String term : tokenizedTerms) {
@@ -84,30 +82,86 @@ public class DocumentParser {
                     
                 }
                 wordMap.put(f.getName(), localMap);
-//                termsDocsArray.add(tokenizedTerms);                
+//                termsDocsArray.add(tokenizedTerms);       
+                
             }
-        }
+        
 
+        
         /*for (Entry entry : wordMap.entrySet()) {
             System.out.println(entry);
         }*/
+    }
+    
+    public void dataComputation (String filePath, String labeledQueriesFile) throws FileNotFoundException, IOException {
+        File qfile = new File(labeledQueriesFile);
+        FileReader qfileReader = new FileReader(qfile);
+        BufferedReader qbufferedReader = new BufferedReader(qfileReader);
+        
+        File datafile = new File("rankerData.txt");
+        FileWriter datafileWriter = new FileWriter(datafile);
+        BufferedWriter dataBufferedWriter = new BufferedWriter(datafileWriter);
+        
+        File[] allfiles = new File(filePath).listFiles();
+        
+        String dataLine;
+        int qIndex = 1;
+        int rank = 0;
+        String labeledQuery = null;
+        String fileName = null;
+        String trackedQuery = "als cases";
+        String[] labeledParts = trackedQuery.split(",");
+        File singleTable = allfiles[0];
+        
+        while ((labeledQuery = qbufferedReader.readLine()) != null) {
+            labeledParts = labeledQuery.split(", ");
+            queryTerms = labeledParts[0].split(" ");
+            fileName = labeledParts[1];
+            rank = Integer.parseInt(labeledParts[2]);
+            
+            for (File f : allfiles) {
+                if(f.getName().equalsIgnoreCase(labeledParts[1])) {
+                    singleTable = f;
+                    break;
+                }
+            }
+            
+            parseFiles(singleTable);
+            
+            semanticMatch.put(singleTable.getName(), semanticQueryMatch(singleTable.getName(), queryTerms)); //semantic tablename match
+            
+                if (labeledParts[0].equalsIgnoreCase(trackedQuery)) {
+                    dataLine = null;
+                    dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName());
+                    dataBufferedWriter.write(dataLine);
+                } 
+                else {
+                    trackedQuery = labeledParts[0];
+                    qIndex++;
+                    dataLine = null;
+                    dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName());
+                    dataBufferedWriter.write(dataLine);
+                }
+        }
+        qbufferedReader.close();
+        dataBufferedWriter.close();
     }
 
     /**
      * Method to create termVector according to its tfidf score.
      */
-    public void tfIdfCalculator() throws IOException {
+    public String tfIdfCalculator(int rank, String query, int qId, String fileName) throws IOException {
         double tf; //term frequency
         double idf; //inverse document frequency
         double tfidf; //term requency inverse document frequency     
         double localTotalFreq = 0.0;
-        for (String localKey : wordMap.keySet()) {
+        //for (String localKey : wordMap.keySet()) {
             double[] tfidfvectors = new double[queryTerms.length];
             int count = 0;
             for (String terms : queryTerms) {
                 //System.out.println("ready to calc tfidf...");
-                tf = new TfIdf().tfCalculator(wordMap.get(localKey), terms);
-                idf = new TfIdf().idfCalculator(wordMap.get(localKey), terms);
+                tf = new TfIdf().tfCalculator(wordMap.get(fileName), terms);
+                idf = new TfIdf().idfCalculator(wordMap.get(fileName), terms);
                 tfidf = tf * idf;
                 localTotalFreq += tf;
                 //System.out.println(terms+" tf = "+tf+" idf = "+idf);
@@ -116,24 +170,28 @@ public class DocumentParser {
             }
             //System.out.println(Double.toString(localTotalFreq));
             //totalTermDocFreq.add(localTotalFreq);
-            totalTermDocFreq.put(localKey, localTotalFreq);
+            totalTermDocFreq.put(fileName, localTotalFreq);
             localTotalFreq = 0.0;
             //tfidfDocsMap.add(tfidfvectors);  //storing document vectors;            
-            tfidfDocsMap.put(localKey, tfidfvectors);
-        }
-        File file = new File("state healthcare cost.txt");
-        FileWriter fileWriter = new FileWriter(file);
-        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            tfidfDocsMap.put(fileName, tfidfvectors);
+        
+        //File file = new File("state healthcare cost.txt");
+        //FileWriter fileWriter = new FileWriter(file);
+        //BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         int localFeatureIndex;
         //System.out.println("here...\n");
-        for (String j: tfidfDocsMap.keySet()) {
-                System.out.println(j + "  =  " + Arrays.toString(tfidfDocsMap.get(j)) + 
-                        " " + Double.toString(totalTermDocFreq.get(j)) + " " + Double.toString(semanticMatch.get(j)) +
-                        " " + Integer.toString(numberOfColumns.get(j)));
+        //for (String j: tfidfDocsMap.keySet()) {
+                //System.out.println(fileName + "  =  " + Arrays.toString(tfidfDocsMap.get(fileName)) + 
+                //        " " + Double.toString(totalTermDocFreq.get(fileName)) + " " + Double.toString(semanticMatch.get(fileName)) +
+                //        " " + Integer.toString(numberOfColumns.get(fileName)));
                 StringBuilder mySB = new StringBuilder();
                 localFeatureIndex = 0;
-                mySB.append("0 ");
-                for (Double termTfIdf : tfidfDocsMap.get(j)) {
+                mySB.append(Integer.toString(rank));
+                mySB.append(" ");
+                mySB.append("qid:");
+                mySB.append(Integer.toString(qId));
+                mySB.append(" ");
+                for (Double termTfIdf : tfidfDocsMap.get(fileName)) {
                     mySB.append(Integer.toString(localFeatureIndex));
                     localFeatureIndex++;
                     mySB.append(":");
@@ -143,23 +201,30 @@ public class DocumentParser {
                 mySB.append(Integer.toString(localFeatureIndex));
                 localFeatureIndex++;
                 mySB.append(":");
-                mySB.append(Double.toString(totalTermDocFreq.get(j)));
+                mySB.append(Double.toString(totalTermDocFreq.get(fileName)));
                 mySB.append(" ");
                 mySB.append(Integer.toString(localFeatureIndex));
                 localFeatureIndex++;
                 mySB.append(":");
-                mySB.append(Double.toString(semanticMatch.get(j)));
+                mySB.append(Double.toString(semanticMatch.get(fileName)));
                 mySB.append(" ");
                 mySB.append(Integer.toString(localFeatureIndex));
                 localFeatureIndex++;
                 mySB.append(":");
-                mySB.append(Integer.toString(numberOfColumns.get(j)));
+                mySB.append(Integer.toString(numberOfColumns.get(fileName)));
                 mySB.append(" # ");
-                mySB.append(j);
+                mySB.append("'");
+                mySB.append(query);
+                mySB.append("'");
+                mySB.append(" ");
+                mySB.append(fileName);
                 mySB.append("\n");
-                bufferedWriter.write(mySB.toString());
-            }
-        bufferedWriter.close();
+                System.out.println(mySB.toString());
+                return mySB.toString();
+                //bufferedWriter.write(mySB.toString());
+            
+        //bufferedWriter.close();
+        //return "";
     }
 
     /**

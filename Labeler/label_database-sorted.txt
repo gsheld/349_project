@@ -1,0 +1,671 @@
+als cases, agency-for-healthcare-research-and-quality-national-measures.csv, 1
+als cases, agency-for-healthcare-research-and-quality-national-measures.csv, 1
+als cases, casper-aspen-contacts.csv, 1
+als cases, complete-qip-data-payment-year-2013.csv, 1
+als cases, dialysis-facility-compare-national-averages.csv, 1
+als cases, dialysis-facility-compare-state-averages.csv, 1
+als cases, emergency-department-care-measures-national.csv, 1
+als cases, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+als cases, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+als cases, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+als cases, genealogical-research-death-index-beginning-1957.csv, 1
+als cases, home-health-care-hhcahps-state-data.csv, 1
+als cases, home-health-care-measure-date-range.csv, 1
+als cases, hospital-medicare-volume-measures-state-average.csv, 1
+als cases, hospital-value-based-purchasing-hvbp-heart-failure-scores.csv, 1
+als cases, hospital-value-based-purchasing-hvbp-heart-failure-scores.csv, 1
+als cases, medicare-spending-per-patient-state.csv, 1
+als cases, nursing-home-weekly-bed-census-last-submission.csv, 1
+als cases, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv, 1
+als cases, professional-medical-conduct-board-actions-beginning-1diet, spending-breakdown-by-claim.csv, 1
+als cases, templates.csv, 1
+behavioral health, home-health-care-hhcahps.csv, 2
+behavioral health, home-health-care-state-by-state-data.csv, 5
+behavioral health, hospital-footnote-crosswalk.csv, 1
+behavioral health, hospital-medicare-volume-measures-national-average.csv, 1
+behavioral health, hospital-medicare-volume-measures-state-average.csv, 1
+behavioral health, hospital-outcome-of-care-measures-national-average.csv, 1
+behavioral health, hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv, 1
+behavioral health, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 4
+birth defects, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+birth defects, helpful-contacts-question-list-by-organization.csv, 1
+birth defects, hospital-medicare-volume-measures-national-average.csv, 1
+birth defects, hospital-process-of-care-measures-national-average.csv, 1
+birth defects, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 1
+birth defects, samhsa-card-sort-results-behavioral-health-workforce.csv, 1
+birth weight, dialysis-adequacy.csv, 1
+birth weight, dialysis-adequacy.csv, 1
+birth weight, dialysis-facility-compare-national-averages.csv, 1
+birth weight, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+birth weight, helpful-contacts-agency-list-by-topic.csv, 1
+birth weight, home-health-care-hhcahps-state-data.csv, 1
+birth weight, home-health-care-hhcahps.csv, 1
+birth weight, hospital-general-information.csv, 1
+birth weight, hospital-medicare-volume-measures-national-average.csv, 1
+birth weight, hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv, 1
+birth weight, hospital-value-based-purchasing-hvbp-heart-failure-scores.csv, 2
+birth weight, measure-dates.csv, 1
+birth weight, medicare-spending-per-patient.csv, 2
+birth weight, ownership.csv, 1
+birth weight, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+births in illinois, anemia.csv, 1
+births in illinois, anemia.csv, 2
+births in illinois, cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv, 1
+births in illinois, health-coalitions-a-resource-for-community-collaboration.csv, 1
+births in illinois, helpful-contacts-agency-list-by-organization.csv, 1
+births in illinois, home-health-care-hhcahps-state-data.csv, 1
+births in illinois, home-health-care-hhcahps.csv, 1
+births in illinois, hospital-general-information.csv, 1
+births in illinois, hospital-general-information.csv, 2
+births in illinois, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 1
+births in illinois, managed-care-plan-utilization-data-beginning-2009.csv, 2
+births in illinois, measure-dates.csv, 1
+births in illinois, medicare-spending-per-patient-state.csv, 2
+births in illinois, medicare-spending-per-patient.csv, 1
+births in illinois, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+births in illinois, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+births in illinois, primary-care-and-behavioral-health-care-integration-sites.csv, 2
+births in illinois, samhsa-card-sort-participants-general-public.csv, 1
+births in illinois, samhsa-card-sort-participants-samhsa-staff.csv, 1
+births in illinois, samhsa-publications.csv, 2
+births in illinois, total-performance-scores.csv, 1
+cancer cases america, agency-for-healthcare-research-and-quality-national-measures.csv, 1
+cancer cases america, agency-for-healthcare-research-and-quality-national-measures.csv, 1
+cancer cases america, agency-for-healthcare-research-and-quality-state-measures.csv, 1
+cancer cases america, dialysis-facility-compare-listing-by-facility.csv, 1
+cancer cases america, dialysis-facility-compare-national-averages.csv, 1
+cancer cases america, hospital-footnote-crosswalk.csv, 1
+cancer cases america, hospital-general-information.csv, 1
+cancer cases america, hospital-medicare-volume-measures-national-average.csv, 4
+cancer cases america, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 1
+cancer cases america, organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv, 1
+cancer cases america, ownership.csv, 1
+cancer cases america, percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv, 1
+cancer cases america, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+cancer cases america, prevention-and-public-health-fund-grants.csv, 2
+cancer cases america, primary-care-and-behavioral-health-care-integration-sites.csv, 2
+cancer cases america, radon-test-results-by-county-beginning-1987.csv, 2
+cancer cases america, samhsa-card-sort-participants-general-public.csv, 1
+cancer cases america, samhsa-card-sort-participants-samhsa-staff.csv, 1
+cancer cases america, samhsa-card-sort-participants-samhsa-staff.csv, 1
+cancer cases america, samhsa-master-inventory-report.csv, 1
+child care, agency-for-healthcare-research-and-quality-state-measures.csv, 1
+child care, complete-qip-data-payment-year-2013.csv, 4
+child care, deficiencies.csv, 1
+child care, emergency-department-care-measures-state.csv, 1
+child care, environmental-radiation-surveillance-background-site-readings-beginning-2009.csv, 1
+child care, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+child care, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+child care, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+child care, healthcare-associated-infections-state-measures.csv, 1
+child care, helpful-contacts-agency-list-by-organization.csv, 1
+child care, hospital-general-information.csv, 1
+child care, hospital-medicare-volume-measures.csv, 1
+child care, hospital-medicare-volume-measures.csv, 1
+child care, hospital-process-of-care-measures-heart-failure.csv, 1
+child care, hospital-process-of-care-measures-national-average.csv, 1
+child care, ownership.csv, 1
+child care, penalties.csv, 1
+child care, penalties.csv, 1
+child care, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv, 1
+child care, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv, 1
+child care, samhsa-card-sort-participants-samhsa-staff.csv, 1
+child care, samhsa-publications.csv, 1
+child care, spending-breakdown-by-claim.csv, 1
+child care, templates.csv, 1
+child care, use-of-medical-imaging-measures-national.csv, 1
+child care, use-of-medical-imaging-measures-state.csv, 1
+common stds america, cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv, 1
+common stds america, food-service-establishment-inspections-beginning-2005-active.csv, 1
+common stds america, home-health-care-hhcahps.csv, 1
+common stds america, home-health-care-state-by-state-data.csv, 1
+common stds america, hospital-outcome-of-care-measures-state.csv, 1
+common stds america, hospital-process-of-care-measures-national-average.csv, 2
+common stds america, national-downloadable-file.csv, 1
+common stds america, nursing-home-weekly-bed-census-last-submission.csv, 1
+common stds america, nursing-home-weekly-bed-census-last-submission.csv, 1
+common stds america, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a.csv, 2
+common stds america, samhsa-publications.csv, 1
+common stds america, samhsa-publications.csv, 1
+common stds america, samhsa-publications.csv, 2
+common stds america, samhsa-state-activities.csv, 1
+common stds america, supplier-directory-data.csv, 1
+common stds america, total-performance-scores.csv, 1
+dialysis cost, dialysis-adequacy.csv, 3
+dialysis cost, healthcare-associated-infections-national.csv, 1
+dialysis cost, helpful-contacts-question-list-by-organization.csv, 1
+dialysis cost, home-health-care-facilities.csv, 2
+dialysis cost, hospital-outcome-of-care-measures-national-average.csv, 1
+dialysis cost, hospital-process-of-care-measures-pneumonia.csv, 1
+dialysis cost, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 1
+dialysis cost, percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv, 1
+dialysis cost, preventive-care-measures-national.csv, 1
+dialysis cost, samhsa-store-taxonomy.csv, 1
+dialysis cost, state-averages.csv, 1
+dialysis cost, survey-of-patients-hospital-experiences-hcahps-national-average.csv, 2
+dialysis cost, total-performance-scores.csv, 1
+dialysis cost, total-performance-scores.csv, 1
+diet, anemia.csv, 1
+diet, casper-aspen-contacts.csv, 1
+diet, dialysis-adequacy.csv, 1
+diet, dialysis-facility-compare-state-averages.csv, 1
+diet, emergency-department-care-measures-national.csv, 1
+diet, emergency-department-care-measures-state.csv, 1
+diet, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+diet, health-reform-webinars.csv, 3
+diet, helpful-contacts-agency-list-by-organization.csv, 1
+diet, home-health-care-hhcahps-state-data.csv, 1
+diet, home-health-care-hhcahps.csv, 1
+diet, home-health-care-hhcahps.csv, 1
+diet, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+diet, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 1
+diet, prevention-agenda-partner-contact-information-2013.csv, 1
+diet, preventive-care-measures-national.csv, 1
+diet, preventive-care-measures.csv, 1
+diet, preventive-care-measures.csv, 1
+diet, quality-assurance-reporting-requirements-beginning-2008.csv, 1
+diet, radon-test-results-by-county-beginning-1987.csv, 1
+diet, spending-breakdown-by-claim.csv, 1
+disability, complete-qip-data-payment-year-2013.csv, 1
+disability, genealogical-research-death-index-beginning-1957.csv, 1
+disability, home-health-care-measure-date-range.csv, 2
+disability, hospital-footnote-crosswalk.csv, 1
+disability, hospital-outcome-of-care-measures-national-average.csv, 1
+disability, hospital-outcome-of-care-measures-state.csv, 1
+disability, hospital-process-of-care-measures-state-average.csv, 1
+disability, hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv, 1
+disability, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 2
+disability, radon-test-results-by-town-beginning-1987.csv, 1
+disability, survey-of-patients-hospital-experiences-hcahps-state-average.csv, 2
+disability, templates-431b4.csv, 1
+drug license, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+drug license, food-service-establishment-inspections-beginning-2005-active.csv, 1
+drug license, health-coalitions-a-resource-for-community-collaboration.csv, 1
+drug license, healthcare-associated-infections-state-measures.csv, 1
+drug license, helpful-contacts-agency-list-by-topic.csv, 2
+drug license, home-health-care-facilities.csv, 1
+drug license, hospital-general-information.csv, 1
+drug license, hospital-medicare-volume-measures-national-average.csv, 1
+drug license, hospital-medicare-volume-measures-national-average.csv, 1
+drug license, hospital-medicare-volume-measures-national-average.csv, 1
+drug license, hospital-outcome-of-care-measures-national-average.csv, 1
+drug license, hospital-value-based-purchasing-hvbp-heart-failure-scores.csv, 5
+drug license, hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv, 1
+drug license, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 1
+drug license, measure-dates.csv, 1
+drug license, medicare-spending-per-patient-state.csv, 1
+drug license, penalties.csv, 2
+drug license, penalties.csv, 2
+drug license, prevention-and-public-health-fund-grants.csv, 1
+drug license, samhsa-card-sort-results-general-public.csv, 3
+drug license, samhsa-store-taxonomy.csv, 1
+drug license, samhsa-store-taxonomy.csv, 1
+family healthcare cost, agency-for-healthcare-research-and-quality-state-measures.csv, 1
+family healthcare cost, agency-for-healthcare-research-and-quality-state-measures.csv, 2
+family healthcare cost, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+family healthcare cost, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+family healthcare cost, genealogical-research-death-index-beginning-1957.csv, 1
+family healthcare cost, helpful-contacts-agency-list-by-topic.csv, 2
+family healthcare cost, home-health-care-hhcahps.csv, 2
+family healthcare cost, hospital-acs-measures.csv, 1
+family healthcare cost, hospital-footnote-crosswalk.csv, 1
+family healthcare cost, hospital-medicare-volume-measures-national-average.csv, 1
+family healthcare cost, hospital-process-of-care-measures-childrens-asthma.csv, 2
+family healthcare cost, nursing-home-weekly-bed-census-beginning-2009.csv, 3
+family healthcare cost, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a.csv, 1
+family healthcare cost, preventive-care-measures-national.csv, 1
+family healthcare cost, quality-measures.csv, 1
+family healthcare cost, samhsa-card-sort-participants-general-public.csv, 1
+family healthcare cost, samhsa-card-sort-results-behavioral-health-workforce.csv, 1
+family healthcare cost, samhsa-store-taxonomy.csv, 1
+family healthcare cost, spending-breakdown-by-claim.csv, 1
+gender, environmental-radiation-surveillance-background-site-readings-beginning-2009.csv, 1
+gender, environmental-radiation-surveillance-gamma-radiation-readings-beginning-1995.csv, 1
+gender, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+gender, health-coalitions-a-resource-for-community-collaboration.csv, 1
+gender, home-health-care-hhcahps.csv, 1
+gender, hospital-value-based-purchasing-hvbp-heart-failure-scores.csv, 1
+gender, hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv, 1
+gender, medicare-spending-per-patient-national.csv, 1
+gender, medicare-spending-per-patient-national.csv, 1
+gender, percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv, 1
+gender, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 4
+gender, prevention-agenda-partner-contact-information-2013.csv, 1
+gender, preventive-care-measures-national.csv, 1
+gender, preventive-care-measures-national.csv, 1
+gender, preventive-care-measures-national.csv, 1
+gender, provider-info.csv, 1
+gender, samhsa-card-sort-results-behavioral-health-workforce.csv, 1
+health insurance, agency-for-healthcare-research-and-quality-national-measures.csv, 2
+health insurance, deficiencies.csv, 2
+health insurance, emergency-department-care-measures-state.csv, 1
+health insurance, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+health insurance, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+health insurance, hospital-value-based-purchasing-hvbp-pneumonia-scores.csv, 1
+health insurance, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 1
+health insurance, map-points-location-by-separate-latitutde-longitude-columns.csv, 1
+health insurance, measure-dates.csv, 3
+health insurance, nursing-home-weekly-bed-census-last-submission.csv, 1
+health insurance, quality-assurance-reporting-requirements-beginning-2008.csv, 2
+health insurance, samhsa-card-sort-participants-general-public.csv, 1
+health insurance, samhsa-card-sort-results-samhsa-staff.csv, 1
+health insurance, samhsa-publications.csv, 1
+health insurance, supplier-directory-data.csv, 1
+health insurance, total-performance-scores.csv, 1
+health professional shortage, adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv, 2
+health professional shortage, agency-for-healthcare-research-and-quality-state-measures.csv, 1
+health professional shortage, dialysis-facility-compare-state-averages.csv, 1
+health professional shortage, health-coalitions-a-resource-for-community-collaboration.csv, 1
+health professional shortage, health-coalitions-a-resource-for-community-collaboration.csv, 2
+health professional shortage, helpful-contacts-agency-list-by-organization.csv, 2
+health professional shortage, hospital-general-information.csv, 1
+health professional shortage, hospital-medicare-volume-measures.csv, 1
+health professional shortage, hospital-process-of-care-measures-childrens-asthma.csv, 2
+health professional shortage, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 2
+health professional shortage, measure-dates.csv, 1
+health professional shortage, measure-dates.csv, 1
+health professional shortage, preventive-care-measures.csv, 1
+health professional shortage, primary-care-and-behavioral-health-care-integration-sites.csv, 1
+health professional shortage, radon-test-results-by-county-beginning-1987.csv, 1
+health professional shortage, samhsa-card-sort-participants-samhsa-staff.csv, 1
+health professional shortage, samhsa-card-sort-results-general-public.csv, 2
+health professional shortage, supplier-directory-data.csv, 1
+health professional shortage, survey-of-patients-hospital-experiences-hcahps-state-average.csv, 3
+health professional shortage, templates.csv, 1
+healthcare by state, adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv, 3
+healthcare by state, agency-for-healthcare-research-and-quality-national-measures.csv, 2
+healthcare by state, american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv, 1
+healthcare by state, deficiencies.csv, 2
+healthcare by state, dialysis-facility-compare-national-averages.csv, 1
+healthcare by state, emergency-department-care-measures-national.csv, 2
+healthcare by state, food-service-establishment-inspections-beginning-2005-active.csv, 1
+healthcare by state, food-service-establishment-inspections-beginning-2005-inactive.csv, 1
+healthcare by state, helpful-contacts-agency-list-by-organization.csv, 1
+healthcare by state, hospital-acs-measures.csv, 2
+healthcare by state, hospital-structural-measures-cardiac-surgery-registry.csv, 1
+healthcare by state, hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv, 3
+healthcare by state, nursing-home-weekly-bed-census-last-submission.csv, 1
+healthcare by state, quality-measures.csv, 1
+healthcare by state, samhsa-card-sort-participants-samhsa-staff.csv, 1
+healthcare by state, templates-431b4.csv, 1
+healthcare by state, total-performance-scores.csv, 2
+heart attack, american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv, 1
+heart attack, american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv, 2
+heart attack, anemia.csv, 1
+heart attack, environmental-radiation-surveillance-background-site-readings-beginning-2009.csv, 1
+heart attack, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 3
+heart attack, genealogical-research-death-index-beginning-1957.csv, 1
+heart attack, healthcare-associated-infections-state-measures.csv, 1
+heart attack, home-health-care-facilities.csv, 3
+heart attack, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+heart attack, nursing-home-weekly-bed-census-beginning-2009.csv, 1
+heart attack, percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv, 3
+heart attack, samhsa-card-sort-participants-samhsa-staff.csv, 1
+heart attack, samhsa-master-inventory-report.csv, 1
+heart attack, samhsa-state-activities.csv, 1
+hiv cases, casper-aspen-contacts.csv, 1
+hiv cases, dialysis-facility-compare-listing-by-facility.csv, 1
+hiv cases, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+hiv cases, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+hiv cases, healthcare-associated-infections-national.csv, 1
+hiv cases, healthcare-associated-infections-national.csv, 2
+hiv cases, home-health-care-hhcahps.csv, 1
+hiv cases, home-health-care-state-by-state-data.csv, 3
+hiv cases, hospital-general-information.csv, 1
+hiv cases, hospital-outcome-of-care-measures-national-average.csv, 1
+hiv cases, hospital-process-of-care-measures-state-average.csv, 1
+hiv cases, hospital-value-based-purchasing-hvbp-pneumonia-scores.csv, 1
+hiv cases, managed-care-plan-utilization-data-beginning-2009.csv, 1
+hiv cases, organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv, 1
+hiv cases, penalties.csv, 1
+hiv cases, prevention-agenda-partner-contact-information-2013.csv, 1
+hiv cases, samhsa-card-sort-participants-general-public.csv, 1
+hiv cases, samhsa-master-inventory-report.csv, 1
+hiv cases, samhsa-publications.csv, 1
+hiv cases, templates.csv, 1
+hiv cases, use-of-medical-imaging-measures-state.csv, 1
+hospital cost, adults-aged-1864-years-who-have-annual-family-incomes-between-133-and-399-percent-of-feder.csv, 1
+hospital cost, emergency-department-care-measures-national.csv, 1
+hospital cost, environmental-radiation-surveillance-gamma-radiation-readings-beginning-1995.csv, 1
+hospital cost, helpful-contacts-agency-list-by-organization.csv, 1
+hospital cost, helpful-contacts-agency-list-by-topic.csv, 2
+hospital cost, helpful-contacts-question-list-by-organization.csv, 1
+hospital cost, helpful-contacts-question-list-by-organization.csv, 1
+hospital cost, home-health-care-facilities.csv, 1
+hospital cost, home-health-care-national-data.csv, 1
+hospital cost, hospital-medicare-volume-measures.csv, 2
+hospital cost, hospital-outcome-of-care-measures-national-average.csv, 1
+hospital cost, hospital-process-of-care-measures-pneumonia.csv, 5
+hospital cost, hospital-value-based-purchasing-hvbp-pneumonia-scores.csv, 2
+hospital cost, hospital-value-based-purchasing-hvbp-total-performance-scores.csv, 2
+hospital cost, map-points-location-by-separate-latitutde-longitude-columns.csv, 1
+hospital cost, percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv, 3
+hospital cost, preventive-care-measures-national.csv, 1
+hospital cost, preventive-care-measures-state.csv, 1
+hospital cost, samhsa-master-inventory-report.csv, 1
+hospital cost, use-of-medical-imaging-measures-state.csv, 1
+hospital deficiencies, american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv, 1
+hospital deficiencies, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+hospital deficiencies, food-service-establishment-inspections-beginning-2005-active.csv, 1
+hospital deficiencies, hospital-process-of-care-measures-heart-failure.csv, 4
+hospital deficiencies, hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv, 3
+hospital deficiencies, managed-care-plan-utilization-data-beginning-2009.csv, 2
+hospital deficiencies, medicare-spending-per-patient-national.csv, 1
+hospital deficiencies, radon-test-results-by-county-beginning-1987.csv, 1
+hospital deficiencies, radon-test-results-by-county-beginning-1987.csv, 1
+hospital deficiencies, samhsa-card-sort-participants-samhsa-staff.csv, 1
+hospital deficiencies, samhsa-card-sort-results-behavioral-health-workforce.csv, 1
+hospital deficiencies, samhsa-card-sort-results-behavioral-health-workforce.csv, 3
+hospital deficiencies, survey-of-patients-hospital-experiences-hcahps-state-average.csv, 3
+hospital locations, adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv, 1
+hospital locations, health-reform-webinars.csv, 1
+hospital locations, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 2
+hospital locations, managed-care-plan-utilization-data-beginning-2009.csv, 1
+hospital locations, provider-info.csv, 2
+hospital locations, samhsa-card-sort-participants-general-public.csv, 1
+hospitals by state, complete-qip-data-payment-year-2013.csv, 1
+hospitals by state, complete-qip-data-payment-year-2013.csv, 1
+hospitals by state, dialysis-adequacy.csv, 2
+hospitals by state, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+hospitals by state, home-health-care-facilities.csv, 1
+hospitals by state, home-health-care-hhcahps-state-data.csv, 2
+hospitals by state, home-health-care-measure-date-range.csv, 1
+hospitals by state, hospital-process-of-care-measures-pneumonia.csv, 1
+hospitals by state, hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv, 2
+hospitals by state, hospital-value-based-purchasing-hvbp-total-performance-scores.csv, 4
+hospitals by state, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv, 1
+hospitals by state, professional-medical-conduct-board-actions-beginning-1990.csv, 2
+hospitals by state, samhsa-card-sort-participants-samhsa-staff.csv, 1
+hospitals by state, spending-breakdown-by-claim.csv, 4
+hospitals by state, total-performance-scores.csv, 1
+hospitals by state, use-of-medical-imaging-measures-state.csv, 3
+hypertension, adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv, 1
+hypertension, anemia.csv, 1
+hypertension, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+hypertension, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+hypertension, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 2
+hypertension, food-service-establishment-inspections-beginning-2005-active.csv, 1
+hypertension, health-reform-webinars.csv, 2
+hypertension, helpful-contacts-agency-list-by-organization.csv, 1
+hypertension, home-health-care-hhcahps-state-data.csv, 1
+hypertension, hospital-medicare-volume-measures.csv, 1
+hypertension, hospital-process-of-care-measures-national-average.csv, 1
+hypertension, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 1
+hypertension, measure-dates.csv, 1
+hypertension, nursing-home-weekly-bed-census-beginning-2009.csv, 1
+hypertension, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+hypertension, preventive-care-measures-state.csv, 1
+hypertension, quality-measures.csv, 1
+hypertension, samhsa-card-sort-results-behavioral-health-workforce.csv, 1
+hypertension, samhsa-master-inventory-report.csv, 2
+hypertension, spending-breakdown-by-claim.csv, 1
+hypertension, state-averages.csv, 1
+hypertension, use-of-medical-imaging-measures.csv, 3
+immunizations, cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv, 1
+immunizations, dialysis-facility-compare-national-averages.csv, 1
+immunizations, emergency-department-care-measures-national.csv, 1
+immunizations, health-reform-webinars.csv, 1
+immunizations, helpful-contacts-agency-list-by-topic.csv, 2
+immunizations, hospital-medicare-volume-measures.csv, 1
+immunizations, hospital-process-of-care-measures-childrens-asthma.csv, 1
+immunizations, hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv, 1
+immunizations, medicare-spending-per-patient-national.csv, 2
+immunizations, quality-assurance-reporting-requirements-beginning-2008.csv, 1
+immunizations, radon-test-results-by-town-beginning-1987.csv, 1
+immunizations, samhsa-card-sort-results-general-public.csv, 1
+immunizations, samhsa-master-inventory-report.csv, 1
+immunizations, spending-breakdown-by-claim.csv, 2
+infant death causes, emergency-department-care-measures-national.csv, 1
+infant death causes, environmental-radiation-surveillance-gamma-radiation-readings-beginning-1995.csv, 1
+infant death causes, health-coalitions-a-resource-for-community-collaboration.csv, 1
+infant death causes, health-reform-webinars.csv, 1
+infant death causes, healthcare-associated-infections-state-measures.csv, 1
+infant death causes, hospital-medicare-volume-measures.csv, 1
+infant death causes, hospital-process-of-care-measures-state-average.csv, 1
+infant death causes, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 1
+infant death causes, hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv, 1
+infant death causes, hospital-value-based-purchasing-hvbp-total-performance-scores.csv, 1
+infant death causes, hospital-value-based-purchasing-hvbp-total-performance-scores.csv, 1
+infant death causes, medicare-spending-per-patient-state.csv, 1
+infant death causes, penalties.csv, 1
+infant death causes, quality-measures.csv, 1
+infant death causes, survey-of-patients-hospital-experiences-hcahps-state-average.csv, 1
+infant death causes, templates-431b4.csv, 1
+life expectancy race, casper-aspen-contacts.csv, 1
+life expectancy race, complete-qip-data-payment-year-2013.csv, 1
+life expectancy race, environmental-radiation-surveillance-gamma-radiation-readings-beginning-1995.csv, 1
+life expectancy race, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+life expectancy race, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+life expectancy race, food-service-establishment-inspections-beginning-2005-active.csv, 1
+life expectancy race, helpful-contacts-agency-list-by-organization.csv, 1
+life expectancy race, hospital-medicare-volume-measures-state-average.csv, 1
+life expectancy race, hospital-outcome-of-care-measures-state.csv, 1
+life expectancy race, hospital-process-of-care-measures-childrens-asthma.csv, 1
+life expectancy race, hospital-process-of-care-measures-childrens-asthma.csv, 1
+life expectancy race, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 1
+life expectancy race, hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv, 1
+life expectancy race, map-points-location-by-separate-latitutde-longitude-columns.csv, 1
+life expectancy race, nursing-home-weekly-bed-census-last-submission.csv, 1
+life expectancy race, preventive-care-measures-state.csv, 1
+life expectancy race, provider-info.csv, 1
+life expectancy race, radon-test-results-by-county-beginning-1987.csv, 1
+life expectancy race, samhsa-card-sort-participants-behavioral-health-workforce.csv, 1
+life expectancy race, samhsa-card-sort-participants-behavioral-health-workforce.csv, 1
+life expectancy race, templates.csv, 1
+medical equipment, casper-aspen-contacts.csv, 1
+medical equipment, dialysis-adequacy.csv, 2
+medical equipment, dialysis-facility-compare-state-averages.csv, 2
+medical equipment, dialysis-facility-compare-state-averages.csv, 3
+medical equipment, genealogical-research-death-index-beginning-1957.csv, 1
+medical equipment, health-coalitions-a-resource-for-community-collaboration.csv, 1
+medical equipment, healthcare-associated-infections-national.csv, 2
+medical equipment, hospital-general-information.csv, 2
+medical equipment, hospital-general-information.csv, 3
+medical equipment, hospital-outcome-of-care-measures-state.csv, 1
+medical equipment, hospital-outcome-of-care-measures-state.csv, 2
+medical equipment, hospital-outcome-of-care-measures-state.csv, 2
+medical equipment, hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv, 1
+medical equipment, hospital-value-based-purchasing-hvbp-heart-failure-scores.csv, 1
+medical equipment, hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv, 2
+medical equipment, measure-dates.csv, 1
+medical equipment, percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv, 1
+medical equipment, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+medical equipment, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv, 1
+medical equipment, preventive-care-measures-national.csv, 1
+medical equipment, samhsa-card-sort-participants-behavioral-health-workforce.csv, 1
+medical equipment, samhsa-card-sort-participants-samhsa-staff.csv, 1
+nursing home costs, environmental-radiation-surveillance-background-site-readings-beginning-2009.csv, 1
+nursing home costs, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+nursing home costs, home-health-care-national-data.csv, 3
+nursing home costs, home-health-care-state-by-state-data.csv, 1
+nursing home costs, home-health-care-state-by-state-data.csv, 3
+nursing home costs, hospital-process-of-care-measures-heart-failure.csv, 1
+nursing home costs, hospital-process-of-care-measures-national-average.csv, 2
+nursing home costs, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 3
+nursing home costs, measure-dates.csv, 1
+nursing home costs, medicare-spending-per-patient-national.csv, 1
+nursing home costs, medicare-spending-per-patient-state.csv, 3
+nursing home costs, medicare-spending-per-patient-state.csv, 3
+nursing home costs, penalties.csv, 1
+nursing home costs, percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv, 1
+nursing home costs, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+nursing home costs, prevention-agenda-partner-contact-information-2013.csv, 1
+nursing home costs, prevention-and-public-health-fund-grants.csv, 2
+nursing home costs, primary-care-and-behavioral-health-care-integration-sites.csv, 1
+nursing home costs, samhsa-card-sort-participants-samhsa-staff.csv, 1
+nursing home costs, state-averages.csv, 1
+nursing home costs, state-averages.csv, 2
+nursing home costs, total-performance-scores.csv, 1
+nutrition, casper-aspen-contacts.csv, 1
+nutrition, complete-qip-data-payment-year-2013.csv, 1
+nutrition, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+nutrition, healthcare-associated-infections-national.csv, 1
+nutrition, home-health-care-hhcahps-state-data.csv, 1
+nutrition, home-health-care-hhcahps.csv, 1
+nutrition, hospital-acs-measures.csv, 1
+nutrition, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+nutrition, hospital-outcome-of-care-measures-national-average.csv, 1
+nutrition, hospital-process-of-care-measures-heart-failure.csv, 1
+nutrition, hospital-process-of-care-measures-national-average.csv, 1
+nutrition, penalties.csv, 1
+nutrition, quality-assurance-reporting-requirements-beginning-2008.csv, 1
+nutrition, samhsa-state-activities.csv, 1
+nutrition, survey-of-patients-hospital-experiences-hcahps-national-average.csv, 1
+nutrition, use-of-medical-imaging-measures-state.csv, 2
+obesity, american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv, 1
+obesity, anemia.csv, 1
+obesity, emergency-department-care-measures-state.csv, 1
+obesity, home-health-care-facilities.csv, 1
+obesity, home-health-care-hhcahps-state-data.csv, 1
+obesity, hospital-acs-measures.csv, 3
+obesity, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+obesity, hospital-medicare-volume-measures-state-average.csv, 1
+obesity, hospital-process-of-care-measures-national-average.csv, 1
+obesity, hospital-process-of-care-measures-national-average.csv, 1
+obesity, hospital-process-of-care-measures-state-average.csv, 1
+obesity, hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv, 4
+obesity, hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv, 1
+obesity, organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv, 1
+obesity, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 2
+obesity, radon-test-results-by-town-beginning-1987.csv, 1
+obesity, state-averages.csv, 2
+obesity, survey-of-patients-hospital-experiences-hcahps-national-average.csv, 1
+obesity, templates.csv, 1
+obesity, use-of-medical-imaging-measures-state.csv, 1
+patient happiness, environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv, 1
+patient happiness, hospital-general-information.csv, 1
+patient happiness, hospital-medicare-volume-measures-national-average.csv, 1
+patient happiness, hospital-process-of-care-measures-pneumonia.csv, 2
+patient happiness, hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv, 1
+patient happiness, managed-care-plan-utilization-data-beginning-2009.csv, 1
+patient happiness, penalties.csv, 1
+patient happiness, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 2
+patient happiness, primary-care-and-behavioral-health-care-integration-sites.csv, 3
+patient happiness, samhsa-card-sort-results-samhsa-staff.csv, 1
+patient happiness, supplier-directory-data.csv, 1
+patient happiness, supplier-directory-data.csv, 1
+physician bonuses, anemia.csv, 1
+physician bonuses, emergency-department-care-measures-national.csv, 1
+physician bonuses, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 1
+physician bonuses, home-health-care-hhcahps.csv, 1
+physician bonuses, hospital-footnote-crosswalk.csv, 1
+physician bonuses, hospital-medicare-volume-measures-national-average.csv, 1
+physician bonuses, hospital-medicare-volume-measures-state-average.csv, 2
+physician bonuses, hospital-process-of-care-measures-childrens-asthma.csv, 1
+physician bonuses, managed-care-plan-utilization-data-beginning-2009.csv, 1
+physician bonuses, medicare-spending-per-patient.csv, 2
+physician bonuses, organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv, 1
+physician bonuses, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv, 1
+physician bonuses, templates.csv, 1
+physician bonuses, use-of-medical-imaging-measures-national.csv, 1
+pneumonia, dialysis-facility-compare-listing-by-facility.csv, 1
+pneumonia, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 1
+pneumonia, health-reform-webinars.csv, 2
+pneumonia, helpful-contacts-agency-list-by-topic.csv, 1
+pneumonia, home-health-care-state-by-state-data.csv, 3
+pneumonia, hospital-process-of-care-measures-pneumonia.csv, 5
+pneumonia, hospital-process-of-care-measures-surgical-care-improvement-project.csv, 1
+pneumonia, medicare-spending-per-patient-national.csv, 1
+pneumonia, provider-info.csv, 1
+pneumonia, samhsa-card-sort-participants-general-public.csv, 1
+prescription drugs, agency-for-healthcare-research-and-quality-state-measures.csv, 1
+prescription drugs, casper-aspen-contacts.csv, 1
+prescription drugs, emergency-department-care-measures.csv, 1
+prescription drugs, food-service-establishment-inspections-beginning-2005-active.csv, 1
+prescription drugs, helpful-contacts-agency-list-by-topic.csv, 1
+prescription drugs, helpful-contacts-question-list-by-organization.csv, 2
+prescription drugs, hospital-acs-measures.csv, 1
+prescription drugs, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv, 1
+prescription drugs, prevention-and-public-health-fund-grants.csv, 1
+prescription drugs, quality-measures.csv, 1
+prescription drugs, samhsa-card-sort-participants-behavioral-health-workforce.csv, 1
+radiation, dialysis-adequacy.csv, 1
+radiation, emergency-department-care-measures-state.csv, 1
+radiation, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 2
+radiation, measure-dates.csv, 1
+radiation, nursing-home-weekly-bed-census-beginning-2009.csv, 1
+radiation, prevention-and-public-health-fund-grants.csv, 1
+radiation, survey-of-patients-hospital-experiences-hcahps-national-average.csv, 1
+smoking, adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv, 1
+smoking, deficiencies.csv, 1
+smoking, emergency-department-care-measures-state.csv, 1
+smoking, helpful-contacts-question-list-by-organization.csv, 2
+smoking, hospital-process-of-care-measures-pneumonia.csv, 1
+smoking, hospital-process-of-care-measures-pneumonia.csv, 4
+smoking, medicare-spending-per-patient.csv, 1
+smoking, ownership.csv, 1
+smoking, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv, 1
+smoking, samhsa-card-sort-results-behavioral-health-workforce.csv, 2
+smoking, samhsa-master-inventory-report.csv, 1
+smoking, survey-of-patients-hospital-experiences-hcahps-state-average.csv, 1
+smoking, use-of-medical-imaging-measures-state.csv, 3
+smoking, use-of-medical-imaging-measures.csv, 1
+state healthcare cost, dialysis-facility-compare-listing-by-facility.csv, 1
+state healthcare cost, dialysis-facility-compare-national-averages.csv, 1
+state healthcare cost, healthcare-associated-infections-national.csv, 1
+state healthcare cost, helpful-contacts-question-list-by-organization.csv, 1
+state healthcare cost, primary-care-and-behavioral-health-care-integration-sites.csv, 2
+state healthcare cost, quality-assurance-reporting-requirements-beginning-2008.csv, 1
+state healthcare cost, radon-test-results-by-county-beginning-1987.csv, 1
+state healthcare cost, radon-test-results-by-county-beginning-1987.csv, 1
+state healthcare cost, samhsa-card-sort-participants-general-public.csv, 2
+state healthcare cost, samhsa-card-sort-participants-samhsa-staff.csv, 2
+state healthcare cost, samhsa-card-sort-results-behavioral-health-workforce.csv, 1
+state healthcare cost, samhsa-publications.csv, 1
+state healthcare cost, spending-breakdown-by-claim.csv, 5
+subbirths in illinois, templates.csv, 1
+substance abuse, agency-for-healthcare-research-and-quality-national-measures.csv, 1
+substance abuse, helpful-contacts-agency-list-by-organization.csv, 2
+substance abuse, penalties.csv, 1
+substance abuse, samhsa-card-sort-participants-samhsa-staff.csv, 1
+substance abuse, samhsa-state-activities.csv, 4
+substance abuse, templates.csv, 1
+substance abuse, use-of-medical-imaging-measures-national.csv, 1
+underweight, complete-qip-data-payment-year-2013.csv, 1
+underweight, dialysis-facility-compare-listing-by-facility.csv, 1
+underweight, emergency-department-care-measures-national.csv, 1
+underweight, healthcare-associated-infections-national.csv, 1
+underweight, healthcare-associated-infections-national.csv, 1
+underweight, home-health-care-facilities.csv, 2
+underweight, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+underweight, hospital-general-information.csv, 1
+underweight, hospital-general-information.csv, 1
+underweight, nursing-home-weekly-bed-census-beginning-2009.csv, 1
+underweight, prevention-and-public-health-fund-grants.csv, 1
+underweight, radon-test-results-by-town-beginning-1987.csv, 1
+underweight, samhsa-card-sort-participants-behavioral-health-workforce.csv, 1
+underweight, samhsa-card-sort-participants-general-public.csv, 1
+underweight, samhsa-card-sort-results-behavioral-health-workforce.csv, 1
+underweight, samhsa-card-sort-results-samhsa-staff.csv, 1
+underweight, samhsa-master-inventory-report.csv, 1
+underweight, samhsa-state-activities.csv, 1
+underweight, spending-breakdown-by-claim.csv, 1
+underweight, state-averages.csv, 1
+underweight, survey-of-patients-hospital-experiences-hcahps-national-average.csv, 1
+vaccination, agency-for-healthcare-research-and-quality-national-measures.csv, 1
+vaccination, american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv, 2
+vaccination, anemia.csv, 1
+vaccination, cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv, 1
+vaccination, emergency-department-care-measures-national.csv, 1
+vaccination, emergency-department-care-measures-national.csv, 1
+vaccination, environmental-radiation-surveillance-background-site-readings-beginning-2009.csv, 1
+vaccination, healthcare-associated-infections-national.csv, 1
+vaccination, home-health-care-facilities.csv, 2
+vaccination, home-health-care-state-by-state-data.csv, 4
+vaccination, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+vaccination, hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv, 1
+vaccination, hospital-footnote-crosswalk.csv, 1
+vaccination, hospital-value-based-purchasing-hvbp-pneumonia-scores.csv, 1
+vaccination, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 1
+vaccination, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv, 1
+vaccination, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv, 1
+vaccination, prevention-and-public-health-fund-grants.csv, 1
+vaccination, prevention-and-public-health-fund-grants.csv, 3
+vaccination, preventive-care-measures-state.csv, 2
+vaccination, preventive-care-measures-state.csv, 5
+vaccination, samhsa-card-sort-participants-general-public.csv, 1
+vaccination, samhsa-card-sort-results-general-public.csv, 1
+vaccination, samhsa-card-sort-results-samhsa-staff.csv, 1
+vaccination, samhsa-card-sort-results-samhsa-staff.csv, 1
+vaccination, samhsa-state-activities.csv, 1
+vaccination, state-averages.csv, 4
