@@ -25,7 +25,7 @@
 				<h3 style="font-size:32">Extending Wikitables</h3>
 			</div>
 
-			<iframe width="700" height="450" src="http://www.youtube.com/embed/GU-RP1NA-ZU" frameborder="0" allowfullscreen></iframe>
+			<iframe width="700" height="450" src="http://www.youtube.com/embed/kCpjgl2baLs" frameborder="0" allowfullscreen></iframe>
 
 			<div class="textContainer">
 				<h2 style="margin-bottom:15px;">Project Synopsis</h2>
@@ -42,14 +42,14 @@
 					</a>
 				 	 as proof-of-concept.
 				</p>
-				<h4 style="margin-top:30px;">Our Solution</h4>
+				<h4 style="margin-top:30px;">High-Level Solution</h4>
 				<p>
 					We have implemented a form of supervised learning for our ranking algorithm, and intend it to work in a manner similar to the current ranking algorithm used in WikiTables.
 				</p>
 				<p>
-					Our features are currently purely quantitative measures that calculate the relationship between the query terms and the terms present in our tables based on varying parameters. Our features include:
+					Our features are currently purely quantitative measures that calculate the relationship between the query terms and the terms present in our tables based on varying parameters (excluding static features). Our features include:
 
-					<ol>
+					<ul>
 						<li>
 							<strong>Query-Title Match</strong>, the relationship between the words in a query term and the title of a table.
 						</li>
@@ -64,13 +64,16 @@
 							<strong>Table Column Number</strong>, the number of columns of a given table - a static feature.
 						</li>
 						<!-- <li><strong><a href="http://en.wikipedia.org/wiki/Okapi_BM25" target="_blank">BM25</strong></a>, a ranking measure for tables based on the query terms appearing in each table, regardless of the inter-relationship/relative proximity between query terms within a table. -->
-					</ol>
-				</p>
-				<p>
-					We will be comparing multiple learning to rank techniques such as AdaRank and Coordinate Ascent, referenced from the
+					</ul>
+					<p>
+						For the learning aspect of this project, we chose to utilize tools from the
 						<a href="http://people.cs.umass.edu/~vdang/ranklib.html" target="_blank">RankLib</a>
-					library (that has been utilized in the development of WikiTables).
+						Library. We will be comparing the various learning algorithms it offers.
 				</p>
+				<h4 style="margin-top:30px;">Data Set</h4>
+				<h4 style="margin-top:30px;">Testing and Training</h4>
+				<h4 style="margin-top:30px;">Key Results</h4>
+
 			</div>
 
 			<div class="footer">
