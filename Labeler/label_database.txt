@@ -319,7 +319,6 @@ common stds america, cardiac-surgery-and-percutaneous-coronary-interventions-by-
 gender, samhsa-card-sort-results-behavioral-health-workforce.csv, 1
 state healthcare cost, samhsa-card-sort-participants-general-public.csv, 2
 als cases, genealogical-research-death-index-beginning-1957.csv, 1
-als cases, professional-medical-conduct-board-actions-beginning-1
 diet, spending-breakdown-by-claim.csv, 1
 diet, home-health-care-hhcahps.csv, 1
 medical equipment, dialysis-facility-compare-state-averages.csv, 3
@@ -669,8 +668,4 @@ hospital deficiencies, samhsa-card-sort-results-behavioral-health-workforce.csv,
 birth weight, home-health-care-hhcahps-state-data.csv, 1
 hypertension, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 2
 gender, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 4
-<<<<<<< HEAD
 obesity, hospital-acs-measures.csv, 3
-=======
-obesity, hospital-acs-measures.csv, 3
->>>>>>> FETCH_HEAD
