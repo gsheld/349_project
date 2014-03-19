@@ -5,7 +5,7 @@ class QueryScore:
 		self.query = query
 		self.score = score
 
-def findRelevantScores(query, qsList):
+def returnRelevantScores(query, qsList):
 	scores = []
 	for item in qsList:
 		if query == item.query:
@@ -38,7 +38,7 @@ for item in currentQueryFile:
 	table = item.split(' # ')[1].strip()
 	if labelMap.has_key(table):
 		queries = labelMap[table]
-		relevantScores = findRelevantScores(str(sys.argv[2]), queries) # Relevant scores for table and query
+		relevantScores = returnRelevantScores(str(sys.argv[2]), queries) # Relevant scores for table and query
 		relevantScoreMap[table] = listProduct(relevantScores)
 
 for w in sorted(relevantScoreMap, key=relevantScoreMap.get, reverse=True):
