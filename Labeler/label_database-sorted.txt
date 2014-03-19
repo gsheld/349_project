@@ -17,7 +17,7 @@ als cases, hospital-value-based-purchasing-hvbp-heart-failure-scores.csv, 1
 als cases, medicare-spending-per-patient-state.csv, 1
 als cases, nursing-home-weekly-bed-census-last-submission.csv, 1
 als cases, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv, 1
-als cases, professional-medical-conduct-board-actions-beginning-1diet, spending-breakdown-by-claim.csv, 1
+als cases, professional-medical-conduct-board-actions-beginning-1
 als cases, templates.csv, 1
 behavioral health, home-health-care-hhcahps.csv, 2
 behavioral health, home-health-care-state-by-state-data.csv, 5
@@ -165,6 +165,7 @@ diet, preventive-care-measures.csv, 1
 diet, preventive-care-measures.csv, 1
 diet, quality-assurance-reporting-requirements-beginning-2008.csv, 1
 diet, radon-test-results-by-county-beginning-1987.csv, 1
+diet, spending-breakdown-by-claim.csv, 1
 diet, spending-breakdown-by-claim.csv, 1
 disability, complete-qip-data-payment-year-2013.csv, 1
 disability, genealogical-research-death-index-beginning-1957.csv, 1
