@@ -132,15 +132,19 @@ public class DocumentParser {
             
                 if (labeledParts[0].equalsIgnoreCase(trackedQuery)) {
                     dataLine = null;
-                    dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName());
-                    dataBufferedWriter.write(dataLine);
+                    if(wordMap.containsKey(singleTable.getName())) {
+                        dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName());
+                        dataBufferedWriter.write(dataLine);
+                    }
                 } 
                 else {
                     trackedQuery = labeledParts[0];
                     qIndex++;
                     dataLine = null;
-                    dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName());
-                    dataBufferedWriter.write(dataLine);
+                    if(wordMap.containsKey(singleTable.getName())) {
+                        dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName());
+                        dataBufferedWriter.write(dataLine);
+                    }
                 }
         }
         qbufferedReader.close();
