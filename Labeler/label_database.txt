@@ -661,3 +661,11 @@ obesity, anemia.csv, 1
 dialysis cost, total-performance-scores.csv, 1
 cancer cases america, hospital-medicare-volume-measures-national-average.csv, 4
 radiation, survey-of-patients-hospital-experiences-hcahps-national-average.csv, 1
+child care, complete-qip-data-payment-year-2013.csv, 4
+heart attack, environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv, 3
+health insurance, measure-dates.csv, 3
+hospital deficiencies, samhsa-card-sort-results-behavioral-health-workforce.csv, 3
+birth weight, home-health-care-hhcahps-state-data.csv, 1
+hypertension, environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv, 2
+gender, prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv, 4
+obesity, hospital-acs-measures.csv, 3
