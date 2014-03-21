@@ -1,5 +1,3 @@
-
-
 var jsonObject =   {
 	'columnNumber': 4,
 	'columnData': {

@@ -19,21 +19,72 @@
 		<div class="container">
 			<div class="header">
 				<ul class="nav nav-pills pull-right">
-					<li class="active"><a href="demo.html">Demonstration</a></li>
+					<!-- <li class="active"><a href="demo.html">Demonstration</a></li> -->
+					<li class="active"><a href="links.html">Deliverables and Links</a></li>
 					<li><a href="about.html">About</a></li>
 				</ul>
-				<h3 style="font-size:29">EECS 349 - Extending Wikitables</h3>
+				<h3 style="font-size:32">Extending Wikitables</h3>
 			</div>
 
-			<iframe width="700" height="450" src="http://www.youtube.com/embed/GU-RP1NA-ZU" frameborder="0" allowfullscreen></iframe>
+			<iframe width="700" height="450" src="http://www.youtube.com/embed/kCpjgl2baLs" frameborder="0" allowfullscreen></iframe>
 
 			<div class="textContainer">
-				<h2> Synopsis </h2>
-				<p> Enter synopsis here </p>
+				<h2 style="margin-bottom:15px;">Project Synopsis</h2>
+				<h4>Motivation for the Problem</h4>
+				<p>
+					There are many reasons we we find this project interesting, but two points in particular stand out:
+					<ol>
+						<li>Table search is a relatively untapped area.</li>
+						<li>Building a table search that queries multiple corpora would significantly enhance the quality of the search results returned.</li>
+					</ol>
+					How many of us have tried searching for a table before this course? We certainly hadn’t. It's not something that easily comes to mind. Google Search is partly to blame for this. However, after hearing about Wikitables, we started to realize how powerful table search could be if done correctly. Wikitables in itself is very impressive, but why limit it to just Wikipedia for its data? There’s an entire web’s worth of data out there! So our project came into being as proof that Wikitables can easily be extended.
+				</p>
+				<h4 style="margin-top:30px;">High-Level Solution</h4>
+				<p>
+					We have implemented a form of supervised learning for our ranking algorithm, and intend it to work in a manner similar to the current ranking algorithm used in WikiTables.
+				</p>
+				<p>
+					Our features are currently purely quantitative measures that calculate the relationship between the query terms and the terms present in our tables based on varying parameters (excluding static features). Our features include:
+
+					<ol>
+						<li>
+							<strong>Query-Title Match</strong>, the relationship between the words in a query term and the title of a table.
+						</li>
+						<li>
+							<strong>Total Term Frequency</strong>, the cumulative disjoint term frequency of all terms in the search query that are present in a particular table.
+						</li>
+						<li>
+							<sup><a class="glyphicon glyphicon-book" href="http://en.wikipedia.org/wiki/Tf%E2%80%93idf" style="color:#D86C70;text-decoration:none;" target="_blank"></a></sup>
+							<strong>TF-IDF</strong>, the relationship between each query term’s frequency in a particular table with how commonly the term occurs across the entire data set.
+						</li>
+						<li>
+							<strong>Table Column Number</strong>, the number of columns of a given table - a static feature.
+						</li>
+						<!-- <li><strong><a href="http://en.wikipedia.org/wiki/Okapi_BM25" target="_blank">BM25</strong></a>, a ranking measure for tables based on the query terms appearing in each table, regardless of the inter-relationship/relative proximity between query terms within a table. -->
+					</ol>
+					<p>
+						For the learning aspect of this project, we chose to utilize tools from the
+						<a href="http://people.cs.umass.edu/~vdang/ranklib.html" target="_blank">RankLib</a>
+						Library. We will be comparing the various learning algorithms it offers on our labled data set.
+				</p>
+				<h4 style="margin-top:30px;">Data Set</h4>
+				<p>
+					We chose to extend Wikitables with tables from
+					<a href="http://www.data.gov/health/" target="_blank">Data.gov’s Health section</a>,
+					because we noticed that Wikitables tends to struggle with health-related queries. We were able to scrape this data using Selenium's web automation tools. In total, we were able to accumualte ~110 quality tables as .csv files. We also came up with 41 queries relevant to health-related table searches.
+				</p>
+				<p>
+					To properly label our dataset, our first thought was to create a website that would allow us to crowd-source the incredible task. Due to networking and time-constraints, however, this never came to be.
+					<a href="../webpage_labeler_defunct/page.html" target="_blank">However, we would like to present to you the prototype model.</a>
+				</p>
+				<img src="prototype.png" style="width:600px;display:block;margin-left:auto;margin-right:auto;">
+				<h4 style="margin-top:30px;">Testing and Training</h4>
+				<h4 style="margin-top:30px;">Key Results</h4>
+
 			</div>
 
 			<div class="footer">
-				<p>Last Modified on March 20, 2014</p>
+				<p>Northwestern University, EECS 349 - Machine Learning, Prof. Doug Downey</p>
 			</div>
 
 		</div> <!-- /container -->
@@ -42,6 +93,4 @@
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-
-
 </body></html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:3 5:0.0 6:0.0  # 'als cases' agency-for-healthcare-research-and-quality-national-measures.csv
 1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:3 5:0.0 6:0.0  # 'als cases' agency-for-healthcare-research-and-quality-national-measures.csv
 1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:4 5:0.0 6:0.0  # 'als cases' casper-aspen-contacts.csv
@@ -661,3 +662,668 @@
 1 qid:42 0:NaN 1:0.0 2:0.0 3:9  # 'vaccination' samhsa-card-sort-results-samhsa-staff.csv
 1 qid:42 0:NaN 1:0.0 2:0.0 3:7  # 'vaccination' samhsa-state-activities.csv
 4 qid:42 0:NaN 1:0.0 2:0.0 3:34  # 'vaccination' state-averages.csv
+=======
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'als cases' agency-for-healthcare-research-and-quality-national-measures.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'als cases' agency-for-healthcare-research-and-quality-national-measures.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'als cases' casper-aspen-contacts.csv
+1 qid:1 0:0.0 1:NaN 2:0.0 3:0.0 4:45 # 'als cases' complete-qip-data-payment-year-2013.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:24 # 'als cases' dialysis-facility-compare-national-averages.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:24 # 'als cases' dialysis-facility-compare-state-averages.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:5 # 'als cases' emergency-department-care-measures-national.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'als cases' environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'als cases' environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'als cases' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+1 qid:1 0:8.062454389688334E-6 1:8.062454389688334E-6 2:1.3605220050829102E-6 3:0.0 4:10 # 'als cases' genealogical-research-death-index-beginning-1957.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:11 # 'als cases' home-health-care-hhcahps-state-data.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'als cases' home-health-care-measure-date-range.csv
+1 qid:1 0:NaN 1:2.826065534929896E-4 2:5.2136284247021716E-5 3:0.0 4:4 # 'als cases' hospital-medicare-volume-measures-state-average.csv
+1 qid:1 0:0.0 1:NaN 2:0.0 3:0.0 4:13 # 'als cases' hospital-value-based-purchasing-hvbp-heart-failure-scores.csv
+1 qid:1 0:0.0 1:NaN 2:0.0 3:0.0 4:13 # 'als cases' hospital-value-based-purchasing-hvbp-heart-failure-scores.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'als cases' medicare-spending-per-patient-state.csv
+1 qid:1 0:0.0 1:NaN 2:0.0 3:0.0 4:20 # 'als cases' nursing-home-weekly-bed-census-last-submission.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'als cases' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv
+1 qid:1 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'als cases' templates.csv
+2 qid:2 0:1.3007175380281762E-5 1:1.3007175380281762E-5 2:2.831878455776678E-6 3:0.5 4:35 # 'behavioral health' home-health-care-hhcahps.csv
+5 qid:2 0:NaN 1:0.029262843894417887 2:0.005847953216374269 3:0.5 4:27 # 'behavioral health' home-health-care-state-by-state-data.csv
+1 qid:2 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'behavioral health' hospital-footnote-crosswalk.csv
+1 qid:2 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'behavioral health' hospital-medicare-volume-measures-national-average.csv
+1 qid:2 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'behavioral health' hospital-medicare-volume-measures-state-average.csv
+1 qid:2 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'behavioral health' hospital-outcome-of-care-measures-national-average.csv
+1 qid:2 0:NaN 1:1.0384619795511172E-4 2:1.1851009113426008E-5 3:0.0 4:34 # 'behavioral health' hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv
+4 qid:2 0:NaN 1:NaN 2:0.0 3:1.0 4:7 # 'behavioral health' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:3 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'birth defects' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+1 qid:3 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'birth defects' helpful-contacts-question-list-by-organization.csv
+1 qid:3 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'birth defects' hospital-medicare-volume-measures-national-average.csv
+1 qid:3 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'birth defects' hospital-process-of-care-measures-national-average.csv
+1 qid:3 0:NaN 1:NaN 2:0.0 3:0.0 4:21 # 'birth defects' hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv
+1 qid:3 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'birth defects' samhsa-card-sort-results-behavioral-health-workforce.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:14 # 'birth weight' dialysis-adequacy.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:14 # 'birth weight' dialysis-adequacy.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:24 # 'birth weight' dialysis-facility-compare-national-averages.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'birth weight' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:21 # 'birth weight' helpful-contacts-agency-list-by-topic.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:11 # 'birth weight' home-health-care-hhcahps-state-data.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:35 # 'birth weight' home-health-care-hhcahps.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:14 # 'birth weight' hospital-general-information.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'birth weight' hospital-medicare-volume-measures-national-average.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:17 # 'birth weight' hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv
+2 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:13 # 'birth weight' hospital-value-based-purchasing-hvbp-heart-failure-scores.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:5 # 'birth weight' measure-dates.csv
+2 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:13 # 'birth weight' medicare-spending-per-patient.csv
+1 qid:4 0:0.0 1:NaN 2:0.0 3:0.0 4:12 # 'birth weight' ownership.csv
+1 qid:4 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'birth weight' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:5 0:NaN 1:3.168851515609696E-4 2:3.168851515609696E-4 3:7.286239935881088E-5 4:0.0 5:14 # 'births in illinois' anemia.csv
+2 qid:5 0:NaN 1:3.168851515609696E-4 2:3.168851515609696E-4 3:7.286239935881088E-5 4:0.0 5:14 # 'births in illinois' anemia.csv
+1 qid:5 0:NaN 1:0.0 2:NaN 3:0.0 4:0.0 5:14 # 'births in illinois' cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv
+1 qid:5 0:NaN 1:0.002455100352897343 2:NaN 3:3.707823507601038E-4 4:0.0 5:14 # 'births in illinois' health-coalitions-a-resource-for-community-collaboration.csv
+1 qid:5 0:NaN 1:2.527370069257398E-4 2:2.527370069257398E-4 3:6.66566681664417E-5 4:0.0 5:22 # 'births in illinois' helpful-contacts-agency-list-by-organization.csv
+1 qid:5 0:NaN 1:0.06265537668011009 2:NaN 3:0.013605442176870748 4:0.0 5:11 # 'births in illinois' home-health-care-hhcahps-state-data.csv
+1 qid:5 0:NaN 1:1.3007175380281762E-5 2:1.3007175380281762E-5 3:2.831878455776678E-6 4:0.0 5:35 # 'births in illinois' home-health-care-hhcahps.csv
+1 qid:5 0:NaN 1:1.787295945822218E-4 2:1.787295945822218E-4 3:3.8808953225509124E-5 4:0.0 5:14 # 'births in illinois' hospital-general-information.csv
+2 qid:5 0:NaN 1:1.787295945822218E-4 2:1.787295945822218E-4 3:3.8808953225509124E-5 4:0.0 5:14 # 'births in illinois' hospital-general-information.csv
+1 qid:5 0:NaN 1:4.7767077914156184E-5 2:4.7767077914156184E-5 3:1.0929260362304982E-5 4:0.0 5:41 # 'births in illinois' hospital-process-of-care-measures-surgical-care-improvement-project.csv
+2 qid:5 0:NaN 1:0.0 2:NaN 3:0.0 4:0.0 5:18 # 'births in illinois' managed-care-plan-utilization-data-beginning-2009.csv
+1 qid:5 0:NaN 1:0.013180216354660549 2:NaN 3:0.0023121387283236996 4:0.0 5:5 # 'births in illinois' measure-dates.csv
+2 qid:5 0:NaN 1:0.01234210807477246 2:NaN 3:0.002785515320334262 4:0.0 5:4 # 'births in illinois' medicare-spending-per-patient-state.csv
+1 qid:5 0:NaN 1:2.6628674138033355E-4 2:2.6628674138033355E-4 3:6.304573968414085E-5 4:0.0 5:13 # 'births in illinois' medicare-spending-per-patient.csv
+1 qid:5 0:NaN 1:0.0 2:0.09671821124092259 3:0.023255813953488372 4:0.3333333333333333 5:7 # 'births in illinois' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:5 0:NaN 1:0.0 2:0.09671821124092259 3:0.023255813953488372 4:0.3333333333333333 5:7 # 'births in illinois' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+2 qid:5 0:NaN 1:0.007447073309690558 2:NaN 3:0.001177856301531213 4:0.0 5:7 # 'births in illinois' primary-care-and-behavioral-health-care-integration-sites.csv
+1 qid:5 0:NaN 1:0.0070976042094526666 2:NaN 3:0.001177856301531213 4:0.0 5:6 # 'births in illinois' samhsa-card-sort-participants-general-public.csv
+1 qid:5 0:NaN 1:0.00909795230110669 2:NaN 3:0.0015003750937734434 4:0.0 5:7 # 'births in illinois' samhsa-card-sort-participants-samhsa-staff.csv
+2 qid:5 0:NaN 1:1.2845046509575098E-4 2:1.2845046509575098E-4 3:2.9873262683067088E-5 4:0.0 5:18 # 'births in illinois' samhsa-publications.csv
+1 qid:5 0:NaN 1:2.261104591389498E-4 2:2.261104591389498E-4 3:5.211251091105697E-5 4:0.0 5:14 # 'births in illinois' total-performance-scores.csv
+1 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:3 # 'cancer cases america' agency-for-healthcare-research-and-quality-national-measures.csv
+1 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:3 # 'cancer cases america' agency-for-healthcare-research-and-quality-national-measures.csv
+1 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:25 # 'cancer cases america' agency-for-healthcare-research-and-quality-state-measures.csv
+1 qid:6 0:NaN 1:NaN 2:1.0842932043108633E-4 3:1.2349338075479154E-5 4:0.0 5:81 # 'cancer cases america' dialysis-facility-compare-listing-by-facility.csv
+1 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:24 # 'cancer cases america' dialysis-facility-compare-national-averages.csv
+1 qid:6 0:NaN 1:0.04736641758242384 2:NaN 3:0.010526315789473684 4:0.0 5:2 # 'cancer cases america' hospital-footnote-crosswalk.csv
+1 qid:6 0:1.787295945822218E-4 1:NaN 2:1.787295945822218E-4 3:3.8808953225509124E-5 4:0.0 5:14 # 'cancer cases america' hospital-general-information.csv
+4 qid:6 0:NaN 1:0.01596119723710277 2:NaN 3:0.0033112582781456954 4:0.0 5:2 # 'cancer cases america' hospital-medicare-volume-measures-national-average.csv
+1 qid:6 0:4.7767077914156184E-5 1:4.7767077914156184E-5 2:4.7767077914156184E-5 3:1.6393890543457472E-5 4:0.0 5:41 # 'cancer cases america' hospital-process-of-care-measures-surgical-care-improvement-project.csv
+1 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:6 # 'cancer cases america' organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv
+1 qid:6 0:6.929032030290561E-6 1:NaN 2:6.929032030290561E-6 3:1.2937338647129561E-6 4:0.0 5:12 # 'cancer cases america' ownership.csv
+1 qid:6 0:NaN 1:5.309407519317223E-4 2:NaN 3:8.518976019082506E-5 4:0.0 5:16 # 'cancer cases america' percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv
+1 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'cancer cases america' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+2 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:15 # 'cancer cases america' prevention-and-public-health-fund-grants.csv
+2 qid:6 0:NaN 1:NaN 2:0.0 3:0.0 4:0.0 5:7 # 'cancer cases america' primary-care-and-behavioral-health-care-integration-sites.csv
+2 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:11 # 'cancer cases america' radon-test-results-by-county-beginning-1987.csv
+1 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:6 # 'cancer cases america' samhsa-card-sort-participants-general-public.csv
+1 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'cancer cases america' samhsa-card-sort-participants-samhsa-staff.csv
+1 qid:6 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'cancer cases america' samhsa-card-sort-participants-samhsa-staff.csv
+1 qid:6 0:NaN 1:NaN 2:8.737363245128249E-4 3:1.1596892032935173E-4 4:0.0 5:15 # 'cancer cases america' samhsa-master-inventory-report.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:25 # 'child care' agency-for-healthcare-research-and-quality-state-measures.csv
+4 qid:7 0:0.0 1:1.4928287255868203E-4 2:1.7152364453439908E-5 3:0.0 4:45 # 'child care' complete-qip-data-payment-year-2013.csv
+1 qid:7 0:1.0819810727174512E-6 1:1.0819810727174512E-6 2:2.1600598984609843E-7 3:0.0 4:19 # 'child care' deficiencies.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.5 4:5 # 'child care' emergency-department-care-measures-state.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'child care' environmental-radiation-surveillance-background-site-readings-beginning-2009.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'child care' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'child care' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'child care' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'child care' healthcare-associated-infections-state-measures.csv
+1 qid:7 0:2.527370069257398E-4 1:2.527370069257398E-4 2:6.66566681664417E-5 3:0.0 4:22 # 'child care' helpful-contacts-agency-list-by-organization.csv
+1 qid:7 0:0.0 1:1.787295945822218E-4 2:1.9404476612754562E-5 3:0.0 4:14 # 'child care' hospital-general-information.csv
+1 qid:7 0:0.0 1:5.195728397441493E-6 2:6.106474939637495E-7 3:0.0 4:13 # 'child care' hospital-medicare-volume-measures.csv
+1 qid:7 0:0.0 1:5.195728397441493E-6 2:6.106474939637495E-7 3:0.0 4:13 # 'child care' hospital-medicare-volume-measures.csv
+1 qid:7 0:0.0 1:1.3896847622219826E-4 2:1.591989110794482E-5 3:0.5 4:19 # 'child care' hospital-process-of-care-measures-heart-failure.csv
+1 qid:7 0:0.0 1:0.0034993585746631063 2:6.238303181534623E-4 3:0.5 4:4 # 'child care' hospital-process-of-care-measures-national-average.csv
+1 qid:7 0:6.929032030290561E-6 1:6.929032030290561E-6 2:1.2937338647129561E-6 3:0.0 4:12 # 'child care' ownership.csv
+1 qid:7 0:0.0 1:1.5915495587724306E-4 2:1.7712281696128096E-5 3:0.0 4:13 # 'child care' penalties.csv
+1 qid:7 0:0.0 1:1.5915495587724306E-4 2:1.7712281696128096E-5 3:0.0 4:13 # 'child care' penalties.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'child care' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv
+1 qid:7 0:NaN 1:0.0 2:0.0 3:0.0 4:7 # 'child care' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv
+1 qid:7 0:0.0 1:0.00909795230110669 2:0.0015003750937734434 3:0.0 4:7 # 'child care' samhsa-card-sort-participants-samhsa-staff.csv
+1 qid:7 0:1.2845046509575098E-4 1:1.2845046509575098E-4 2:2.9873262683067088E-5 3:0.0 4:18 # 'child care' samhsa-publications.csv
+1 qid:7 0:0.0 1:1.738211529866139E-5 2:2.224830217644016E-6 3:0.0 4:11 # 'child care' spending-breakdown-by-claim.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'child care' templates.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'child care' use-of-medical-imaging-measures-national.csv
+1 qid:7 0:NaN 1:NaN 2:0.0 3:0.0 4:8 # 'child care' use-of-medical-imaging-measures-state.csv
+1 qid:8 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:14 # 'common stds america' cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv
+1 qid:8 0:1.3007175380281762E-5 1:NaN 2:1.3007175380281762E-5 3:2.831878455776678E-6 4:0.0 5:35 # 'common stds america' home-health-care-hhcahps.csv
+1 qid:8 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:27 # 'common stds america' home-health-care-state-by-state-data.csv
+1 qid:8 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:37 # 'common stds america' hospital-outcome-of-care-measures-state.csv
+2 qid:8 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'common stds america' hospital-process-of-care-measures-national-average.csv
+1 qid:8 0:0.0 1:NaN 2:NaN 3:0.0 4:0.0 5:20 # 'common stds america' nursing-home-weekly-bed-census-last-submission.csv
+1 qid:8 0:0.0 1:NaN 2:NaN 3:0.0 4:0.0 5:20 # 'common stds america' nursing-home-weekly-bed-census-last-submission.csv
+2 qid:8 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'common stds america' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a.csv
+1 qid:8 0:1.2845046509575098E-4 1:1.2845046509575098E-4 2:1.2845046509575098E-4 3:4.480989402460063E-5 4:0.0 5:18 # 'common stds america' samhsa-publications.csv
+1 qid:8 0:1.2845046509575098E-4 1:1.2845046509575098E-4 2:1.2845046509575098E-4 3:4.480989402460063E-5 4:0.0 5:18 # 'common stds america' samhsa-publications.csv
+2 qid:8 0:1.2845046509575098E-4 1:1.2845046509575098E-4 2:1.2845046509575098E-4 3:4.480989402460063E-5 4:0.0 5:18 # 'common stds america' samhsa-publications.csv
+1 qid:8 0:NaN 1:NaN 2:0.0 3:0.0 4:0.0 5:7 # 'common stds america' samhsa-state-activities.csv
+1 qid:8 0:2.419959931793765E-6 1:NaN 2:2.419959931793765E-6 3:4.7624564131059466E-7 4:0.0 5:122 # 'common stds america' supplier-directory-data.csv
+1 qid:8 0:2.261104591389498E-4 1:NaN 2:2.261104591389498E-4 3:5.211251091105697E-5 4:0.0 5:14 # 'common stds america' total-performance-scores.csv
+3 qid:9 0:3.158431538068339E-4 1:0.0 2:3.631279844581223E-5 3:0.5 4:14 # 'dialysis cost' dialysis-adequacy.csv
+1 qid:9 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'dialysis cost' healthcare-associated-infections-national.csv
+1 qid:9 0:0.010565011041071933 1:0.0 2:0.0017793594306049821 3:0.0 4:3 # 'dialysis cost' helpful-contacts-question-list-by-organization.csv
+2 qid:9 0:NaN 1:0.0 2:0.0 3:0.0 4:67 # 'dialysis cost' home-health-care-facilities.csv
+1 qid:9 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'dialysis cost' hospital-outcome-of-care-measures-national-average.csv
+1 qid:9 0:NaN 1:0.0 2:0.0 3:0.0 4:16 # 'dialysis cost' hospital-process-of-care-measures-pneumonia.csv
+1 qid:9 0:NaN 1:0.0 2:0.0 3:0.0 4:21 # 'dialysis cost' hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv
+1 qid:9 0:NaN 1:NaN 2:0.0 3:0.0 4:16 # 'dialysis cost' percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv
+1 qid:9 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'dialysis cost' preventive-care-measures-national.csv
+1 qid:9 0:NaN 1:0.0 2:0.0 3:0.0 4:3 # 'dialysis cost' samhsa-store-taxonomy.csv
+1 qid:9 0:NaN 1:NaN 2:0.0 3:0.0 4:34 # 'dialysis cost' state-averages.csv
+2 qid:9 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'dialysis cost' survey-of-patients-hospital-experiences-hcahps-national-average.csv
+1 qid:9 0:2.261104591389498E-4 1:0.0 2:2.6056255455528485E-5 3:0.0 4:14 # 'dialysis cost' total-performance-scores.csv
+1 qid:9 0:2.261104591389498E-4 1:0.0 2:2.6056255455528485E-5 3:0.0 4:14 # 'dialysis cost' total-performance-scores.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:14 # 'diet' anemia.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:4 # 'diet' casper-aspen-contacts.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:14 # 'diet' dialysis-adequacy.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:24 # 'diet' dialysis-facility-compare-state-averages.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:5 # 'diet' emergency-department-care-measures-national.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:5 # 'diet' emergency-department-care-measures-state.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:10 # 'diet' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+3 qid:10 0:NaN 1:0.0 2:0.0 3:5 # 'diet' health-reform-webinars.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:22 # 'diet' helpful-contacts-agency-list-by-organization.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:11 # 'diet' home-health-care-hhcahps-state-data.csv
+1 qid:10 0:0.0 1:0.0 2:0.0 3:35 # 'diet' home-health-care-hhcahps.csv
+1 qid:10 0:0.0 1:0.0 2:0.0 3:35 # 'diet' home-health-care-hhcahps.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:7 # 'diet' hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv
+1 qid:10 0:0.0 1:0.0 2:0.0 3:21 # 'diet' hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv
+1 qid:10 0:0.0 1:0.0 2:0.0 3:10 # 'diet' prevention-agenda-partner-contact-information-2013.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:4 # 'diet' preventive-care-measures-national.csv
+1 qid:10 0:0.0 1:0.0 2:0.0 3:14 # 'diet' preventive-care-measures.csv
+1 qid:10 0:0.0 1:0.0 2:0.0 3:14 # 'diet' preventive-care-measures.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:19 # 'diet' quality-assurance-reporting-requirements-beginning-2008.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:11 # 'diet' radon-test-results-by-county-beginning-1987.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:11 # 'diet' spending-breakdown-by-claim.csv
+1 qid:10 0:NaN 1:0.0 2:0.0 3:11 # 'diet' spending-breakdown-by-claim.csv
+1 qid:11 0:NaN 1:0.0 2:0.0 3:45 # 'disability' complete-qip-data-payment-year-2013.csv
+1 qid:11 0:NaN 1:0.0 2:0.0 3:10 # 'disability' genealogical-research-death-index-beginning-1957.csv
+2 qid:11 0:NaN 1:0.0 2:0.0 3:2 # 'disability' home-health-care-measure-date-range.csv
+1 qid:11 0:NaN 1:0.0 2:0.0 3:2 # 'disability' hospital-footnote-crosswalk.csv
+1 qid:11 0:NaN 1:0.0 2:0.0 3:3 # 'disability' hospital-outcome-of-care-measures-national-average.csv
+1 qid:11 0:NaN 1:0.0 2:0.0 3:37 # 'disability' hospital-outcome-of-care-measures-state.csv
+1 qid:11 0:NaN 1:0.0 2:0.0 3:47 # 'disability' hospital-process-of-care-measures-state-average.csv
+1 qid:11 0:NaN 1:0.0 2:0.0 3:29 # 'disability' hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv
+2 qid:11 0:NaN 1:0.0 2:0.0 3:7 # 'disability' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:11 0:NaN 1:0.0 2:0.0 3:11 # 'disability' radon-test-results-by-town-beginning-1987.csv
+2 qid:11 0:NaN 1:0.0 2:0.0 3:33 # 'disability' survey-of-patients-hospital-experiences-hcahps-state-average.csv
+1 qid:11 0:NaN 1:0.0 2:0.0 3:7 # 'disability' templates-431b4.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'drug license' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:14 # 'drug license' health-coalitions-a-resource-for-community-collaboration.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'drug license' healthcare-associated-infections-state-measures.csv
+2 qid:12 0:1.6096958021911568E-4 1:NaN 2:2.141258846075608E-5 3:0.0 4:21 # 'drug license' helpful-contacts-agency-list-by-topic.csv
+1 qid:12 0:0.0 1:NaN 2:0.0 3:0.0 4:67 # 'drug license' home-health-care-facilities.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:14 # 'drug license' hospital-general-information.csv
+1 qid:12 0:0.01596119723710277 1:NaN 2:0.0033112582781456954 3:0.0 4:2 # 'drug license' hospital-medicare-volume-measures-national-average.csv
+1 qid:12 0:0.01596119723710277 1:NaN 2:0.0033112582781456954 3:0.0 4:2 # 'drug license' hospital-medicare-volume-measures-national-average.csv
+1 qid:12 0:0.01596119723710277 1:NaN 2:0.0033112582781456954 3:0.0 4:2 # 'drug license' hospital-medicare-volume-measures-national-average.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'drug license' hospital-outcome-of-care-measures-national-average.csv
+5 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:13 # 'drug license' hospital-value-based-purchasing-hvbp-heart-failure-scores.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:34 # 'drug license' hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:21 # 'drug license' hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:5 # 'drug license' measure-dates.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'drug license' medicare-spending-per-patient-state.csv
+2 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:13 # 'drug license' penalties.csv
+2 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:13 # 'drug license' penalties.csv
+1 qid:12 0:NaN 1:NaN 2:0.0 3:0.0 4:15 # 'drug license' prevention-and-public-health-fund-grants.csv
+3 qid:12 0:1.0458942663008605E-4 1:NaN 2:1.676038515365083E-5 3:0.0 4:7 # 'drug license' samhsa-card-sort-results-general-public.csv
+1 qid:12 0:0.003937362413521857 1:0.0 2:5.323396326856535E-4 3:0.0 4:3 # 'drug license' samhsa-store-taxonomy.csv
+1 qid:12 0:0.003937362413521857 1:0.0 2:5.323396326856535E-4 3:0.0 4:3 # 'drug license' samhsa-store-taxonomy.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.3333333333333333 5:25 # 'family healthcare cost' agency-for-healthcare-research-and-quality-state-measures.csv
+2 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.3333333333333333 5:25 # 'family healthcare cost' agency-for-healthcare-research-and-quality-state-measures.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:10 # 'family healthcare cost' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:10 # 'family healthcare cost' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:13 0:8.062454389688334E-6 1:NaN 2:8.062454389688334E-6 3:1.3605220050829102E-6 4:0.0 5:10 # 'family healthcare cost' genealogical-research-death-index-beginning-1957.csv
+2 qid:13 0:1.6096958021911568E-4 1:1.6096958021911568E-4 2:1.6096958021911568E-4 3:6.423776538226824E-5 4:0.0 5:21 # 'family healthcare cost' helpful-contacts-agency-list-by-topic.csv
+2 qid:13 0:1.3007175380281762E-5 1:1.3007175380281762E-5 2:0.0 3:2.831878455776678E-6 4:0.0 5:35 # 'family healthcare cost' home-health-care-hhcahps.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:11 # 'family healthcare cost' hospital-acs-measures.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:2 # 'family healthcare cost' hospital-footnote-crosswalk.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:2 # 'family healthcare cost' hospital-medicare-volume-measures-national-average.csv
+2 qid:13 0:NaN 1:0.00529072859666797 2:0.0 3:8.51063829787234E-4 4:0.0 5:19 # 'family healthcare cost' hospital-process-of-care-measures-childrens-asthma.csv
+3 qid:13 0:3.6782907338406766E-6 1:3.6782907338406766E-6 2:NaN 3:9.439775295588864E-7 4:0.0 5:48 # 'family healthcare cost' nursing-home-weekly-bed-census-beginning-2009.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'family healthcare cost' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'family healthcare cost' preventive-care-measures-national.csv
+1 qid:13 0:1.708244736972896E-6 1:1.708244736972896E-6 2:0.0 3:3.42063711418634E-7 4:0.0 5:23 # 'family healthcare cost' quality-measures.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:6 # 'family healthcare cost' samhsa-card-sort-participants-general-public.csv
+1 qid:13 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'family healthcare cost' samhsa-card-sort-results-behavioral-health-workforce.csv
+1 qid:13 0:0.003937362413521857 1:NaN 2:0.0 3:5.323396326856535E-4 4:0.0 5:3 # 'family healthcare cost' samhsa-store-taxonomy.csv
+1 qid:13 0:1.738211529866139E-5 1:1.738211529866139E-5 2:0.0 3:4.449660435288032E-6 4:0.0 5:11 # 'family healthcare cost' spending-breakdown-by-claim.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:10 # 'gender' environmental-radiation-surveillance-background-site-readings-beginning-2009.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:7 # 'gender' environmental-radiation-surveillance-gamma-radiation-readings-beginning-1995.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:10 # 'gender' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:14 # 'gender' health-coalitions-a-resource-for-community-collaboration.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:35 # 'gender' home-health-care-hhcahps.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:13 # 'gender' hospital-value-based-purchasing-hvbp-heart-failure-scores.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:34 # 'gender' hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:4 # 'gender' medicare-spending-per-patient-national.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:4 # 'gender' medicare-spending-per-patient-national.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:16 # 'gender' percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv
+4 qid:14 0:NaN 1:0.0 2:0.0 3:7 # 'gender' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:14 0:0.0 1:0.0 2:0.0 3:10 # 'gender' prevention-agenda-partner-contact-information-2013.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:4 # 'gender' preventive-care-measures-national.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:4 # 'gender' preventive-care-measures-national.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:4 # 'gender' preventive-care-measures-national.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:80 # 'gender' provider-info.csv
+1 qid:14 0:NaN 1:0.0 2:0.0 3:7 # 'gender' samhsa-card-sort-results-behavioral-health-workforce.csv
+2 qid:15 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'health insurance' agency-for-healthcare-research-and-quality-national-measures.csv
+2 qid:15 0:1.0819810727174512E-6 1:NaN 2:1.0800299492304921E-7 3:0.0 4:19 # 'health insurance' deficiencies.csv
+1 qid:15 0:NaN 1:NaN 2:0.0 3:0.0 4:5 # 'health insurance' emergency-department-care-measures-state.csv
+1 qid:15 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'health insurance' environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv
+1 qid:15 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'health insurance' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:15 0:2.4869634345332987E-4 1:NaN 2:2.8388525358050276E-5 3:0.0 4:17 # 'health insurance' hospital-value-based-purchasing-hvbp-pneumonia-scores.csv
+1 qid:15 0:2.0177032495173725E-4 1:NaN 2:2.303112656755605E-5 3:0.0 4:21 # 'health insurance' hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv
+1 qid:15 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'health insurance' map-points-location-by-separate-latitutde-longitude-columns.csv
+3 qid:15 0:NaN 1:NaN 2:0.0 3:0.0 4:5 # 'health insurance' measure-dates.csv
+1 qid:15 0:6.566550711185633E-4 1:NaN 2:8.670394936489357E-5 3:0.0 4:20 # 'health insurance' nursing-home-weekly-bed-census-last-submission.csv
+2 qid:15 0:1.6556666134227486E-5 1:1.6556666134227486E-5 2:5.497405224733926E-6 3:0.0 4:19 # 'health insurance' quality-assurance-reporting-requirements-beginning-2008.csv
+1 qid:15 0:0.0070976042094526666 1:0.0070976042094526666 2:0.002355712603062426 3:0.0 4:6 # 'health insurance' samhsa-card-sort-participants-general-public.csv
+1 qid:15 0:1.710011190685805E-4 1:1.710011190685805E-4 2:5.463659832538826E-5 3:0.0 4:9 # 'health insurance' samhsa-card-sort-results-samhsa-staff.csv
+1 qid:15 0:1.2845046509575098E-4 1:1.2845046509575098E-4 2:2.9873262683067088E-5 3:0.0 4:18 # 'health insurance' samhsa-publications.csv
+1 qid:15 0:2.419959931793765E-6 1:2.419959931793765E-6 2:4.7624564131059466E-7 3:0.0 4:122 # 'health insurance' supplier-directory-data.csv
+1 qid:15 0:2.261104591389498E-4 1:NaN 2:2.6056255455528485E-5 3:0.0 4:14 # 'health insurance' total-performance-scores.csv
+2 qid:16 0:0.10682297987787612 1:NaN 2:NaN 3:0.02531645569620253 4:0.0 5:6 # 'health professional shortage' adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv
+1 qid:16 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:25 # 'health professional shortage' agency-for-healthcare-research-and-quality-state-measures.csv
+1 qid:16 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:24 # 'health professional shortage' dialysis-facility-compare-state-averages.csv
+1 qid:16 0:0.002455100352897343 1:NaN 2:NaN 3:3.707823507601038E-4 4:0.3333333333333333 5:14 # 'health professional shortage' health-coalitions-a-resource-for-community-collaboration.csv
+2 qid:16 0:0.002455100352897343 1:NaN 2:NaN 3:3.707823507601038E-4 4:0.3333333333333333 5:14 # 'health professional shortage' health-coalitions-a-resource-for-community-collaboration.csv
+2 qid:16 0:2.527370069257398E-4 1:2.527370069257398E-4 2:NaN 3:6.66566681664417E-5 4:0.0 5:22 # 'health professional shortage' helpful-contacts-agency-list-by-organization.csv
+1 qid:16 0:1.787295945822218E-4 1:1.787295945822218E-4 2:NaN 3:3.8808953225509124E-5 4:0.0 5:14 # 'health professional shortage' hospital-general-information.csv
+1 qid:16 0:5.195728397441493E-6 1:5.195728397441493E-6 2:NaN 3:1.221294987927499E-6 4:0.0 5:13 # 'health professional shortage' hospital-medicare-volume-measures.csv
+2 qid:16 0:0.00529072859666797 1:NaN 2:NaN 3:8.51063829787234E-4 4:0.0 5:19 # 'health professional shortage' hospital-process-of-care-measures-childrens-asthma.csv
+2 qid:16 0:4.7767077914156184E-5 1:4.7767077914156184E-5 2:NaN 3:1.0929260362304982E-5 4:0.0 5:41 # 'health professional shortage' hospital-process-of-care-measures-surgical-care-improvement-project.csv
+1 qid:16 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:5 # 'health professional shortage' measure-dates.csv
+1 qid:16 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:5 # 'health professional shortage' measure-dates.csv
+1 qid:16 0:8.12736876731981E-5 1:NaN 2:NaN 3:9.319013116510961E-6 4:0.0 5:14 # 'health professional shortage' preventive-care-measures.csv
+1 qid:16 0:0.007447073309690558 1:NaN 2:NaN 3:0.001177856301531213 4:0.3333333333333333 5:7 # 'health professional shortage' primary-care-and-behavioral-health-care-integration-sites.csv
+1 qid:16 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:11 # 'health professional shortage' radon-test-results-by-county-beginning-1987.csv
+1 qid:16 0:0.00909795230110669 1:0.0 2:NaN 3:0.0015003750937734434 4:0.0 5:7 # 'health professional shortage' samhsa-card-sort-participants-samhsa-staff.csv
+2 qid:16 0:1.0458942663008605E-4 1:0.0 2:NaN 3:1.676038515365083E-5 4:0.0 5:7 # 'health professional shortage' samhsa-card-sort-results-general-public.csv
+1 qid:16 0:2.419959931793765E-6 1:2.419959931793765E-6 2:NaN 3:4.7624564131059466E-7 4:0.0 5:122 # 'health professional shortage' supplier-directory-data.csv
+3 qid:16 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:33 # 'health professional shortage' survey-of-patients-hospital-experiences-hcahps-state-average.csv
+1 qid:16 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'health professional shortage' templates.csv
+3 qid:17 0:NaN 1:NaN 2:0.10682297987787612 3:0.02531645569620253 4:0.0 5:6 # 'healthcare by state' adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv
+2 qid:17 0:NaN 1:NaN 2:NaN 3:0.0 4:0.3333333333333333 5:3 # 'healthcare by state' agency-for-healthcare-research-and-quality-national-measures.csv
+1 qid:17 0:0.00321379903192496 1:0.0 2:0.00321379903192496 3:0.0010259040779687098 4:0.0 5:8 # 'healthcare by state' american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv
+2 qid:17 0:1.0819810727174512E-6 1:1.0819810727174512E-6 2:1.0819810727174512E-6 3:3.2400898476914765E-7 4:0.0 5:19 # 'healthcare by state' deficiencies.csv
+1 qid:17 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:24 # 'healthcare by state' dialysis-facility-compare-national-averages.csv
+2 qid:17 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:5 # 'healthcare by state' emergency-department-care-measures-national.csv
+1 qid:17 0:1.5188151810622697E-6 1:1.5188151810622697E-6 2:1.5188151810622697E-6 3:4.380859673617193E-7 4:0.0 5:31 # 'healthcare by state' food-service-establishment-inspections-beginning-2005-inactive.csv
+1 qid:17 0:2.527370069257398E-4 1:0.0 2:2.527370069257398E-4 3:6.66566681664417E-5 4:0.3333333333333333 5:22 # 'healthcare by state' helpful-contacts-agency-list-by-organization.csv
+2 qid:17 0:NaN 1:0.0 2:0.0061465933734500015 3:0.001145475372279496 4:0.0 5:11 # 'healthcare by state' hospital-acs-measures.csv
+1 qid:17 0:3.920096027580079E-5 1:3.920096027580079E-5 2:3.920096027580079E-5 3:1.3482328038523507E-5 4:0.0 5:12 # 'healthcare by state' hospital-structural-measures-cardiac-surgery-registry.csv
+3 qid:17 0:2.1543245450737796E-4 1:0.0 2:2.1543245450737796E-4 3:4.9182948271834155E-5 4:0.0 5:17 # 'healthcare by state' hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv
+1 qid:17 0:6.566550711185633E-4 1:6.566550711185633E-4 2:6.566550711185633E-4 3:2.601118480946807E-4 4:0.0 5:20 # 'healthcare by state' nursing-home-weekly-bed-census-last-submission.csv
+1 qid:17 0:1.708244736972896E-6 1:1.708244736972896E-6 2:1.708244736972896E-6 3:5.13095567127951E-7 4:0.0 5:23 # 'healthcare by state' quality-measures.csv
+1 qid:17 0:NaN 1:0.00909795230110669 2:NaN 3:0.0015003750937734434 4:0.0 5:7 # 'healthcare by state' samhsa-card-sort-participants-samhsa-staff.csv
+1 qid:17 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'healthcare by state' templates-431b4.csv
+2 qid:17 0:2.261104591389498E-4 1:2.261104591389498E-4 2:2.261104591389498E-4 3:7.816876636658545E-5 4:0.0 5:14 # 'healthcare by state' total-performance-scores.csv
+1 qid:18 0:0.00321379903192496 1:NaN 2:5.129520389843549E-4 3:0.0 4:8 # 'heart attack' american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv
+2 qid:18 0:0.00321379903192496 1:NaN 2:5.129520389843549E-4 3:0.0 4:8 # 'heart attack' american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv
+1 qid:18 0:3.168851515609696E-4 1:NaN 2:3.643119967940544E-5 3:0.0 4:14 # 'heart attack' anemia.csv
+1 qid:18 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'heart attack' environmental-radiation-surveillance-background-site-readings-beginning-2009.csv
+3 qid:18 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'heart attack' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:18 0:8.062454389688334E-6 1:NaN 2:6.802610025414551E-7 3:0.0 4:10 # 'heart attack' genealogical-research-death-index-beginning-1957.csv
+1 qid:18 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'heart attack' healthcare-associated-infections-state-measures.csv
+3 qid:18 0:1.4636300875060794E-5 1:NaN 2:1.5927510713241892E-6 3:0.0 4:67 # 'heart attack' home-health-care-facilities.csv
+1 qid:18 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'heart attack' hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv
+1 qid:18 0:NaN 1:NaN 2:0.0 3:0.0 4:48 # 'heart attack' nursing-home-weekly-bed-census-beginning-2009.csv
+3 qid:18 0:NaN 1:NaN 2:0.0 3:0.0 4:16 # 'heart attack' percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv
+1 qid:18 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'heart attack' samhsa-card-sort-participants-samhsa-staff.csv
+1 qid:18 0:NaN 1:NaN 2:0.0 3:0.0 4:15 # 'heart attack' samhsa-master-inventory-report.csv
+1 qid:18 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'heart attack' samhsa-state-activities.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'hiv cases' casper-aspen-contacts.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:81 # 'hiv cases' dialysis-facility-compare-listing-by-facility.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'hiv cases' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'hiv cases' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'hiv cases' healthcare-associated-infections-national.csv
+2 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'hiv cases' healthcare-associated-infections-national.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:35 # 'hiv cases' home-health-care-hhcahps.csv
+3 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:27 # 'hiv cases' home-health-care-state-by-state-data.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:14 # 'hiv cases' hospital-general-information.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'hiv cases' hospital-outcome-of-care-measures-national-average.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:47 # 'hiv cases' hospital-process-of-care-measures-state-average.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:17 # 'hiv cases' hospital-value-based-purchasing-hvbp-pneumonia-scores.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:18 # 'hiv cases' managed-care-plan-utilization-data-beginning-2009.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:6 # 'hiv cases' organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:13 # 'hiv cases' penalties.csv
+1 qid:19 0:1.4456440405329933E-4 1:NaN 2:1.839469496997066E-5 3:0.0 4:10 # 'hiv cases' prevention-agenda-partner-contact-information-2013.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:6 # 'hiv cases' samhsa-card-sort-participants-general-public.csv
+1 qid:19 0:8.737363245128249E-4 1:NaN 2:1.1596892032935173E-4 3:0.0 4:15 # 'hiv cases' samhsa-master-inventory-report.csv
+1 qid:19 0:1.2845046509575098E-4 1:1.2845046509575098E-4 2:2.9873262683067088E-5 3:0.0 4:18 # 'hiv cases' samhsa-publications.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'hiv cases' templates.csv
+1 qid:19 0:NaN 1:NaN 2:0.0 3:0.0 4:8 # 'hiv cases' use-of-medical-imaging-measures-state.csv
+1 qid:20 0:NaN 1:NaN 2:0.0 3:0.0 4:6 # 'hospital cost' adults-aged-1864-years-who-have-annual-family-incomes-between-133-and-399-percent-of-feder.csv
+1 qid:20 0:NaN 1:NaN 2:0.0 3:0.0 4:5 # 'hospital cost' emergency-department-care-measures-national.csv
+1 qid:20 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'hospital cost' environmental-radiation-surveillance-gamma-radiation-readings-beginning-1995.csv
+1 qid:20 0:2.527370069257398E-4 1:2.527370069257398E-4 2:6.66566681664417E-5 3:0.0 4:22 # 'hospital cost' helpful-contacts-agency-list-by-organization.csv
+2 qid:20 0:1.6096958021911568E-4 1:1.6096958021911568E-4 2:4.282517692151216E-5 3:0.0 4:21 # 'hospital cost' helpful-contacts-agency-list-by-topic.csv
+1 qid:20 0:0.010565011041071933 1:0.0 2:0.0017793594306049821 3:0.0 4:3 # 'hospital cost' helpful-contacts-question-list-by-organization.csv
+1 qid:20 0:0.010565011041071933 1:0.0 2:0.0017793594306049821 3:0.0 4:3 # 'hospital cost' helpful-contacts-question-list-by-organization.csv
+1 qid:20 0:1.4636300875060794E-5 1:0.0 2:1.5927510713241892E-6 3:0.0 4:67 # 'hospital cost' home-health-care-facilities.csv
+1 qid:20 0:0.0 1:NaN 2:0.0 3:0.0 4:27 # 'hospital cost' home-health-care-national-data.csv
+2 qid:20 0:5.195728397441493E-6 1:0.0 2:6.106474939637495E-7 3:0.5 4:13 # 'hospital cost' hospital-medicare-volume-measures.csv
+1 qid:20 0:0.09447770504617098 1:NaN 2:0.027777777777777776 3:0.5 4:3 # 'hospital cost' hospital-outcome-of-care-measures-national-average.csv
+5 qid:20 0:1.7886093007329218E-4 1:0.0 2:2.0489494011945375E-5 3:0.5 4:16 # 'hospital cost' hospital-process-of-care-measures-pneumonia.csv
+2 qid:20 0:2.4869634345332987E-4 1:0.0 2:2.8388525358050276E-5 3:0.5 4:17 # 'hospital cost' hospital-value-based-purchasing-hvbp-pneumonia-scores.csv
+2 qid:20 0:4.6445816178401035E-4 1:0.0 2:5.301664722722935E-5 3:0.5 4:15 # 'hospital cost' hospital-value-based-purchasing-hvbp-total-performance-scores.csv
+1 qid:20 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'hospital cost' map-points-location-by-separate-latitutde-longitude-columns.csv
+3 qid:20 0:5.309407519317223E-4 1:NaN 2:8.518976019082506E-5 3:0.0 4:16 # 'hospital cost' percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv
+1 qid:20 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'hospital cost' preventive-care-measures-national.csv
+1 qid:20 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'hospital cost' preventive-care-measures-state.csv
+1 qid:20 0:8.737363245128249E-4 1:8.737363245128249E-4 2:2.3193784065870347E-4 3:0.0 4:15 # 'hospital cost' samhsa-master-inventory-report.csv
+1 qid:20 0:NaN 1:NaN 2:0.0 3:0.0 4:8 # 'hospital cost' use-of-medical-imaging-measures-state.csv
+1 qid:21 0:0.00321379903192496 1:NaN 2:5.129520389843549E-4 3:0.0 4:8 # 'hospital deficiencies' american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv
+1 qid:21 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'hospital deficiencies' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+4 qid:21 0:1.3896847622219826E-4 1:NaN 2:1.591989110794482E-5 3:0.5 4:19 # 'hospital deficiencies' hospital-process-of-care-measures-heart-failure.csv
+3 qid:21 0:2.1543245450737796E-4 1:NaN 2:2.4591474135917077E-5 3:0.5 4:17 # 'hospital deficiencies' hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv
+2 qid:21 0:0.0 1:NaN 2:0.0 3:0.0 4:18 # 'hospital deficiencies' managed-care-plan-utilization-data-beginning-2009.csv
+1 qid:21 0:0.34255646754262437 1:NaN 2:0.14285714285714285 3:0.0 4:4 # 'hospital deficiencies' medicare-spending-per-patient-national.csv
+1 qid:21 0:NaN 1:NaN 2:0.0 3:0.0 4:11 # 'hospital deficiencies' radon-test-results-by-county-beginning-1987.csv
+1 qid:21 0:NaN 1:NaN 2:0.0 3:0.0 4:11 # 'hospital deficiencies' radon-test-results-by-county-beginning-1987.csv
+1 qid:21 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'hospital deficiencies' samhsa-card-sort-participants-samhsa-staff.csv
+1 qid:21 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'hospital deficiencies' samhsa-card-sort-results-behavioral-health-workforce.csv
+3 qid:21 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'hospital deficiencies' samhsa-card-sort-results-behavioral-health-workforce.csv
+3 qid:21 0:0.019951709658273975 1:NaN 2:0.004132231404958678 3:0.5 4:33 # 'hospital deficiencies' survey-of-patients-hospital-experiences-hcahps-state-average.csv
+1 qid:22 0:NaN 1:NaN 2:0.0 3:0.0 4:6 # 'hospital locations' adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv
+1 qid:22 0:0.0032121670115551615 1:NaN 2:4.7449584816132857E-4 3:0.0 4:5 # 'hospital locations' health-reform-webinars.csv
+2 qid:22 0:2.0177032495173725E-4 1:NaN 2:2.303112656755605E-5 3:0.5 4:21 # 'hospital locations' hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv
+1 qid:22 0:0.0 1:NaN 2:0.0 3:0.0 4:18 # 'hospital locations' managed-care-plan-utilization-data-beginning-2009.csv
+2 qid:22 0:4.184107946736231E-5 1:NaN 2:4.158790956293187E-6 3:0.0 4:80 # 'hospital locations' provider-info.csv
+1 qid:22 0:NaN 1:NaN 2:0.0 3:0.0 4:6 # 'hospital locations' samhsa-card-sort-participants-general-public.csv
+1 qid:23 0:1.4928287255868203E-4 1:1.4928287255868203E-4 2:1.4928287255868203E-4 3:5.1457093360319725E-5 4:0.0 5:45 # 'hospitals by state' complete-qip-data-payment-year-2013.csv
+1 qid:23 0:1.4928287255868203E-4 1:1.4928287255868203E-4 2:1.4928287255868203E-4 3:5.1457093360319725E-5 4:0.0 5:45 # 'hospitals by state' complete-qip-data-payment-year-2013.csv
+2 qid:23 0:3.158431538068339E-4 1:3.158431538068339E-4 2:3.158431538068339E-4 3:1.0893839533743669E-4 4:0.0 5:14 # 'hospitals by state' dialysis-adequacy.csv
+1 qid:23 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:10 # 'hospitals by state' environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv
+1 qid:23 0:1.4636300875060794E-5 1:1.4636300875060794E-5 2:1.4636300875060794E-5 3:4.7782532139725675E-6 4:0.0 5:67 # 'hospitals by state' home-health-care-facilities.csv
+2 qid:23 0:NaN 1:NaN 2:0.06265537668011009 3:0.013605442176870748 4:0.3333333333333333 5:11 # 'hospitals by state' home-health-care-hhcahps-state-data.csv
+1 qid:23 0:NaN 1:0.022639695118398057 2:NaN 3:0.004651162790697674 4:0.0 5:2 # 'hospitals by state' home-health-care-measure-date-range.csv
+1 qid:23 0:1.7886093007329218E-4 1:1.7886093007329218E-4 2:1.7886093007329218E-4 3:6.146848203583612E-5 4:0.0 5:16 # 'hospitals by state' hospital-process-of-care-measures-pneumonia.csv
+2 qid:23 0:2.0177032495173725E-4 1:0.0 2:2.0177032495173725E-4 3:4.60622531351121E-5 4:0.0 5:21 # 'hospitals by state' hospital-value-based-purchasing-hvbp-surgical-care-improvement-project-scores.csv
+4 qid:23 0:4.6445816178401035E-4 1:0.0 2:4.6445816178401035E-4 3:1.060332944544587E-4 4:0.0 5:15 # 'hospitals by state' hospital-value-based-purchasing-hvbp-total-performance-scores.csv
+1 qid:23 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'hospitals by state' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv
+2 qid:23 0:5.514383004484545E-5 1:5.514383004484545E-5 2:5.514383004484545E-5 3:1.706839019477878E-5 4:0.0 5:9 # 'hospitals by state' professional-medical-conduct-board-actions-beginning-1990.csv
+1 qid:23 0:NaN 1:0.00909795230110669 2:NaN 3:0.0015003750937734434 4:0.0 5:7 # 'hospitals by state' samhsa-card-sort-participants-samhsa-staff.csv
+4 qid:23 0:1.738211529866139E-5 1:0.0 2:1.738211529866139E-5 3:4.449660435288032E-6 4:0.3333333333333333 5:11 # 'hospitals by state' spending-breakdown-by-claim.csv
+1 qid:23 0:2.261104591389498E-4 1:2.261104591389498E-4 2:2.261104591389498E-4 3:7.816876636658545E-5 4:0.0 5:14 # 'hospitals by state' total-performance-scores.csv
+3 qid:23 0:NaN 1:NaN 2:0.06758607382771112 3:0.014492753623188406 4:0.3333333333333333 5:8 # 'hospitals by state' use-of-medical-imaging-measures-state.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:6 # 'hypertension' adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:14 # 'hypertension' anemia.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:10 # 'hypertension' environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:10 # 'hypertension' environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv
+2 qid:24 0:NaN 1:0.0 2:0.0 3:10 # 'hypertension' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+2 qid:24 0:NaN 1:0.0 2:0.0 3:5 # 'hypertension' health-reform-webinars.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:22 # 'hypertension' helpful-contacts-agency-list-by-organization.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:11 # 'hypertension' home-health-care-hhcahps-state-data.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:13 # 'hypertension' hospital-medicare-volume-measures.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:4 # 'hypertension' hospital-process-of-care-measures-national-average.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:41 # 'hypertension' hospital-process-of-care-measures-surgical-care-improvement-project.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:5 # 'hypertension' measure-dates.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:48 # 'hypertension' nursing-home-weekly-bed-census-beginning-2009.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:7 # 'hypertension' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:4 # 'hypertension' preventive-care-measures-state.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:23 # 'hypertension' quality-measures.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:7 # 'hypertension' samhsa-card-sort-results-behavioral-health-workforce.csv
+2 qid:24 0:NaN 1:0.0 2:0.0 3:15 # 'hypertension' samhsa-master-inventory-report.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:11 # 'hypertension' spending-breakdown-by-claim.csv
+1 qid:24 0:NaN 1:0.0 2:0.0 3:34 # 'hypertension' state-averages.csv
+3 qid:24 0:NaN 1:0.0 2:0.0 3:29 # 'hypertension' use-of-medical-imaging-measures.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:14 # 'immunizations' cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:24 # 'immunizations' dialysis-facility-compare-national-averages.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:5 # 'immunizations' emergency-department-care-measures-national.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:5 # 'immunizations' health-reform-webinars.csv
+2 qid:25 0:NaN 1:0.0 2:0.0 3:21 # 'immunizations' helpful-contacts-agency-list-by-topic.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:13 # 'immunizations' hospital-medicare-volume-measures.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:19 # 'immunizations' hospital-process-of-care-measures-childrens-asthma.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:17 # 'immunizations' hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv
+2 qid:25 0:NaN 1:0.0 2:0.0 3:4 # 'immunizations' medicare-spending-per-patient-national.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:19 # 'immunizations' quality-assurance-reporting-requirements-beginning-2008.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:11 # 'immunizations' radon-test-results-by-town-beginning-1987.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:7 # 'immunizations' samhsa-card-sort-results-general-public.csv
+1 qid:25 0:NaN 1:0.0 2:0.0 3:15 # 'immunizations' samhsa-master-inventory-report.csv
+2 qid:25 0:NaN 1:0.0 2:0.0 3:11 # 'immunizations' spending-breakdown-by-claim.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:5 # 'infant death causes' emergency-department-care-measures-national.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'infant death causes' environmental-radiation-surveillance-gamma-radiation-readings-beginning-1995.csv
+1 qid:26 0:0.002455100352897343 1:NaN 2:NaN 3:3.707823507601038E-4 4:0.0 5:14 # 'infant death causes' health-coalitions-a-resource-for-community-collaboration.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:5 # 'infant death causes' health-reform-webinars.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'infant death causes' healthcare-associated-infections-state-measures.csv
+1 qid:26 0:0.0 1:NaN 2:NaN 3:0.0 4:0.0 5:13 # 'infant death causes' hospital-medicare-volume-measures.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:47 # 'infant death causes' hospital-process-of-care-measures-state-average.csv
+1 qid:26 0:0.0 1:NaN 2:NaN 3:0.0 4:0.0 5:41 # 'infant death causes' hospital-process-of-care-measures-surgical-care-improvement-project.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:29 # 'infant death causes' hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:15 # 'infant death causes' hospital-value-based-purchasing-hvbp-total-performance-scores.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:15 # 'infant death causes' hospital-value-based-purchasing-hvbp-total-performance-scores.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'infant death causes' medicare-spending-per-patient-state.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:13 # 'infant death causes' penalties.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:23 # 'infant death causes' quality-measures.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:33 # 'infant death causes' survey-of-patients-hospital-experiences-hcahps-state-average.csv
+1 qid:26 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'infant death causes' templates-431b4.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'life expectancy race' casper-aspen-contacts.csv
+1 qid:27 0:1.4928287255868203E-4 1:NaN 2:1.4928287255868203E-4 3:3.4304728906879817E-5 4:0.0 5:45 # 'life expectancy race' complete-qip-data-payment-year-2013.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'life expectancy race' environmental-radiation-surveillance-gamma-radiation-readings-beginning-1995.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:10 # 'life expectancy race' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:10 # 'life expectancy race' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:27 0:2.527370069257398E-4 1:NaN 2:NaN 3:3.332833408322085E-5 4:0.0 5:22 # 'life expectancy race' helpful-contacts-agency-list-by-organization.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'life expectancy race' hospital-medicare-volume-measures-state-average.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:37 # 'life expectancy race' hospital-outcome-of-care-measures-state.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:19 # 'life expectancy race' hospital-process-of-care-measures-childrens-asthma.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:19 # 'life expectancy race' hospital-process-of-care-measures-childrens-asthma.csv
+1 qid:27 0:4.7767077914156184E-5 1:NaN 2:4.7767077914156184E-5 3:1.0929260362304982E-5 4:0.0 5:41 # 'life expectancy race' hospital-process-of-care-measures-surgical-care-improvement-project.csv
+1 qid:27 0:NaN 1:NaN 2:1.0384619795511172E-4 3:1.1851009113426008E-5 4:0.0 5:34 # 'life expectancy race' hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'life expectancy race' map-points-location-by-separate-latitutde-longitude-columns.csv
+1 qid:27 0:6.566550711185633E-4 1:NaN 2:0.0 3:8.670394936489357E-5 4:0.0 5:20 # 'life expectancy race' nursing-home-weekly-bed-census-last-submission.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'life expectancy race' preventive-care-measures-state.csv
+1 qid:27 0:4.184107946736231E-5 1:NaN 2:4.184107946736231E-5 3:8.317581912586373E-6 4:0.0 5:80 # 'life expectancy race' provider-info.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:11 # 'life expectancy race' radon-test-results-by-county-beginning-1987.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'life expectancy race' samhsa-card-sort-participants-behavioral-health-workforce.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'life expectancy race' samhsa-card-sort-participants-behavioral-health-workforce.csv
+1 qid:27 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'life expectancy race' templates.csv
+1 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'medical equipment' casper-aspen-contacts.csv
+2 qid:28 0:3.158431538068339E-4 1:NaN 2:3.631279844581223E-5 3:0.0 4:14 # 'medical equipment' dialysis-adequacy.csv
+2 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:24 # 'medical equipment' dialysis-facility-compare-state-averages.csv
+3 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:24 # 'medical equipment' dialysis-facility-compare-state-averages.csv
+1 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'medical equipment' genealogical-research-death-index-beginning-1957.csv
+1 qid:28 0:0.002455100352897343 1:NaN 2:3.707823507601038E-4 3:0.0 4:14 # 'medical equipment' health-coalitions-a-resource-for-community-collaboration.csv
+2 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'medical equipment' healthcare-associated-infections-national.csv
+2 qid:28 0:1.787295945822218E-4 1:NaN 2:1.9404476612754562E-5 3:0.0 4:14 # 'medical equipment' hospital-general-information.csv
+3 qid:28 0:1.787295945822218E-4 1:NaN 2:1.9404476612754562E-5 3:0.0 4:14 # 'medical equipment' hospital-general-information.csv
+1 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:37 # 'medical equipment' hospital-outcome-of-care-measures-state.csv
+2 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:37 # 'medical equipment' hospital-outcome-of-care-measures-state.csv
+2 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:37 # 'medical equipment' hospital-outcome-of-care-measures-state.csv
+1 qid:28 0:1.4237393654256553E-4 1:NaN 2:1.6251310261889864E-5 3:0.0 4:29 # 'medical equipment' hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv
+1 qid:28 0:3.24059150547109E-4 1:NaN 2:3.699114062182107E-5 3:0.0 4:13 # 'medical equipment' hospital-value-based-purchasing-hvbp-heart-failure-scores.csv
+2 qid:28 0:1.0384619795511172E-4 1:NaN 2:1.1851009113426008E-5 3:0.0 4:34 # 'medical equipment' hospital-value-based-purchasing-hvbp-patient-experience-of-care-domain-scores-hcahps.csv
+1 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:5 # 'medical equipment' measure-dates.csv
+1 qid:28 0:5.309407519317223E-4 1:NaN 2:8.518976019082506E-5 3:0.0 4:16 # 'medical equipment' percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv
+1 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'medical equipment' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'medical equipment' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv
+1 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'medical equipment' preventive-care-measures-national.csv
+1 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'medical equipment' samhsa-card-sort-participants-behavioral-health-workforce.csv
+1 qid:28 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'medical equipment' samhsa-card-sort-participants-samhsa-staff.csv
+1 qid:29 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:10 # 'nursing home costs' environmental-radiation-surveillance-background-site-readings-beginning-2009.csv
+1 qid:29 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:10 # 'nursing home costs' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+3 qid:29 0:NaN 1:0.031807304470159135 2:NaN 3:0.006968641114982578 4:0.3333333333333333 5:27 # 'nursing home costs' home-health-care-national-data.csv
+1 qid:29 0:NaN 1:0.029262843894417887 2:NaN 3:0.005847953216374269 4:0.3333333333333333 5:27 # 'nursing home costs' home-health-care-state-by-state-data.csv
+3 qid:29 0:NaN 1:0.029262843894417887 2:NaN 3:0.005847953216374269 4:0.3333333333333333 5:27 # 'nursing home costs' home-health-care-state-by-state-data.csv
+1 qid:29 0:1.3896847622219826E-4 1:1.3896847622219826E-4 2:NaN 3:3.183978221588964E-5 4:0.0 5:19 # 'nursing home costs' hospital-process-of-care-measures-heart-failure.csv
+2 qid:29 0:NaN 1:0.0034993585746631063 2:NaN 3:6.238303181534623E-4 4:0.0 5:4 # 'nursing home costs' hospital-process-of-care-measures-national-average.csv
+3 qid:29 0:4.7767077914156184E-5 1:4.7767077914156184E-5 2:NaN 3:1.0929260362304982E-5 4:0.0 5:41 # 'nursing home costs' hospital-process-of-care-measures-surgical-care-improvement-project.csv
+1 qid:29 0:0.013180216354660549 1:0.013180216354660549 2:NaN 3:0.004624277456647399 4:0.0 5:5 # 'nursing home costs' measure-dates.csv
+1 qid:29 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'nursing home costs' medicare-spending-per-patient-national.csv
+3 qid:29 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'nursing home costs' medicare-spending-per-patient-state.csv
+3 qid:29 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:4 # 'nursing home costs' medicare-spending-per-patient-state.csv
+1 qid:29 0:1.5915495587724306E-4 1:1.5915495587724306E-4 2:NaN 3:3.542456339225619E-5 4:0.0 5:13 # 'nursing home costs' penalties.csv
+1 qid:29 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:16 # 'nursing home costs' percutaneous-coronary-interventions-by-cardiologist-beginning-2008.csv
+1 qid:29 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'nursing home costs' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:29 0:1.4456440405329933E-4 1:1.4456440405329933E-4 2:NaN 3:3.678938993994132E-5 4:0.0 5:10 # 'nursing home costs' prevention-agenda-partner-contact-information-2013.csv
+2 qid:29 0:0.02153253915987295 1:NaN 2:NaN 3:0.004750593824228029 4:0.0 5:15 # 'nursing home costs' prevention-and-public-health-fund-grants.csv
+1 qid:29 0:NaN 1:0.007447073309690558 2:NaN 3:0.001177856301531213 4:0.0 5:7 # 'nursing home costs' primary-care-and-behavioral-health-care-integration-sites.csv
+1 qid:29 0:NaN 1:0.00909795230110669 2:NaN 3:0.0015003750937734434 4:0.0 5:7 # 'nursing home costs' samhsa-card-sort-participants-samhsa-staff.csv
+1 qid:29 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:34 # 'nursing home costs' state-averages.csv
+2 qid:29 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:34 # 'nursing home costs' state-averages.csv
+1 qid:29 0:2.261104591389498E-4 1:2.261104591389498E-4 2:NaN 3:5.211251091105697E-5 4:0.0 5:14 # 'nursing home costs' total-performance-scores.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:4 # 'nutrition' casper-aspen-contacts.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:45 # 'nutrition' complete-qip-data-payment-year-2013.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:10 # 'nutrition' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:4 # 'nutrition' healthcare-associated-infections-national.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:11 # 'nutrition' home-health-care-hhcahps-state-data.csv
+1 qid:30 0:1.3007175380281762E-5 1:1.415939227888339E-6 2:0.0 3:35 # 'nutrition' home-health-care-hhcahps.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:11 # 'nutrition' hospital-acs-measures.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:7 # 'nutrition' hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:3 # 'nutrition' hospital-outcome-of-care-measures-national-average.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:19 # 'nutrition' hospital-process-of-care-measures-heart-failure.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:4 # 'nutrition' hospital-process-of-care-measures-national-average.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:13 # 'nutrition' penalties.csv
+1 qid:30 0:1.6556666134227486E-5 1:2.748702612366963E-6 2:0.0 3:19 # 'nutrition' quality-assurance-reporting-requirements-beginning-2008.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:7 # 'nutrition' samhsa-state-activities.csv
+1 qid:30 0:NaN 1:0.0 2:0.0 3:3 # 'nutrition' survey-of-patients-hospital-experiences-hcahps-national-average.csv
+2 qid:30 0:NaN 1:0.0 2:0.0 3:8 # 'nutrition' use-of-medical-imaging-measures-state.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:8 # 'obesity' american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:14 # 'obesity' anemia.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:5 # 'obesity' emergency-department-care-measures-state.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:67 # 'obesity' home-health-care-facilities.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:11 # 'obesity' home-health-care-hhcahps-state-data.csv
+3 qid:31 0:NaN 1:0.0 2:0.0 3:11 # 'obesity' hospital-acs-measures.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:7 # 'obesity' hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:4 # 'obesity' hospital-medicare-volume-measures-state-average.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:4 # 'obesity' hospital-process-of-care-measures-national-average.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:4 # 'obesity' hospital-process-of-care-measures-national-average.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:47 # 'obesity' hospital-process-of-care-measures-state-average.csv
+4 qid:31 0:NaN 1:0.0 2:0.0 3:17 # 'obesity' hospital-value-based-purchasing-hvbp-acute-myocardial-infarction-scores.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:29 # 'obesity' hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:6 # 'obesity' organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv
+2 qid:31 0:NaN 1:0.0 2:0.0 3:7 # 'obesity' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:11 # 'obesity' radon-test-results-by-town-beginning-1987.csv
+2 qid:31 0:NaN 1:0.0 2:0.0 3:34 # 'obesity' state-averages.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:3 # 'obesity' survey-of-patients-hospital-experiences-hcahps-national-average.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:7 # 'obesity' templates.csv
+1 qid:31 0:NaN 1:0.0 2:0.0 3:8 # 'obesity' use-of-medical-imaging-measures-state.csv
+1 qid:32 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'patient happiness' environmental-radiation-surveillance-ginna-station-readings-beginning-2009.csv
+1 qid:32 0:1.787295945822218E-4 1:NaN 2:1.9404476612754562E-5 3:0.0 4:14 # 'patient happiness' hospital-general-information.csv
+1 qid:32 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'patient happiness' hospital-medicare-volume-measures-national-average.csv
+2 qid:32 0:1.7886093007329218E-4 1:NaN 2:2.0489494011945375E-5 3:0.0 4:16 # 'patient happiness' hospital-process-of-care-measures-pneumonia.csv
+1 qid:32 0:0.0 1:NaN 2:0.0 3:0.0 4:29 # 'patient happiness' hospital-value-based-purchasing-hvbp-healthcare-associated-infection-scores.csv
+1 qid:32 0:0.0 1:NaN 2:0.0 3:0.0 4:18 # 'patient happiness' managed-care-plan-utilization-data-beginning-2009.csv
+1 qid:32 0:NaN 1:NaN 2:0.0 3:0.0 4:13 # 'patient happiness' penalties.csv
+2 qid:32 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'patient happiness' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+3 qid:32 0:0.007447073309690558 1:NaN 2:0.001177856301531213 3:0.0 4:7 # 'patient happiness' primary-care-and-behavioral-health-care-integration-sites.csv
+1 qid:32 0:NaN 1:NaN 2:0.0 3:0.0 4:9 # 'patient happiness' samhsa-card-sort-results-samhsa-staff.csv
+1 qid:32 0:2.419959931793765E-6 1:NaN 2:2.3812282065529733E-7 3:0.0 4:122 # 'patient happiness' supplier-directory-data.csv
+1 qid:32 0:2.419959931793765E-6 1:NaN 2:2.3812282065529733E-7 3:0.0 4:122 # 'patient happiness' supplier-directory-data.csv
+1 qid:33 0:3.168851515609696E-4 1:NaN 2:3.643119967940544E-5 3:0.0 4:14 # 'physician bonuses' anemia.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:5 # 'physician bonuses' emergency-department-care-measures-national.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:10 # 'physician bonuses' environmental-radiation-surveillance-nine-mile-point-and-james-a-fitzpatrick-readings-begi.csv
+1 qid:33 0:1.3007175380281762E-5 1:NaN 2:1.415939227888339E-6 3:0.0 4:35 # 'physician bonuses' home-health-care-hhcahps.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'physician bonuses' hospital-footnote-crosswalk.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'physician bonuses' hospital-medicare-volume-measures-national-average.csv
+2 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'physician bonuses' hospital-medicare-volume-measures-state-average.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:19 # 'physician bonuses' hospital-process-of-care-measures-childrens-asthma.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:18 # 'physician bonuses' managed-care-plan-utilization-data-beginning-2009.csv
+2 qid:33 0:2.6628674138033355E-4 1:NaN 2:3.152286984207042E-5 3:0.0 4:13 # 'physician bonuses' medicare-spending-per-patient.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:6 # 'physician bonuses' organ-procurement-organizations-eye-banks-and-tissue-banks-information.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'physician bonuses' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'physician bonuses' templates.csv
+1 qid:33 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'physician bonuses' use-of-medical-imaging-measures-national.csv
+1 qid:34 0:NaN 1:0.0 2:0.0 3:81 # 'pneumonia' dialysis-facility-compare-listing-by-facility.csv
+1 qid:34 0:NaN 1:0.0 2:0.0 3:10 # 'pneumonia' environmental-radiation-surveillance-indian-point-readings-beginning-2009.csv
+2 qid:34 0:NaN 1:0.0 2:0.0 3:5 # 'pneumonia' health-reform-webinars.csv
+1 qid:34 0:NaN 1:0.0 2:0.0 3:21 # 'pneumonia' helpful-contacts-agency-list-by-topic.csv
+3 qid:34 0:0.029262843894417887 1:0.005847953216374269 2:0.0 3:27 # 'pneumonia' home-health-care-state-by-state-data.csv
+5 qid:34 0:1.7886093007329218E-4 1:2.0489494011945375E-5 2:1.0 3:16 # 'pneumonia' hospital-process-of-care-measures-pneumonia.csv
+1 qid:34 0:NaN 1:0.0 2:0.0 3:41 # 'pneumonia' hospital-process-of-care-measures-surgical-care-improvement-project.csv
+1 qid:34 0:NaN 1:0.0 2:0.0 3:4 # 'pneumonia' medicare-spending-per-patient-national.csv
+1 qid:34 0:NaN 1:0.0 2:0.0 3:80 # 'pneumonia' provider-info.csv
+1 qid:34 0:NaN 1:0.0 2:0.0 3:6 # 'pneumonia' samhsa-card-sort-participants-general-public.csv
+1 qid:35 0:NaN 1:NaN 2:0.0 3:0.0 4:25 # 'prescription drugs' agency-for-healthcare-research-and-quality-state-measures.csv
+1 qid:35 0:NaN 1:NaN 2:0.0 3:0.0 4:4 # 'prescription drugs' casper-aspen-contacts.csv
+1 qid:35 0:NaN 1:NaN 2:0.0 3:0.0 4:14 # 'prescription drugs' emergency-department-care-measures.csv
+1 qid:35 0:1.6096958021911568E-4 1:NaN 2:2.141258846075608E-5 3:0.0 4:21 # 'prescription drugs' helpful-contacts-agency-list-by-topic.csv
+2 qid:35 0:0.0 1:NaN 2:0.0 3:0.0 4:3 # 'prescription drugs' helpful-contacts-question-list-by-organization.csv
+1 qid:35 0:NaN 1:NaN 2:0.0 3:0.0 4:11 # 'prescription drugs' hospital-acs-measures.csv
+1 qid:35 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'prescription drugs' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv
+1 qid:35 0:NaN 1:NaN 2:0.0 3:0.0 4:15 # 'prescription drugs' prevention-and-public-health-fund-grants.csv
+1 qid:35 0:NaN 1:NaN 2:0.0 3:0.0 4:23 # 'prescription drugs' quality-measures.csv
+1 qid:35 0:0.0028897442649166894 1:0.0028897442649166894 2:8.944543828264759E-4 3:0.0 4:7 # 'prescription drugs' samhsa-card-sort-participants-behavioral-health-workforce.csv
+1 qid:36 0:NaN 1:0.0 2:0.0 3:14 # 'radiation' dialysis-adequacy.csv
+1 qid:36 0:NaN 1:0.0 2:0.0 3:5 # 'radiation' emergency-department-care-measures-state.csv
+2 qid:36 0:NaN 1:0.0 2:0.0 3:7 # 'radiation' hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv
+1 qid:36 0:NaN 1:0.0 2:0.0 3:5 # 'radiation' measure-dates.csv
+1 qid:36 0:NaN 1:0.0 2:0.0 3:48 # 'radiation' nursing-home-weekly-bed-census-beginning-2009.csv
+1 qid:36 0:NaN 1:0.0 2:0.0 3:15 # 'radiation' prevention-and-public-health-fund-grants.csv
+1 qid:36 0:NaN 1:0.0 2:0.0 3:3 # 'radiation' survey-of-patients-hospital-experiences-hcahps-national-average.csv
+1 qid:37 0:NaN 1:0.0 2:0.0 3:6 # 'smoking' adults-aged-1864-years-who-have-annual-family-incomes-139-percent-of-federal-poverty-level.csv
+1 qid:37 0:1.0819810727174512E-6 1:1.0800299492304921E-7 2:0.0 3:19 # 'smoking' deficiencies.csv
+1 qid:37 0:NaN 1:0.0 2:0.0 3:5 # 'smoking' emergency-department-care-measures-state.csv
+2 qid:37 0:NaN 1:0.0 2:0.0 3:3 # 'smoking' helpful-contacts-question-list-by-organization.csv
+1 qid:37 0:NaN 1:0.0 2:0.0 3:16 # 'smoking' hospital-process-of-care-measures-pneumonia.csv
+4 qid:37 0:NaN 1:0.0 2:0.0 3:16 # 'smoking' hospital-process-of-care-measures-pneumonia.csv
+1 qid:37 0:NaN 1:0.0 2:0.0 3:13 # 'smoking' medicare-spending-per-patient.csv
+1 qid:37 0:NaN 1:0.0 2:0.0 3:12 # 'smoking' ownership.csv
+1 qid:37 0:NaN 1:0.0 2:0.0 3:7 # 'smoking' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-with-.csv
+2 qid:37 0:NaN 1:0.0 2:0.0 3:7 # 'smoking' samhsa-card-sort-results-behavioral-health-workforce.csv
+1 qid:37 0:8.737363245128249E-4 1:1.1596892032935173E-4 2:0.0 3:15 # 'smoking' samhsa-master-inventory-report.csv
+1 qid:37 0:NaN 1:0.0 2:0.0 3:33 # 'smoking' survey-of-patients-hospital-experiences-hcahps-state-average.csv
+3 qid:37 0:NaN 1:0.0 2:0.0 3:8 # 'smoking' use-of-medical-imaging-measures-state.csv
+1 qid:37 0:NaN 1:0.0 2:0.0 3:29 # 'smoking' use-of-medical-imaging-measures.csv
+1 qid:38 0:1.0842932043108633E-4 1:1.0842932043108633E-4 2:0.0 3:2.469867615095831E-5 4:0.0 5:81 # 'state healthcare cost' dialysis-facility-compare-listing-by-facility.csv
+1 qid:38 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:24 # 'state healthcare cost' dialysis-facility-compare-national-averages.csv
+1 qid:38 0:NaN 1:NaN 2:NaN 3:0.0 4:0.3333333333333333 5:4 # 'state healthcare cost' healthcare-associated-infections-national.csv
+1 qid:38 0:0.010565011041071933 1:0.010565011041071933 2:0.0 3:0.0035587188612099642 4:0.0 5:3 # 'state healthcare cost' helpful-contacts-question-list-by-organization.csv
+2 qid:38 0:NaN 1:0.007447073309690558 2:NaN 3:0.001177856301531213 4:0.0 5:7 # 'state healthcare cost' primary-care-and-behavioral-health-care-integration-sites.csv
+1 qid:38 0:0.0 1:1.6556666134227486E-5 2:1.6556666134227486E-5 3:5.497405224733926E-6 4:0.0 5:19 # 'state healthcare cost' quality-assurance-reporting-requirements-beginning-2008.csv
+1 qid:38 0:0.024399655664731373 1:NaN 2:NaN 3:0.005449591280653951 4:0.0 5:11 # 'state healthcare cost' radon-test-results-by-county-beginning-1987.csv
+1 qid:38 0:0.024399655664731373 1:NaN 2:NaN 3:0.005449591280653951 4:0.0 5:11 # 'state healthcare cost' radon-test-results-by-county-beginning-1987.csv
+2 qid:38 0:0.0070976042094526666 1:NaN 2:NaN 3:0.001177856301531213 4:0.0 5:6 # 'state healthcare cost' samhsa-card-sort-participants-general-public.csv
+2 qid:38 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'state healthcare cost' samhsa-card-sort-participants-samhsa-staff.csv
+1 qid:38 0:3.0608000032409767E-5 1:NaN 2:NaN 3:4.656143781719979E-6 4:0.0 5:7 # 'state healthcare cost' samhsa-card-sort-results-behavioral-health-workforce.csv
+1 qid:38 0:1.2845046509575098E-4 1:1.2845046509575098E-4 2:1.2845046509575098E-4 3:4.480989402460063E-5 4:0.0 5:18 # 'state healthcare cost' samhsa-publications.csv
+5 qid:38 0:1.738211529866139E-5 1:1.738211529866139E-5 2:0.0 3:4.449660435288032E-6 4:0.0 5:11 # 'state healthcare cost' spending-breakdown-by-claim.csv
+1 qid:39 0:NaN 1:NaN 2:NaN 3:0.0 4:0.0 5:7 # 'subbirths in illinois' templates.csv
+1 qid:40 0:NaN 1:NaN 2:0.0 3:0.0 4:3 # 'substance abuse' agency-for-healthcare-research-and-quality-national-measures.csv
+2 qid:40 0:NaN 1:2.527370069257398E-4 2:3.332833408322085E-5 3:0.0 4:22 # 'substance abuse' helpful-contacts-agency-list-by-organization.csv
+1 qid:40 0:NaN 1:NaN 2:0.0 3:0.0 4:13 # 'substance abuse' penalties.csv
+1 qid:40 0:0.0 1:0.00909795230110669 2:0.0015003750937734434 3:0.0 4:7 # 'substance abuse' samhsa-card-sort-participants-samhsa-staff.csv
+4 qid:40 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'substance abuse' samhsa-state-activities.csv
+1 qid:40 0:NaN 1:NaN 2:0.0 3:0.0 4:7 # 'substance abuse' templates.csv
+1 qid:40 0:NaN 1:NaN 2:0.0 3:0.0 4:2 # 'substance abuse' use-of-medical-imaging-measures-national.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:45 # 'underweight' complete-qip-data-payment-year-2013.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:81 # 'underweight' dialysis-facility-compare-listing-by-facility.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:5 # 'underweight' emergency-department-care-measures-national.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:4 # 'underweight' healthcare-associated-infections-national.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:4 # 'underweight' healthcare-associated-infections-national.csv
+2 qid:41 0:NaN 1:0.0 2:0.0 3:67 # 'underweight' home-health-care-facilities.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:7 # 'underweight' hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:14 # 'underweight' hospital-general-information.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:14 # 'underweight' hospital-general-information.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:48 # 'underweight' nursing-home-weekly-bed-census-beginning-2009.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:15 # 'underweight' prevention-and-public-health-fund-grants.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:11 # 'underweight' radon-test-results-by-town-beginning-1987.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:7 # 'underweight' samhsa-card-sort-participants-behavioral-health-workforce.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:6 # 'underweight' samhsa-card-sort-participants-general-public.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:7 # 'underweight' samhsa-card-sort-results-behavioral-health-workforce.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:9 # 'underweight' samhsa-card-sort-results-samhsa-staff.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:15 # 'underweight' samhsa-master-inventory-report.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:7 # 'underweight' samhsa-state-activities.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:11 # 'underweight' spending-breakdown-by-claim.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:34 # 'underweight' state-averages.csv
+1 qid:41 0:NaN 1:0.0 2:0.0 3:3 # 'underweight' survey-of-patients-hospital-experiences-hcahps-national-average.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:3 # 'vaccination' agency-for-healthcare-research-and-quality-national-measures.csv
+2 qid:42 0:NaN 1:0.0 2:0.0 3:8 # 'vaccination' american-college-of-cardiology-percutaneous-coronary-intervention-pci-readmission-measure.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:14 # 'vaccination' anemia.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:14 # 'vaccination' cardiac-surgery-and-percutaneous-coronary-interventions-by-hospital-beginning-2008.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:5 # 'vaccination' emergency-department-care-measures-national.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:5 # 'vaccination' emergency-department-care-measures-national.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:10 # 'vaccination' environmental-radiation-surveillance-background-site-readings-beginning-2009.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:4 # 'vaccination' healthcare-associated-infections-national.csv
+2 qid:42 0:NaN 1:0.0 2:0.0 3:67 # 'vaccination' home-health-care-facilities.csv
+4 qid:42 0:NaN 1:0.0 2:0.0 3:27 # 'vaccination' home-health-care-state-by-state-data.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:7 # 'vaccination' hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:7 # 'vaccination' hospital-discharges-by-patient-county-of-residence-sparcs-beginning-2010.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:2 # 'vaccination' hospital-footnote-crosswalk.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:17 # 'vaccination' hospital-value-based-purchasing-hvbp-pneumonia-scores.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:7 # 'vaccination' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years-who-a-62c31.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:7 # 'vaccination' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:7 # 'vaccination' prevalence-of-behavioral-health-conditions-in-past-year-among-adults-aged-1864-years.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:15 # 'vaccination' prevention-and-public-health-fund-grants.csv
+3 qid:42 0:NaN 1:0.0 2:0.0 3:15 # 'vaccination' prevention-and-public-health-fund-grants.csv
+2 qid:42 0:NaN 1:0.0 2:0.0 3:4 # 'vaccination' preventive-care-measures-state.csv
+5 qid:42 0:NaN 1:0.0 2:0.0 3:4 # 'vaccination' preventive-care-measures-state.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:6 # 'vaccination' samhsa-card-sort-participants-general-public.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:7 # 'vaccination' samhsa-card-sort-results-general-public.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:9 # 'vaccination' samhsa-card-sort-results-samhsa-staff.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:9 # 'vaccination' samhsa-card-sort-results-samhsa-staff.csv
+1 qid:42 0:NaN 1:0.0 2:0.0 3:7 # 'vaccination' samhsa-state-activities.csv
+4 qid:42 0:NaN 1:0.0 2:0.0 3:34 # 'vaccination' state-averages.csv
+>>>>>>> FETCH_HEAD
