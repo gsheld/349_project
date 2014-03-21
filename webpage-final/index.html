@@ -37,14 +37,14 @@
 						<li>Table search is a relatively untapped area.</li>
 						<li>Building a table search that queries multiple corpora would significantly enhance the quality of the search results returned.</li>
 					</ol>
-					How many of us have tried searching for a table before this course? We certainly hadn’t. It's not something that easily comes to mind. Google Search is partly to blame for this. However, after hearing about Wikitables, we started to realize how powerful table search could be if done correctly. Wikitables in itself is very impressive, but why limit it to just Wikipedia for its data? There’s an entire web’s worth of data out there! So our project came into being as proof that Wikitables can easily be extended.
+					How many of us have tried searching for a table? Many of us probably wouldn't have. It's not something that easily comes to mind; and Google Search is partly to blame for this. However, after learning about Wikitables, we realized how powerful table search could be, <i>if done correctly</i>. Wikitables in itself is very impressive, but why limit it to just Wikipedia for its data? There’s an entire web’s worth of data out there! So our project came into being as proof that Wikitables can easily be extended. We chose to extend it with tables from Data.gov’s Health section as proof-of-concept.
 				</p>
 				<h4 style="margin-top:30px;">High-Level Solution</h4>
 				<p>
 					We have implemented a form of supervised learning for our ranking algorithm, and intend it to work in a manner similar to the current ranking algorithm used in WikiTables.
 				</p>
 				<p>
-					Our features are currently purely quantitative measures that calculate the relationship between the query terms and the terms present in our tables based on varying parameters (excluding static features). Our features include:
+					Our features are contain both quantitative measures and "semantic-like" measures that calculate the relationship between query terms and the terms present in our tables based on varying parameters (excluding static features). Our features include:
 
 					<ol>
 						<li>
@@ -69,18 +69,39 @@
 				</p>
 				<h4 style="margin-top:30px;">Data Set</h4>
 				<p>
-					We chose to extend Wikitables with tables from
-					<a href="http://www.data.gov/health/" target="_blank">Data.gov’s Health section</a>,
-					because we noticed that Wikitables tends to struggle with health-related queries. We were able to scrape this data using Selenium's web automation tools. In total, we were able to accumualte ~110 quality tables as .csv files. We also came up with 41 queries relevant to health-related table searches.
+					For the scope of this project's timeline, we extracted more than 500 tables, of which we found 112 relevant csv format tables from the
+					<a href="http://www.data.gov/health/" target="_blank">Health section</a>
+					under data.gov, which serves as our raw data. We constructed 42 queries and ranked the relevance of our 112 tables with respect to these queries to generate 671 labeled data instances. For each of these instances, we then computed feature vectors that consist of the rank of the table with respect to a particular query, the ID of that particular query, the features mentioned above, and comments stating the query string and the table name.
 				</p>
 				<p>
 					To properly label our dataset, our first thought was to create a website that would allow us to crowd-source the incredible task. Due to networking and time-constraints, however, this never came to be.
-					<a href="../webpage_labeler_defunct/page.html" target="_blank">However, we would like to present to you the prototype model.</a>
+					However, we were able to build a prototype, as seen below.
 				</p>
-				<img src="prototype.png" style="width:600px;display:block;margin-left:auto;margin-right:auto;">
-				<h4 style="margin-top:30px;">Testing and Training</h4>
-				<h4 style="margin-top:30px;">Key Results</h4>
+				<br>
+				<figure>
+					<img src="prototype.png" style="width:600px;display:block;margin-left:auto;margin-right:auto;">
+					<figcaption style="text-align:center;">Prototype of the Data Labeler Website.
+						<a href="../webpage_labeler_defunct/page.html" target="_blank">Also, view it here!</a>
+					</figcaption>
+				</figure>
 
+				<h4 style="margin-top:30px;">Testing and Training</h4>
+					<p>
+						We train on our data using four different ranking techniques:
+						<ol>
+							<li>RankNet</li>
+							<li>RankBoost</li>
+							<li>AdaRank</li>
+							<li>Coordinate Ascent</li>
+						</ol>
+						 We compare how these algorithms perform with a dataset with minimal semantic features. We test the performance of our ranking algorithms using both 5 and 10 fold cross validation.
+					</p>
+				<h4 style="margin-top:30px;">Key Results</h4>
+				<br>
+				<img src="train.png" style="width:550px;display:block;margin-left:auto;margin-right:auto;">
+				<br><br>
+				<img src="test.png" style="width:550px;display:block;margin-left:auto;margin-right:auto;">
+				<br>
 			</div>
 
 			<div class="footer">
