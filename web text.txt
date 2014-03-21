@@ -1,0 +1,45 @@
+Project Synopsis
+
+Motivation for the Problem
+
+There are many reasons why we find this project interesting, but two points in particular stand out:
+
+Table search is a relatively untapped area.
+Building a table search that queries multiple corpora would significantly enhance the quality of the search results returned.
+
+How many of us have tried searching for a table? Many of us probably wouldn't have. It's not something that easily comes to mind; and Google Search is partly to blame for this. However, after learning about Wikitables, we realized how powerful table search could be, <i>if done correctly<i>. Wikitables in itself is very impressive, but why limit it to just Wikipedia for its data? There’s an entire web’s worth of data out there! So our project came into being as proof that Wikitables can easily be extended. We chose to extend it with tables from Data.gov’s Health section as proof-of-concept.
+
+
+High-Level Solution
+
+We have implemented a form of supervised learning for our ranking algorithm, and intend it to work in a manner similar to the current ranking algorithm used in WikiTables.
+
+Our features are contain both quantitative measures and "semantic-like"[1] measures that calculate the relationship between query terms and the terms present in our tables based on varying parameters (excluding static features). Our features include:
+
+Query-Title Match, the relationship between the words in a query term and the title of a table.
+Total Term Frequency, the cumulative disjoint term frequency of all terms in the search query that are present in a particular table.
+ TF-IDF, the relationship between each query term’s frequency in a particular table with how commonly the term occurs across the entire data set.
+Table Column Number, the number of columns of a given table - a static feature.
+Similar Query-Title Match, the relationship between the synonyms of words in a query term and the title of a table.
+Similar Total Term Frequency, the cumulative disjoint term frequency of synonyms of terms in the search query that are present in a particular table.
+
+For the learning aspect of this project, we chose to utilize tools from the RankLib Library. We will be comparing the various learning algorithms, such as AdaRank and Coordinate Ascent, that it offers.
+	
+Data Set
+
+For the scope of this project's timeline, we extracted more than 500 tables, of which we found 112 relevant csv format tables from the Health section under data.gov, which serves as our raw data. We constructed 42 queries and ranked the relevance of our 112 tables w.r.t. these queries to generate 671 labeled data instances. For each of these instances, we then computed feature vectors that consist of the rank of the table w.r.t. a particular query, the ID of that particular query, the features mentioned above, and comments stating the query string and the table name.
+
+
+Testing and Training
+
+We train on our data using two different ranking techniques, AdaRank and Coordinate Ascent and compare how they perform with two datasets: one with minimal semantic features and one with more semantic features.
+We test the performance of our ranking algorithms using 10 fold cross validation.
+
+Key Results
+
+
+
+[1] - 
+[2] -  owing to memory constraints faced in Java (which lead to a heap overflow when the size of a table exceeds 325MB).
+
+We then processed 110 out of 112 tables[2].
