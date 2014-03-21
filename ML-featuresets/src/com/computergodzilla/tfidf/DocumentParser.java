@@ -29,10 +29,13 @@ public class DocumentParser {
     //private List<String> allTerms = new ArrayList<String>(); //to hold all terms
     private HashMap<String, double[]> tfidfDocsMap = new HashMap<>();
     private HashMap<String, Double> totalTermDocFreq = new HashMap<>();
+    private HashMap<String, Double> synTotalTermFreq = new HashMap<>();
     private HashMap<String, Double> semanticMatch = new HashMap<>();
+    private HashMap<String, Double> synSemanticMatch = new HashMap<>();
     private HashMap<String, Integer> numberOfColumns = new HashMap<>();
     private HashMap<String, HashMap<String, Integer>> wordMap = new HashMap<>();
     private String[] queryTerms;
+    private String[] synTerms;
 
     /**
      * Method to read files and store in array.
@@ -93,10 +96,14 @@ public class DocumentParser {
         }*/
     }
     
-    public void dataComputation (String filePath, String labeledQueriesFile) throws FileNotFoundException, IOException {
+    public void dataComputation (String filePath, String labeledQueriesFile, String synonymFile) throws FileNotFoundException, IOException {
         File qfile = new File(labeledQueriesFile);
         FileReader qfileReader = new FileReader(qfile);
         BufferedReader qbufferedReader = new BufferedReader(qfileReader);
+        
+        File synfile = new File(synonymFile);
+        FileReader fr = new FileReader(synfile);
+        BufferedReader br = new BufferedReader(fr);
         
         File datafile = new File("rankerData.txt");
         FileWriter datafileWriter = new FileWriter(datafile);
@@ -108,12 +115,17 @@ public class DocumentParser {
         int qIndex = 1;
         int rank = 0;
         String labeledQuery = null;
+        String synQuery = null;
         String fileName = null;
         String trackedQuery = "als cases";
         String[] labeledParts = trackedQuery.split(",");
         File singleTable = allfiles[0];
         
         while ((labeledQuery = qbufferedReader.readLine()) != null) {
+            synQuery = br.readLine();
+            if (synQuery != null) {
+                synTerms = synQuery.split(" ");
+            }
             labeledParts = labeledQuery.split(", ");
             queryTerms = labeledParts[0].split(" ");
             fileName = labeledParts[1];
@@ -129,11 +141,14 @@ public class DocumentParser {
             parseFiles(singleTable);
             
             semanticMatch.put(singleTable.getName(), semanticQueryMatch(singleTable.getName(), queryTerms)); //semantic tablename match
+            if (synQuery != null) {
+                synSemanticMatch.put(singleTable.getName(), semanticQueryMatch(singleTable.getName(), synTerms));
+            }
             
                 if (labeledParts[0].equalsIgnoreCase(trackedQuery)) {
                     dataLine = null;
                     if(wordMap.containsKey(singleTable.getName())) {
-                        dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName());
+                        dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName(), synQuery);
                         dataBufferedWriter.write(dataLine);
                     }
                 } 
@@ -142,7 +157,7 @@ public class DocumentParser {
                     qIndex++;
                     dataLine = null;
                     if(wordMap.containsKey(singleTable.getName())) {
-                        dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName());
+                        dataLine = tfIdfCalculator(rank, labeledParts[0], qIndex, singleTable.getName(), synQuery);
                         dataBufferedWriter.write(dataLine);
                     }
                 }
@@ -154,13 +169,22 @@ public class DocumentParser {
     /**
      * Method to create termVector according to its tfidf score.
      */
-    public String tfIdfCalculator(int rank, String query, int qId, String fileName) throws IOException {
+    public String tfIdfCalculator(int rank, String query, int qId, String fileName, String synQuery) throws IOException {
         double tf; //term frequency
         double idf; //inverse document frequency
         double tfidf; //term requency inverse document frequency     
         double localTotalFreq = 0.0;
+        double synTotalFreq = 0.0;
+        double synTF;
         //for (String localKey : wordMap.keySet()) {
             double[] tfidfvectors = new double[queryTerms.length];
+            if (synQuery != null) {
+                for (String term : synTerms) {
+                    synTF = new TfIdf().tfCalculator(wordMap.get(fileName), term);
+                    synTotalFreq += synTF;
+                }
+                synTotalTermFreq.put(fileName, synTotalFreq);
+            }
             int count = 0;
             for (String terms : queryTerms) {
                 //System.out.println("ready to calc tfidf...");
@@ -216,6 +240,19 @@ public class DocumentParser {
                 localFeatureIndex++;
                 mySB.append(":");
                 mySB.append(Integer.toString(numberOfColumns.get(fileName)));
+                mySB.append(" ");
+                if (synQuery != null) {
+                    mySB.append(Integer.toString(localFeatureIndex));
+                    localFeatureIndex++;
+                    mySB.append(":");
+                    mySB.append(Double.toString(synTotalTermFreq.get(fileName)));
+                    mySB.append(" ");
+                    mySB.append(Integer.toString(localFeatureIndex));
+                    localFeatureIndex++;
+                    mySB.append(":");
+                    mySB.append(Double.toString(synSemanticMatch.get(fileName)));
+                    mySB.append(" ");
+                }
                 mySB.append(" # ");
                 mySB.append("'");
                 mySB.append(query);

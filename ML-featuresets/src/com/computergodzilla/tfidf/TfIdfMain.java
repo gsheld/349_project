@@ -23,7 +23,8 @@ public class TfIdfMain {
     {
         DocumentParser dp = new DocumentParser();
         dp.dataComputation("/Users/arundhatijaswal/Documents/Q2/ML/Group Project/raw data/DataFiles",
-                "/Users/arundhatijaswal/Documents/Q2/ML/Group Project/code/349_project/Labeler/label_database-sorted.txt");
+                "/Users/arundhatijaswal/Documents/Q2/ML/Group Project/code/349_project/Labeler/label_database-sorted.txt",
+                "/Users/arundhatijaswal/Documents/Q2/ML/Group Project/code/349_project/ML-featuresets/synonyms.txt");
         //dp.parseFiles();
         //dp.tfIdfCalculator(); //calculates tfidf
         //dp.getCosineSimilarity(); //calculated cosine similarity   
