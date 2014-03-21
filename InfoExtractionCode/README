@@ -1,0 +1,11 @@
+What each python file does:
+
+1. getDatasets.py : It fetches all the links for the datasets as they appear in the search on data.gov 
+2. getOtherDatasets.py: It fetches the links for each dataset page (the resultant Dataset is 
+3. getDataseturls.py : It fetches the urls for each dataset page
+4. extractDatasets.py : It visits all the links and extracts the data and metadata links in each dataset page
+5. downloadFiles.py: It downloads the files for each link for both data and metadata
+6. downloadCSVFiles.py: It downloads only CSV files (similar to above)
+7. unzipFiles.py: It searches for set of files which are compressed using zip and then unzips them.
+8. meaning.py: It gets the synonyms of the query terms from thesaurus.com
+
